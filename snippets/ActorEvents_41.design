@@ -10,11 +10,7 @@
                     <int id="3" val="5"/>
                     <int id="4" val="8"/>
                 </scaleTo>
-                <shake-start comment="false" x="26" y="67">
-                    <int id="0" val="25"/>
-                    <int id="1" val="5"/>
-                </shake-start>
-                <set-game-val-5 comment="false" x="26" y="87">
+                <set-game-val-5 comment="false" x="26" y="67">
                     <int id="0" val="200"/>
                 </set-game-val-5>
             </group>

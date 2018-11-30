@@ -53,13 +53,14 @@
     <packs/>
     <groups>
         <group desc="" id="4" name="Doors"/>
+        <group desc="" id="5" name="Bullets"/>
     </groups>
     <cgroups>
         <cgroup g1="0" g2="1"/>
         <cgroup g1="0" g2="3"/>
         <cgroup g1="0" g2="4"/>
-        <cgroup g1="1" g2="1"/>
         <cgroup g1="1" g2="3"/>
+        <cgroup g1="3" g2="5"/>
     </cgroups>
     <input>
         <key id="0" keyname="UP" name="up" vk="38" vks="38"/>
