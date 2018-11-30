@@ -12,6 +12,18 @@
             <ACTOR eid="lastcollided" id="1"/>
         </event-collide-actortoactor>
     </group>
+    <group eventID="1" id="1">
+        <if comment="false" x="319" y="173">
+            <group eventID="1" id="-1"/>
+            <int id="0" val=""/>
+        </if>
+    </group>
+    <group eventID="1" id="3">
+        <eq comment="false" x="404" y="271">
+            <scenename comment="false" id="0" x="0" y="0"/>
+            <int id="1" val=""/>
+        </eq>
+    </group>
     <group eventID="1" id="-1"/>
     <group eventID="2" id="0">
         <init comment="false" x="15" y="15">
