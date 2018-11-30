@@ -11,12 +11,6 @@
             <poly data="4,0,0,16,0,16,16,0,16" density="0.1" fric="0.2" gid="-1000" id="0" name="default" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <tileset across="2" atlasID="0" desc="" down="2" id="32" name="Doors" oid="-1" shared="false" th="32" tw="32">
-        <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="1" id="1" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="2" id="2" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="3" id="3" order="-1"/>
-    </tileset>
     <tileset across="3" atlasID="0" desc="" down="3" id="4" name="EARTH" oid="-1" shared="false" th="32" tw="32">
         <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
         <tile collision="0" data="" durations="100" frames="1" id="1" order="-1"/>
