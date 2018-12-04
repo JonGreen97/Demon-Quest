@@ -4,7 +4,7 @@
         <step comment="false" x="15" y="15">
             <group eventID="-1" id="-1">
                 <if comment="false" x="26" y="40">
-                    <group eventID="-1" id="-1">
+                    <group eventID="2" id="-1">
                         <set-xy comment="false" x="37" y="78">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
@@ -27,7 +27,7 @@
                     </less>
                 </if>
                 <if comment="false" x="26" y="157">
-                    <group eventID="-1" id="-1">
+                    <group eventID="2" id="-1">
                         <set-xy comment="false" x="37" y="195">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="1"/>
@@ -50,7 +50,7 @@
                     </less>
                 </if>
                 <if comment="false" x="26" y="274">
-                    <group eventID="-1" id="-1">
+                    <group eventID="2" id="-1">
                         <set-xy comment="false" x="37" y="317">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
@@ -92,7 +92,7 @@
                     </more>
                 </if>
                 <if comment="false" x="26" y="406">
-                    <group eventID="-1" id="-1">
+                    <group eventID="2" id="-1">
                         <set-xy comment="false" x="37" y="449">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="1"/>

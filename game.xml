@@ -54,13 +54,21 @@
     <groups>
         <group desc="" id="4" name="Doors"/>
         <group desc="" id="5" name="Bullets"/>
+        <group desc="" id="6" name="Slime"/>
+        <group desc="" id="7" name="wizzy"/>
     </groups>
     <cgroups>
         <cgroup g1="0" g2="1"/>
         <cgroup g1="0" g2="3"/>
         <cgroup g1="0" g2="4"/>
         <cgroup g1="1" g2="3"/>
+        <cgroup g1="1" g2="7"/>
         <cgroup g1="3" g2="5"/>
+        <cgroup g1="4" g2="7"/>
+        <cgroup g1="5" g2="6"/>
+        <cgroup g1="6" g2="6"/>
+        <cgroup g1="6" g2="7"/>
+        <cgroup g1="7" g2="7"/>
     </cgroups>
     <input>
         <key id="0" keyname="UP" name="up" vk="38" vks="38"/>
@@ -81,6 +89,7 @@
         <number cid="-1" id="3" name="Player Health" save="true" value="0.0"/>
         <number cid="-1" id="1" name="Wizzy1Y" save="true" value="0.0"/>
         <number cid="-1" id="0" name="Wizzy1X" save="true" value="0.0"/>
+        <number cid="-1" id="6" name="PlayerX" save="true" value="0.0"/>
         <number cid="-1" id="5" name="Boss Health" save="true" value="0.0"/>
     </attributes>
     <collisions>
@@ -112,7 +121,7 @@
     </collisions>
     <autotileFormats/>
     <atlases>
-        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,33,34,35,4,37,39,41,9,43,17,19,21,24," name="Main Atlas" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,33,34,35,4,37,39,41,9,43,45,46,17,19,21,24," name="Main Atlas" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" target="0"/>

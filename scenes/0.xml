@@ -9,13 +9,14 @@
     <regions/>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="1" c="false" group="0" id="0" name="Wizzy 1" sx="1.0" sy="1.0" x="580" y="225" z="1"/>
-        <actor a="0.0" aid="2" c="false" group="3" id="35" name="Slime 2" sx="1.0" sy="1.0" x="193" y="175" z="1"/>
-        <actor a="0.0" aid="3" c="false" group="3" id="35" name="Slime 3" sx="1.0" sy="1.0" x="354" y="262" z="1"/>
-        <actor a="0.0" aid="4" c="false" group="3" id="35" name="Slime 4" sx="1.0" sy="1.0" x="67" y="272" z="1"/>
-        <actor a="0.0" aid="5" c="false" group="3" id="35" name="Slime 5" sx="1.0" sy="1.0" x="298" y="238" z="1"/>
-        <actor a="0.0" aid="6" c="false" group="3" id="35" name="Slime 6" sx="1.0" sy="1.0" x="106" y="224" z="1"/>
-        <actor a="0.0" aid="7" c="false" group="4" id="39" name="Door 7" sx="1.0" sy="1.0" x="224" y="-2" z="1"/>
+        <actor a="0.0" aid="1" c="false" group="7" id="0" name="Wizzy 1" sx="1.0" sy="1.0" x="580" y="225" z="1"/>
+        <actor a="0.0" aid="2" c="false" group="6" id="35" name="Slime 2" sx="1.0" sy="1.0" x="193" y="175" z="1"/>
+        <actor a="0.0" aid="3" c="false" group="6" id="35" name="Slime 3" sx="1.0" sy="1.0" x="354" y="262" z="1"/>
+        <actor a="0.0" aid="4" c="false" group="6" id="35" name="Slime 4" sx="1.0" sy="1.0" x="67" y="272" z="1"/>
+        <actor a="0.0" aid="5" c="false" group="6" id="35" name="Slime 5" sx="1.0" sy="1.0" x="298" y="238" z="1"/>
+        <actor a="0.0" aid="6" c="false" group="6" id="35" name="Slime 6" sx="1.0" sy="1.0" x="106" y="224" z="1"/>
+        <actor a="0.0" aid="7" c="false" group="4" id="39" name="Door 7" sx="1.0" sy="1.0" x="224" y="-1" z="1"/>
+        <actor a="0.0" aid="8" c="false" group="3" id="37" name="Health Powerup 8" sx="1.0" sy="1.0" x="414" y="88" z="1"/>
     </actors>
     <snippets/>
     <terrain>
