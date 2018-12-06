@@ -2,18 +2,19 @@
 <pack>
     <snippet actorid="0" attachedevent="true" class="scripts.ActorEvents_0" classname="scripts.ActorEvents_0" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="0" name="ActorEvents_0" oid="-1" package="scripts." shared="false" type="actor">
         <number default="30.0" defaultValue="30.0" desc="" dropdown="" fullname="fire speed" hidden="false" id="1" name="_firespeed" order="0"/>
-        <number default="15.0" defaultValue="15.0" desc="" dropdown="" fullname="walking speed" hidden="false" id="2" name="_walkingspeed" order="1"/>
+        <number default="12.5" defaultValue="12.5" desc="" dropdown="" fullname="walking speed" hidden="false" id="2" name="_walkingspeed" order="1"/>
         <text default="" defaultValue="" desc="" dropdown="" fullname="direction" hidden="false" id="3" name="_direction" order="2"/>
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="is moving" hidden="false" id="4" name="_ismoving" order="3"/>
         <blocks/>
         <events>
-            <event displayName="Shooting" enabled="true" id="1" name="event-key-press-release" order="20" repeats="true"/>
-            <event displayName="Movement" enabled="true" id="4" name="step" order="22" repeats="true"/>
+            <event displayName="Shooting" enabled="true" id="1" name="event-key-press-release" order="21" repeats="true"/>
+            <event displayName="Movement" enabled="true" id="4" name="step" order="24" repeats="true"/>
             <event displayName="Created" enabled="true" id="5" name="init" order="2" repeats="true"/>
-            <event displayName="Actor - Type" enabled="true" id="9" name="event-collide-actortotype" order="14" repeats="true"/>
+            <event displayName="Slime Damage" enabled="true" id="9" name="event-collide-actortotype" order="14" repeats="true"/>
             <event displayName="Every N secs" enabled="true" id="11" name="event-periodic" order="4" repeats="true"/>
             <event displayName="Drawing" enabled="true" id="12" name="draw" order="5" repeats="true"/>
-            <event displayName="Actor - Type" enabled="true" id="13" name="event-collide-actortotype" order="15" repeats="true"/>
+            <event displayName="Health Powerup" enabled="true" id="13" name="event-collide-actortotype" order="16" repeats="true"/>
+            <event displayName="Poison Ball Damage" enabled="true" id="14" name="event-collide-actortotype" order="15" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_0" classname="scripts.SceneEvents_0" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="1" name="SceneEvents_0" oid="-1" package="scripts." sceneid="0" shared="false" type="scene">
@@ -151,15 +152,33 @@
         </events>
     </snippet>
     <snippet actorid="41" attachedevent="true" class="scripts.ActorEvents_41" classname="scripts.ActorEvents_41" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="15" name="ActorEvents_41" oid="-1" package="scripts." shared="false" type="actor">
+        <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="FireHit" hidden="false" id="1" name="_FireHit" order="0"/>
         <blocks/>
         <events>
             <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
-            <event displayName="Updating" enabled="true" id="3" name="step" order="4" repeats="true"/>
-            <event displayName="Drawing" enabled="true" id="4" name="draw" order="5" repeats="true"/>
+            <event displayName="Health" enabled="true" id="4" name="draw" order="11" repeats="true"/>
+            <event displayName="Health Check" enabled="true" id="9" name="event-periodic" order="8" repeats="true"/>
+            <event displayName="Actor - Type" enabled="false" id="10" name="event-collide-actortotype" order="2" repeats="true"/>
         </events>
     </snippet>
     <snippet actorid="43" attachedevent="true" class="scripts.ActorEvents_43" classname="scripts.ActorEvents_43" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="16" name="ActorEvents_43" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
-        <events/>
+        <events>
+            <event displayName="Every N secs" enabled="true" id="1" name="event-periodic" order="1" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet actorid="47" attachedevent="true" class="scripts.ActorEvents_47" classname="scripts.ActorEvents_47" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="17" name="ActorEvents_47" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Created" enabled="false" id="1" name="init" order="1" repeats="true"/>
+            <event displayName="Actor - Type" enabled="true" id="2" name="event-collide-actortotype" order="4" repeats="true"/>
+            <event displayName="Enters Screen" enabled="true" id="3" name="event-actor-screen" order="2" repeats="true"/>
+        </events>
+    </snippet>
+    <snippet actorid="43" attachedevent="true" class="scripts.ActorEvents_49" classname="scripts.ActorEvents_49" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="18" name="ActorEvents_49" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events>
+            <event displayName="Every N secs" enabled="true" id="1" name="event-periodic" order="1" repeats="true"/>
+        </events>
     </snippet>
 </pack>

@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <groups>
     <group eventID="1" id="0">
-        <event-periodic comment="false" x="22" y="14">
+        <event-periodic comment="false" x="15" y="15">
             <group eventID="1" id="-1">
-                <create-actor3 comment="false" x="33" y="41">
-                    <actortype eid="43" id="0"/>
-                    <minus comment="false" id="1" x="0" y="0">
+                <create-actor3 comment="false" x="26" y="42">
+                    <actortype eid="49" id="0"/>
+                    <plus comment="false" id="1" x="0" y="0">
                         <get-xy comment="false" id="0" x="0" y="0">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
                         </get-xy>
                         <int id="1" val="32"/>
-                    </minus>
+                    </plus>
                     <get-xy comment="false" id="2" x="0" y="0">
                         <ACTOR eid="this" id="0"/>
                         <int id="1" val="1"/>
                     </get-xy>
                     <int id="3" val="0"/>
                 </create-actor3>
-                <setanim comment="false" x="33" y="86">
+                <setanim comment="false" x="26" y="87">
                     <ACTOR eid="this" id="0"/>
                     <int id="1" val="X Grow"/>
                 </setanim>
-                <dolater comment="false" x="33" y="113">
+                <dolater comment="false" x="26" y="114">
                     <group eventID="1" id="-1">
-                        <die comment="false" x="44" y="140">
+                        <die comment="false" x="37" y="141">
                             <ACTOR eid="this" id="0"/>
                         </die>
                     </group>
