@@ -3,7 +3,13 @@
     <group eventID="1" id="0">
         <event-type-screen comment="false" x="15" y="15">
             <group eventID="1" id="-1">
-                <die comment="false" x="26" y="47">
+                <set-game-val-8 comment="false" x="26" y="47">
+                    <minus comment="false" id="0" x="0" y="0">
+                        <get-game-val-8 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </minus>
+                </set-game-val-8>
+                <die comment="false" x="26" y="77">
                     <actor-entered-exited comment="false" id="0" x="0" y="0"/>
                 </die>
             </group>
@@ -16,10 +22,16 @@
     <group eventID="2" id="0">
         <event-collide-actortotype comment="false" x="15" y="15">
             <group eventID="2" id="-1">
-                <die comment="false" x="26" y="47">
+                <set-game-val-8 comment="false" x="26" y="47">
+                    <minus comment="false" id="0" x="0" y="0">
+                        <get-game-val-8 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </minus>
+                </set-game-val-8>
+                <die comment="false" x="26" y="77">
                     <ACTOR eid="this" id="0"/>
                 </die>
-                <die comment="false" x="26" y="74">
+                <die comment="false" x="26" y="104">
                     <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
                 </die>
             </group>
@@ -31,7 +43,13 @@
     <group eventID="3" id="0">
         <event-delay comment="false" x="15" y="15">
             <group eventID="3" id="-1">
-                <die comment="false" x="26" y="42">
+                <set-game-val-8 comment="false" x="26" y="42">
+                    <minus comment="false" id="0" x="0" y="0">
+                        <get-game-val-8 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </minus>
+                </set-game-val-8>
+                <die comment="false" x="26" y="72">
                     <ACTOR eid="this" id="0"/>
                 </die>
             </group>
@@ -43,13 +61,19 @@
     <group eventID="4" id="0">
         <event-collide-actortotype comment="false" x="15" y="15">
             <group eventID="4" id="-1">
-                <set-game-val-4 comment="false" x="26" y="47">
+                <set-game-val-8 comment="false" x="26" y="47">
+                    <minus comment="false" id="0" x="0" y="0">
+                        <get-game-val-8 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </minus>
+                </set-game-val-8>
+                <set-game-val-4 comment="false" x="26" y="77">
                     <minus comment="false" id="0" x="0" y="0">
                         <get-game-val-4 comment="false" id="0" x="0" y="0"/>
                         <int id="1" val="5"/>
                     </minus>
                 </set-game-val-4>
-                <die comment="false" x="26" y="77">
+                <die comment="false" x="26" y="107">
                     <ACTOR eid="this" id="0"/>
                 </die>
             </group>

@@ -133,9 +133,10 @@
         <blocks/>
         <events>
             <event displayName="Actor - Type" enabled="true" id="2" name="event-collide-actortotype" order="2" repeats="true"/>
-            <event displayName="Every N secs" enabled="true" id="3" name="event-periodic" order="5" repeats="true"/>
-            <event displayName="Created" enabled="true" id="4" name="init" order="4" repeats="true"/>
-            <event displayName="Updating" enabled="true" id="5" name="step" order="3" repeats="true"/>
+            <event displayName="Every N secs" enabled="true" id="3" name="event-periodic" order="6" repeats="true"/>
+            <event displayName="Created" enabled="true" id="4" name="init" order="5" repeats="true"/>
+            <event displayName="Updating" enabled="true" id="5" name="step" order="4" repeats="true"/>
+            <event displayName="Actor - Type" enabled="true" id="6" name="event-collide-actortotype" order="3" repeats="true"/>
         </events>
     </snippet>
     <snippet actorid="37" attachedevent="true" class="scripts.ActorEvents_37" classname="scripts.ActorEvents_37" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="13" name="ActorEvents_37" oid="-1" package="scripts." shared="false" type="actor">
@@ -173,6 +174,8 @@
             <event displayName="Created" enabled="false" id="1" name="init" order="1" repeats="true"/>
             <event displayName="Actor - Type" enabled="true" id="2" name="event-collide-actortotype" order="4" repeats="true"/>
             <event displayName="Enters Screen" enabled="true" id="3" name="event-actor-screen" order="2" repeats="true"/>
+            <event displayName="Actor - Type" enabled="false" id="4" name="event-collide-actortotype" order="5" repeats="true"/>
+            <event displayName="Every N secs" enabled="true" id="5" name="event-periodic" order="6" repeats="true"/>
         </events>
     </snippet>
     <snippet actorid="49" attachedevent="true" class="scripts.ActorEvents_49" classname="scripts.ActorEvents_49" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="18" name="ActorEvents_49" oid="-1" package="scripts." shared="false" type="actor">
