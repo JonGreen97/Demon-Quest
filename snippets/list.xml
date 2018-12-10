@@ -184,4 +184,8 @@
             <event displayName="Every N secs" enabled="true" id="1" name="event-periodic" order="1" repeats="true"/>
         </events>
     </snippet>
+    <snippet actorid="51" attachedevent="true" class="scripts.ActorEvents_51" classname="scripts.ActorEvents_51" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="19" name="ActorEvents_51" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
 </pack>
