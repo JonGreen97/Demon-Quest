@@ -56,6 +56,7 @@
         <group desc="" id="5" name="Bullets"/>
         <group desc="" id="6" name="Slime"/>
         <group desc="" id="7" name="wizzy"/>
+        <group desc="" id="8" name="Coins"/>
     </groups>
     <cgroups>
         <cgroup g1="0" g2="1"/>
@@ -64,11 +65,13 @@
         <cgroup g1="1" g2="3"/>
         <cgroup g1="1" g2="7"/>
         <cgroup g1="3" g2="5"/>
+        <cgroup g1="3" g2="7"/>
         <cgroup g1="4" g2="7"/>
         <cgroup g1="5" g2="6"/>
         <cgroup g1="6" g2="6"/>
         <cgroup g1="6" g2="7"/>
         <cgroup g1="7" g2="7"/>
+        <cgroup g1="7" g2="8"/>
     </cgroups>
     <input>
         <key id="0" keyname="UP" name="up" vk="38" vks="38"/>
@@ -86,14 +89,18 @@
     <attributes>
         <text cid="-1" id="2" name="debug log" save="true" value="0"/>
         <number cid="-1" id="4" name="Boss health" save="true" value="0.0"/>
-        <number cid="-1" id="3" name="Player Health" save="true" value="0.0"/>
         <number cid="-1" id="7" name="Boss attack" save="true" value="0.0"/>
+        <number cid="-1" id="9" name="FireHit" save="true" value="0.0"/>
+        <number cid="-1" id="13" name="CurrentLevel" save="true" value="1.0"/>
+        <number cid="-1" id="3" name="Player Health" save="true" value="0.0"/>
         <number cid="-1" id="1" name="Wizzy1Y" save="true" value="0.0"/>
         <number cid="-1" id="0" name="Wizzy1X" save="true" value="0.0"/>
+        <number cid="-1" id="11" name="Level2" save="true" value="0.0"/>
+        <number cid="-1" id="12" name="Level3" save="true" value="0.0"/>
         <number cid="-1" id="6" name="PlayerX" save="true" value="0.0"/>
         <number cid="-1" id="8" name="Fireballs" save="true" value="0.0"/>
         <number cid="-1" id="5" name="Boss Health" save="true" value="0.0"/>
-        <number cid="-1" id="9" name="FireHit" save="true" value="0.0"/>
+        <number cid="-1" id="10" name="Level1" save="true" value="0.0"/>
     </attributes>
     <collisions>
         <poly id="0" name="Square" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>
@@ -124,7 +131,7 @@
     </collisions>
     <autotileFormats/>
     <atlases>
-        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,4,9,17,19,21,24,33,34,35,37,39,41,43,45,46,47,49," name="Main Atlas" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,4,9,19,21,24,33,34,35,37,39,41,43,45,46,47,49,51,53,55,57,59," name="Main Atlas" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" target="0"/>

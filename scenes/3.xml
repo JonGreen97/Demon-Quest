@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="20" extheight="704" extwidth="704" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="640" id="3" name="Testing Chamber" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+    <layers>
+        <grad-bg b1="0" b2="0" g1="102" g2="153" r1="255" r2="255"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="2" c="false" group="7" id="0" name="Wizzy 2" sx="1.0" sy="1.0" x="349" y="320" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="8" id="53" name="LevelCoin2 5" sx="1.0" sy="1.0" x="347" y="265" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="6" id="35" name="Slime 6" sx="1.0" sy="1.0" x="87" y="260" z="0"/>
+        <actor a="0.0" aid="8" c="false" group="3" id="37" name="Health Powerup 8" sx="1.0" sy="1.0" x="399" y="315" z="0"/>
+        <actor a="0.0" aid="11" c="false" group="6" id="35" name="Slime 11" sx="1.0" sy="1.0" x="51" y="364" z="0"/>
+        <actor a="0.0" aid="12" c="false" group="6" id="35" name="Slime 12" sx="1.0" sy="1.0" x="51" y="434" z="0"/>
+        <actor a="0.0" aid="13" c="false" group="6" id="35" name="Slime 13" sx="1.0" sy="1.0" x="68" y="482" z="0"/>
+        <actor a="0.0" aid="14" c="false" group="6" id="35" name="Slime 14" sx="1.0" sy="1.0" x="125" y="529" z="0"/>
+        <actor a="0.0" aid="15" c="false" group="6" id="35" name="Slime 15" sx="1.0" sy="1.0" x="223" y="553" z="0"/>
+        <actor a="0.0" aid="16" c="false" group="6" id="35" name="Slime 16" sx="1.0" sy="1.0" x="300" y="567" z="0"/>
+        <actor a="0.0" aid="17" c="false" group="6" id="35" name="Slime 17" sx="1.0" sy="1.0" x="392" y="571" z="0"/>
+        <actor a="0.0" aid="18" c="false" group="6" id="35" name="Slime 18" sx="1.0" sy="1.0" x="474" y="551" z="0"/>
+        <actor a="0.0" aid="19" c="false" group="6" id="35" name="Slime 19" sx="1.0" sy="1.0" x="512" y="527" z="0"/>
+        <actor a="0.0" aid="20" c="false" group="6" id="35" name="Slime 20" sx="1.0" sy="1.0" x="558" y="507" z="0"/>
+        <actor a="0.0" aid="21" c="false" group="6" id="35" name="Slime 21" sx="1.0" sy="1.0" x="406" y="521" z="0"/>
+        <actor a="0.0" aid="22" c="false" group="6" id="35" name="Slime 22" sx="1.0" sy="1.0" x="305" y="521" z="0"/>
+        <actor a="0.0" aid="23" c="false" group="6" id="35" name="Slime 23" sx="1.0" sy="1.0" x="208" y="496" z="0"/>
+        <actor a="0.0" aid="24" c="false" group="6" id="35" name="Slime 24" sx="1.0" sy="1.0" x="155" y="469" z="0"/>
+        <actor a="0.0" aid="25" c="false" group="6" id="35" name="Slime 25" sx="1.0" sy="1.0" x="130" y="430" z="0"/>
+        <actor a="0.0" aid="26" c="false" group="6" id="35" name="Slime 26" sx="1.0" sy="1.0" x="125" y="392" z="0"/>
+        <actor a="0.0" aid="27" c="false" group="6" id="35" name="Slime 27" sx="1.0" sy="1.0" x="124" y="341" z="0"/>
+        <actor a="0.0" aid="28" c="false" group="6" id="35" name="Slime 28" sx="1.0" sy="1.0" x="122" y="316" z="0"/>
+        <actor a="0.0" aid="29" c="false" group="6" id="35" name="Slime 29" sx="1.0" sy="1.0" x="58" y="192" z="0"/>
+        <actor a="0.0" aid="30" c="false" group="6" id="35" name="Slime 30" sx="1.0" sy="1.0" x="81" y="135" z="0"/>
+        <actor a="0.0" aid="31" c="false" group="6" id="35" name="Slime 31" sx="1.0" sy="1.0" x="113" y="101" z="0"/>
+        <actor a="0.0" aid="32" c="false" group="6" id="35" name="Slime 32" sx="1.0" sy="1.0" x="203" y="84" z="0"/>
+        <actor a="0.0" aid="33" c="false" group="6" id="35" name="Slime 33" sx="1.0" sy="1.0" x="255" y="77" z="0"/>
+        <actor a="0.0" aid="34" c="false" group="6" id="35" name="Slime 34" sx="1.0" sy="1.0" x="338" y="64" z="0"/>
+        <actor a="0.0" aid="35" c="false" group="6" id="35" name="Slime 35" sx="1.0" sy="1.0" x="370" y="60" z="0"/>
+        <actor a="0.0" aid="36" c="false" group="6" id="35" name="Slime 36" sx="1.0" sy="1.0" x="442" y="70" z="0"/>
+        <actor a="0.0" aid="37" c="false" group="6" id="35" name="Slime 37" sx="1.0" sy="1.0" x="528" y="119" z="0"/>
+        <actor a="0.0" aid="38" c="false" group="6" id="35" name="Slime 38" sx="1.0" sy="1.0" x="562" y="144" z="0"/>
+        <actor a="0.0" aid="39" c="false" group="6" id="35" name="Slime 39" sx="1.0" sy="1.0" x="610" y="144" z="0"/>
+        <actor a="0.0" aid="40" c="false" group="6" id="35" name="Slime 40" sx="1.0" sy="1.0" x="585" y="77" z="0"/>
+        <actor a="0.0" aid="41" c="false" group="6" id="35" name="Slime 41" sx="1.0" sy="1.0" x="483" y="30" z="0"/>
+        <actor a="0.0" aid="42" c="false" group="6" id="35" name="Slime 42" sx="1.0" sy="1.0" x="359" y="30" z="0"/>
+        <actor a="0.0" aid="43" c="false" group="6" id="35" name="Slime 43" sx="1.0" sy="1.0" x="293" y="33" z="0"/>
+        <actor a="0.0" aid="44" c="false" group="6" id="35" name="Slime 44" sx="1.0" sy="1.0" x="221" y="30" z="0"/>
+        <actor a="0.0" aid="45" c="false" group="6" id="35" name="Slime 45" sx="1.0" sy="1.0" x="143" y="23" z="0"/>
+        <actor a="0.0" aid="46" c="false" group="6" id="35" name="Slime 46" sx="1.0" sy="1.0" x="104" y="28" z="0"/>
+        <actor a="0.0" aid="47" c="false" group="6" id="35" name="Slime 47" sx="1.0" sy="1.0" x="44" y="28" z="0"/>
+        <actor a="0.0" aid="48" c="false" group="6" id="35" name="Slime 48" sx="1.0" sy="1.0" x="39" y="79" z="0"/>
+        <actor a="0.0" aid="49" c="false" group="6" id="35" name="Slime 49" sx="1.0" sy="1.0" x="26" y="130" z="0"/>
+        <actor a="0.0" aid="50" c="false" group="6" id="35" name="Slime 50" sx="1.0" sy="1.0" x="33" y="212" z="0"/>
+        <actor a="0.0" aid="51" c="false" group="6" id="35" name="Slime 51" sx="1.0" sy="1.0" x="28" y="255" z="0"/>
+        <actor a="0.0" aid="52" c="false" group="6" id="35" name="Slime 52" sx="1.0" sy="1.0" x="38" y="290" z="0"/>
+        <actor a="0.0" aid="53" c="false" group="6" id="35" name="Slime 53" sx="1.0" sy="1.0" x="34" y="328" z="0"/>
+        <actor a="0.0" aid="54" c="false" group="6" id="35" name="Slime 54" sx="1.0" sy="1.0" x="23" y="369" z="0"/>
+        <actor a="0.0" aid="55" c="false" group="6" id="35" name="Slime 55" sx="1.0" sy="1.0" x="22" y="390" z="0"/>
+        <actor a="0.0" aid="56" c="false" group="6" id="35" name="Slime 56" sx="1.0" sy="1.0" x="121" y="269" z="0"/>
+        <actor a="0.0" aid="57" c="false" group="6" id="35" name="Slime 57" sx="1.0" sy="1.0" x="153" y="209" z="0"/>
+        <actor a="0.0" aid="58" c="false" group="6" id="35" name="Slime 58" sx="1.0" sy="1.0" x="188" y="186" z="0"/>
+        <actor a="0.0" aid="59" c="false" group="6" id="35" name="Slime 59" sx="1.0" sy="1.0" x="250" y="158" z="0"/>
+        <actor a="0.0" aid="60" c="false" group="6" id="35" name="Slime 60" sx="1.0" sy="1.0" x="333" y="144" z="0"/>
+        <actor a="0.0" aid="61" c="false" group="6" id="35" name="Slime 61" sx="1.0" sy="1.0" x="372" y="144" z="0"/>
+        <actor a="0.0" aid="62" c="false" group="6" id="35" name="Slime 62" sx="1.0" sy="1.0" x="430" y="146" z="0"/>
+        <actor a="0.0" aid="63" c="false" group="6" id="35" name="Slime 63" sx="1.0" sy="1.0" x="468" y="161" z="0"/>
+        <actor a="0.0" aid="64" c="false" group="6" id="35" name="Slime 64" sx="1.0" sy="1.0" x="506" y="167" z="0"/>
+        <actor a="0.0" aid="65" c="false" group="6" id="35" name="Slime 65" sx="1.0" sy="1.0" x="552" y="179" z="0"/>
+        <actor a="0.0" aid="66" c="false" group="6" id="35" name="Slime 66" sx="1.0" sy="1.0" x="551" y="145" z="0"/>
+        <actor a="0.0" aid="67" c="false" group="6" id="35" name="Slime 67" sx="1.0" sy="1.0" x="520" y="73" z="0"/>
+        <actor a="0.0" aid="68" c="false" group="6" id="35" name="Slime 68" sx="1.0" sy="1.0" x="504" y="82" z="0"/>
+        <actor a="0.0" aid="69" c="false" group="6" id="35" name="Slime 69" sx="1.0" sy="1.0" x="426" y="102" z="0"/>
+        <actor a="0.0" aid="70" c="false" group="6" id="35" name="Slime 70" sx="1.0" sy="1.0" x="351" y="110" z="0"/>
+        <actor a="0.0" aid="71" c="false" group="6" id="35" name="Slime 71" sx="1.0" sy="1.0" x="261" y="111" z="0"/>
+        <actor a="0.0" aid="72" c="false" group="6" id="35" name="Slime 72" sx="1.0" sy="1.0" x="220" y="123" z="0"/>
+        <actor a="0.0" aid="73" c="false" group="6" id="35" name="Slime 73" sx="1.0" sy="1.0" x="187" y="128" z="0"/>
+        <actor a="0.0" aid="74" c="false" group="6" id="35" name="Slime 74" sx="1.0" sy="1.0" x="158" y="124" z="0"/>
+        <actor a="0.0" aid="75" c="false" group="6" id="35" name="Slime 75" sx="1.0" sy="1.0" x="148" y="88" z="0"/>
+        <actor a="0.0" aid="76" c="false" group="6" id="35" name="Slime 76" sx="1.0" sy="1.0" x="121" y="82" z="0"/>
+        <actor a="0.0" aid="77" c="false" group="6" id="35" name="Slime 77" sx="1.0" sy="1.0" x="134" y="209" z="0"/>
+        <actor a="0.0" aid="78" c="false" group="6" id="35" name="Slime 78" sx="1.0" sy="1.0" x="124" y="212" z="0"/>
+        <actor a="0.0" aid="79" c="false" group="6" id="35" name="Slime 79" sx="1.0" sy="1.0" x="102" y="211" z="0"/>
+        <actor a="0.0" aid="80" c="false" group="6" id="35" name="Slime 80" sx="1.0" sy="1.0" x="114" y="163" z="0"/>
+        <actor a="0.0" aid="81" c="false" group="6" id="35" name="Slime 81" sx="1.0" sy="1.0" x="96" y="469" z="0"/>
+        <actor a="0.0" aid="82" c="false" group="6" id="35" name="Slime 82" sx="1.0" sy="1.0" x="87" y="514" z="0"/>
+        <actor a="0.0" aid="83" c="false" group="6" id="35" name="Slime 83" sx="1.0" sy="1.0" x="85" y="560" z="0"/>
+        <actor a="0.0" aid="84" c="false" group="6" id="35" name="Slime 84" sx="1.0" sy="1.0" x="153" y="581" z="0"/>
+        <actor a="0.0" aid="85" c="false" group="6" id="35" name="Slime 85" sx="1.0" sy="1.0" x="201" y="559" z="0"/>
+        <actor a="0.0" aid="86" c="false" group="6" id="35" name="Slime 86" sx="1.0" sy="1.0" x="160" y="530" z="0"/>
+        <actor a="0.0" aid="87" c="false" group="6" id="35" name="Slime 87" sx="1.0" sy="1.0" x="346" y="546" z="0"/>
+        <actor a="0.0" aid="88" c="false" group="6" id="35" name="Slime 88" sx="1.0" sy="1.0" x="459" y="571" z="0"/>
+        <actor a="0.0" aid="89" c="false" group="6" id="35" name="Slime 89" sx="1.0" sy="1.0" x="565" y="555" z="0"/>
+        <actor a="0.0" aid="90" c="false" group="6" id="35" name="Slime 90" sx="1.0" sy="1.0" x="579" y="522" z="0"/>
+        <actor a="0.0" aid="91" c="false" group="6" id="35" name="Slime 91" sx="1.0" sy="1.0" x="591" y="476" z="0"/>
+        <actor a="0.0" aid="92" c="false" group="6" id="35" name="Slime 92" sx="1.0" sy="1.0" x="592" y="413" z="0"/>
+        <actor a="0.0" aid="93" c="false" group="6" id="35" name="Slime 93" sx="1.0" sy="1.0" x="582" y="384" z="0"/>
+        <actor a="0.0" aid="94" c="false" group="6" id="35" name="Slime 94" sx="1.0" sy="1.0" x="562" y="406" z="0"/>
+        <actor a="0.0" aid="95" c="false" group="6" id="35" name="Slime 95" sx="1.0" sy="1.0" x="541" y="438" z="0"/>
+        <actor a="0.0" aid="96" c="false" group="6" id="35" name="Slime 96" sx="1.0" sy="1.0" x="543" y="364" z="0"/>
+        <actor a="0.0" aid="97" c="false" group="6" id="35" name="Slime 97" sx="1.0" sy="1.0" x="570" y="319" z="0"/>
+        <actor a="0.0" aid="98" c="false" group="6" id="35" name="Slime 98" sx="1.0" sy="1.0" x="557" y="265" z="0"/>
+        <actor a="0.0" aid="99" c="false" group="6" id="35" name="Slime 99" sx="1.0" sy="1.0" x="570" y="235" z="0"/>
+        <actor a="0.0" aid="100" c="false" group="6" id="35" name="Slime 100" sx="1.0" sy="1.0" x="581" y="208" z="0"/>
+        <actor a="0.0" aid="101" c="false" group="6" id="35" name="Slime 101" sx="1.0" sy="1.0" x="593" y="256" z="0"/>
+        <actor a="0.0" aid="102" c="false" group="6" id="35" name="Slime 102" sx="1.0" sy="1.0" x="591" y="296" z="0"/>
+        <actor a="0.0" aid="103" c="false" group="6" id="35" name="Slime 103" sx="1.0" sy="1.0" x="607" y="346" z="0"/>
+    </actors>
+    <snippets/>
+    <terrain/>
+    <atlases members="" retainAtlases="true"/>
+</scene>

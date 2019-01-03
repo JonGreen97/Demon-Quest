@@ -69,7 +69,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_37 extends ActorScript
+class ActorEvents_49 extends ActorScript
 {
 	
 	
@@ -82,20 +82,19 @@ class ActorEvents_37 extends ActorScript
 	override public function init()
 	{
 		
-		/* ======================== When Creating ========================= */
-		actor.makeAlwaysSimulate();
-		
-		/* ======================== Actor of Type ========================= */
-		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
+		/* ======================= Every N seconds ======================== */
+		runPeriodically(1000 * 3, function(timeTask:TimedTask):Void
 		{
-			if(wrapper.enabled && sameAsAny(getActorType(0), event.otherActor.getType(),event.otherActor.getGroup()))
+			if(wrapper.enabled)
 			{
-				if((getCurrentSceneName() == "Level 1"))
+				createRecycledActor(getActorType(49), (actor.getX() + 32), actor.getY(), Script.FRONT);
+				actor.setAnimation("" + "X Grow");
+				runLater(1000 * 5, function(timeTask:TimedTask):Void
 				{
-					actor.setAnimation("" + "Collected");
-				}
+					recycleActor(actor);
+				}, actor);
 			}
-		});
+		}, actor);
 		
 	}
 	

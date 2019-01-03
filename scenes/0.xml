@@ -16,7 +16,11 @@
         <actor a="0.0" aid="5" c="false" group="6" id="35" name="Slime 5" sx="1.0" sy="1.0" x="298" y="238" z="1"/>
         <actor a="0.0" aid="6" c="false" group="6" id="35" name="Slime 6" sx="1.0" sy="1.0" x="106" y="224" z="1"/>
         <actor a="0.0" aid="7" c="false" group="4" id="39" name="Door 7" sx="1.0" sy="1.0" x="224" y="-1" z="1"/>
-        <actor a="0.0" aid="8" c="false" group="3" id="37" name="Health Powerup 8" sx="1.0" sy="1.0" x="414" y="88" z="1"/>
+        <actor a="0.0" aid="8" c="false" group="3" id="37" name="Health Powerup 8" sx="1.0" sy="1.0" x="417" y="96" z="1"/>
+        <actor a="0.0" aid="9" c="false" group="3" id="59" name="Golem 9" sx="1.0" sy="1.0" x="64" y="160" z="1"/>
+        <actor a="0.0" aid="10" c="false" group="3" id="59" name="Golem 10" sx="1.0" sy="1.0" x="161" y="130" z="1"/>
+        <actor a="0.0" aid="11" c="false" group="3" id="59" name="Golem 11" sx="1.0" sy="1.0" x="385" y="318" z="1"/>
+        <actor a="0.0" aid="12" c="false" group="6" id="35" name="Slime 12" sx="1.0" sy="1.0" x="194" y="287" z="1"/>
     </actors>
     <snippets/>
     <terrain>

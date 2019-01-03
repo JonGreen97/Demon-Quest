@@ -15,14 +15,98 @@
             <group eventID="3" id="-1">
                 <if comment="false" x="26" y="47">
                     <group eventID="3" id="-1">
-                        <setanim comment="false" x="37" y="77">
-                            <ACTOR eid="this" id="0"/>
-                            <int id="1" val="Collected"/>
-                        </setanim>
+                        <if comment="false" x="37" y="77">
+                            <group eventID="3" id="-1">
+                                <setanim comment="false" x="48" y="115">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="Collect"/>
+                                </setanim>
+                                <dolater comment="false" x="48" y="142">
+                                    <group eventID="3" id="-1">
+                                        <setanim comment="false" x="59" y="169">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="Collected"/>
+                                        </setanim>
+                                    </group>
+                                    <int id="0" val=".4"/>
+                                    <ACTOR eid="this" id="2"/>
+                                </dolater>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <getanim comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                </getanim>
+                                <int id="1" val="Idle"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="220">
+                            <group eventID="3" id="-1">
+                                <set-game-val-3 comment="false" x="48" y="258">
+                                    <plus comment="false" id="0" x="0" y="0">
+                                        <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="5"/>
+                                    </plus>
+                                </set-game-val-3>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <getanim comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                </getanim>
+                                <int id="1" val="Collect"/>
+                            </eq>
+                        </if>
                     </group>
                     <eq comment="false" id="0" x="0" y="0">
                         <scenename comment="false" id="0" x="0" y="0"/>
                         <int id="1" val="Level 1"/>
+                    </eq>
+                </if>
+                <if comment="false" x="26" y="312">
+                    <group eventID="3" id="-1">
+                        <if comment="false" x="37" y="342">
+                            <group eventID="3" id="-1">
+                                <setanim comment="false" x="48" y="380">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="Collect"/>
+                                </setanim>
+                                <dolater comment="false" x="48" y="407">
+                                    <group eventID="3" id="-1">
+                                        <setanim comment="false" x="59" y="434">
+                                            <ACTOR eid="this" id="0"/>
+                                            <int id="1" val="Collected"/>
+                                        </setanim>
+                                    </group>
+                                    <int id="0" val=".4"/>
+                                    <ACTOR eid="this" id="2"/>
+                                </dolater>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <getanim comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                </getanim>
+                                <int id="1" val="Idle"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="485">
+                            <group eventID="3" id="-1">
+                                <set-game-val-3 comment="false" x="48" y="523">
+                                    <plus comment="false" id="0" x="0" y="0">
+                                        <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                                        <int id="1" val="500"/>
+                                    </plus>
+                                </set-game-val-3>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <getanim comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                </getanim>
+                                <int id="1" val="Collect"/>
+                            </eq>
+                        </if>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <scenename comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="Testing Chamber"/>
                     </eq>
                 </if>
             </group>
@@ -30,16 +114,35 @@
             <actortype eid="0" id="1"/>
         </event-collide-actortotype>
     </group>
-    <group eventID="3" id="5">
-        <dolater comment="false" x="315" y="263">
-            <group eventID="3" id="-1"/>
-            <int id="0" val=".5"/>
-            <ACTOR eid="this" id="2"/>
-        </dolater>
-        <setanim comment="false" x="315" y="322">
-            <ACTOR eid="this" id="0"/>
-            <int id="1" val="Collect"/>
-        </setanim>
+    <group eventID="3" id="2">
+        <else-if comment="false" x="673" y="579">
+            <group eventID="3" id="-1">
+                <set-game-val-3 comment="false" x="684" y="617">
+                    <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                </set-game-val-3>
+            </group>
+            <eq comment="false" id="0" x="0" y="0">
+                <getanim comment="false" id="0" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                </getanim>
+                <int id="1" val="Collected"/>
+            </eq>
+        </else-if>
+    </group>
+    <group eventID="3" id="4">
+        <else-if comment="false" x="625" y="442">
+            <group eventID="3" id="-1">
+                <set-game-val-3 comment="false" x="636" y="480">
+                    <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                </set-game-val-3>
+            </group>
+            <eq comment="false" id="0" x="0" y="0">
+                <getanim comment="false" id="0" x="0" y="0">
+                    <ACTOR eid="this" id="0"/>
+                </getanim>
+                <int id="1" val="Collected"/>
+            </eq>
+        </else-if>
     </group>
     <group eventID="3" id="-1"/>
 </groups>

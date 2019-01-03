@@ -2,4 +2,5 @@
 <scenes>
     <scene desc="" format="3.4.0" id="0" name="Level 1"/>
     <scene desc="" format="3.4.0" id="2" name="Boss"/>
+    <scene desc="" format="3.4.0" id="3" name="Testing Chamber"/>
 </scenes>
