@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="30" extheight="544" extwidth="704" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="480" id="5" name="scene 2" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+    <layers>
+        <color-bg blue="255" green="255" red="255"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="2" c="false" group="4" id="66" name="door 1 2" sx="1.0" sy="1.0" x="289" y="0" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="3" id="59" name="Golem 4" sx="1.0" sy="1.0" x="365" y="187" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="6" id="35" name="Slime 5" sx="1.0" sy="1.0" x="240" y="110" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="6" id="35" name="Slime 6" sx="1.0" sy="1.0" x="166" y="242" z="0"/>
+        <actor a="0.0" aid="7" c="false" group="6" id="35" name="Slime 7" sx="1.0" sy="1.0" x="200" y="328" z="0"/>
+        <actor a="0.0" aid="8" c="false" group="6" id="35" name="Slime 8" sx="1.0" sy="1.0" x="453" y="75" z="0"/>
+        <actor a="0.0" aid="9" c="false" group="6" id="35" name="Slime 9" sx="1.0" sy="1.0" x="96" y="107" z="0"/>
+        <actor a="0.0" aid="10" c="false" group="6" id="35" name="Slime 10" sx="1.0" sy="1.0" x="401" y="365" z="0"/>
+        <actor a="0.0" aid="11" c="false" group="6" id="35" name="Slime 11" sx="1.0" sy="1.0" x="262" y="189" z="0"/>
+        <actor a="0.0" aid="12" c="false" group="6" id="35" name="Slime 12" sx="1.0" sy="1.0" x="259" y="385" z="0"/>
+        <actor a="0.0" aid="13" c="false" group="6" id="35" name="Slime 13" sx="1.0" sy="1.0" x="581" y="391" z="0"/>
+        <actor a="0.0" aid="14" c="false" group="6" id="35" name="Slime 14" sx="1.0" sy="1.0" x="296" y="51" z="0"/>
+        <actor a="0.0" aid="15" c="false" group="3" id="37" name="Health Powerup 15" sx="1.0" sy="1.0" x="328" y="213" z="0"/>
+        <actor a="0.0" aid="16" c="false" group="4" id="72" name="door 4 16" sx="1.0" sy="1.0" x="608" y="249" z="0"/>
+    </actors>
+    <snippets/>
+    <terrain>
+        <p pts="4,640.0,480.0,0.0,480.0,0.0,0.0,640.0,0.0" x="0.0" y="0.0"/>
+    </terrain>
+    <atlases members="" retainAtlases="true"/>
+</scene>

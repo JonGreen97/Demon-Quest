@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <groups>
     <group eventID="2" id="0">
-        <event-collide-actortotype comment="false" x="15" y="15">
+        <event-collide-actortotype comment="false" x="78" y="56">
             <group eventID="2" id="-1">
-                <if comment="false" x="26" y="47">
+                <if comment="false" x="89" y="88">
                     <group eventID="2" id="-1">
-                        <if comment="false" x="37" y="77">
+                        <if comment="false" x="100" y="118">
                             <group eventID="2" id="-1">
-                                <scene-change-through comment="false" x="48" y="115">
+                                <scene-change-through comment="false" x="111" y="156">
                                     <scene eid="2" id="0"/>
                                     <int id="1" val="0"/>
                                     <int id="2" val="3"/>

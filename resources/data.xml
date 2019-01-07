@@ -3,21 +3,36 @@
     <tileset across="1" atlasID="0" desc="" down="1" id="21" name="bush" oid="-1" shared="false" th="32" tw="32">
         <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
     </tileset>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="14" fixedrot="true" fric="0.2" gid="4" id="39" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Door" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="40" static="false">
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="26" fixedrot="false" fric="0.2" gid="4" id="66" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="door 1" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="67" static="false">
         <snippets/>
     </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="34" id="40" name="Door" shared="false" width="34">
-        <anim across="1" down="1" durations="100" height="34" id="0" loop="true" name="Enter Up" numframes="1" originx="0" originy="0" sync="false" version="2" width="34">
-            <poly data="4,0,0,34,0,34,34,0,34" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="32" id="67" name="door 1" shared="false" width="32">
+        <anim across="1" down="1" durations="100" height="32" id="0" loop="true" name="Animation 0" numframes="1" originx="16" originy="16" sync="false" version="2" width="32">
+            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="1" down="1" durations="100" height="34" id="1" loop="true" name="Enter Left" numframes="1" originx="0" originy="0" sync="false" version="2" width="34">
-            <poly data="4,0,0,34,0,34,34,0,34" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="1" continuous="true" desc="" eventsnippetid="27" fixedrot="true" fric="0.2" gid="4" id="68" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="door 2" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="69" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="32" id="69" name="door 2" shared="false" width="32">
+        <anim across="1" down="1" durations="100" height="32" id="0" loop="true" name="Animation 0" numframes="1" originx="16" originy="16" sync="false" version="2" width="32">
+            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="1" down="1" durations="100" height="34" id="2" loop="true" name="Enter Right" numframes="1" originx="0" originy="0" sync="false" version="2" width="34">
-            <poly data="4,0,0,34,0,34,34,0,34" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="28" fixedrot="false" fric="0.2" gid="4" id="70" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="door 3" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="71" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="32" id="71" name="door 3" shared="false" width="32">
+        <anim across="1" down="1" durations="100" height="32" id="0" loop="true" name="Animation 0" numframes="1" originx="16" originy="16" sync="false" version="2" width="32">
+            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="1" down="1" durations="100" height="34" id="3" loop="true" name="Enter Down" numframes="1" originx="0" originy="0" sync="false" version="2" width="34">
-            <poly data="4,0,0,34,0,34,34,0,34" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+    </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="29" fixedrot="false" fric="0.2" gid="4" id="72" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="door 4" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="73" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="32" id="73" name="door 4" shared="false" width="32">
+        <anim across="1" down="1" durations="100" height="32" id="0" loop="true" name="Animation 0" numframes="1" originx="16" originy="16" sync="false" version="2" width="32">
+            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <tileset across="3" atlasID="0" desc="" down="3" id="4" name="EARTH" oid="-1" shared="false" th="32" tw="32">
@@ -153,6 +168,9 @@
             <poly data="4,1,17,29,17,29,32,1,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
+    <tileset across="1" atlasID="0" desc="" down="1" id="65" name="something" oid="-1" shared="false" th="32" tw="32">
+        <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
+    </tileset>
     <tileset across="2" atlasID="0" desc="" down="3" id="24" name="tree" oid="-1" shared="false" th="32" tw="32">
         <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
         <tile collision="-1" data="" durations="100" frames="1" id="1" order="-1"/>
@@ -189,6 +207,9 @@
     <tileset across="1" atlasID="0" desc="" down="2" id="45" name="Vines" oid="-1" shared="false" th="32" tw="32">
         <tile collision="0" data="" durations="100,100,100" frames="0" id="5" order="-1"/>
         <tile collision="0" data="" durations="100,100,100,100" frames="1" id="6" order="-1"/>
+    </tileset>
+    <tileset across="1" atlasID="0" desc="" down="1" id="63" name="water" oid="-1" shared="false" th="32" tw="32">
+        <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
     </tileset>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="0" fixedrot="true" fric="0.2" gid="7" id="0" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Wizzy" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1" static="false">
         <snippets>

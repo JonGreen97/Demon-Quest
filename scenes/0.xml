@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<scene depth="2" desc="" eventsnippetid="1" extheight="544" extwidth="704" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="480" id="0" name="Level 1" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+<scene depth="2" desc="" eventsnippetid="1" extheight="544" extwidth="704" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="480" id="0" name="scnene 4" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
     <layers>
         <color-bg blue="255" green="255" red="255"/>
         <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
@@ -9,18 +9,18 @@
     <regions/>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="1" c="false" group="7" id="0" name="Wizzy 1" sx="1.0" sy="1.0" x="580" y="225" z="1"/>
         <actor a="0.0" aid="2" c="false" group="6" id="35" name="Slime 2" sx="1.0" sy="1.0" x="193" y="175" z="1"/>
         <actor a="0.0" aid="3" c="false" group="6" id="35" name="Slime 3" sx="1.0" sy="1.0" x="354" y="262" z="1"/>
         <actor a="0.0" aid="4" c="false" group="6" id="35" name="Slime 4" sx="1.0" sy="1.0" x="67" y="272" z="1"/>
         <actor a="0.0" aid="5" c="false" group="6" id="35" name="Slime 5" sx="1.0" sy="1.0" x="298" y="238" z="1"/>
         <actor a="0.0" aid="6" c="false" group="6" id="35" name="Slime 6" sx="1.0" sy="1.0" x="106" y="224" z="1"/>
-        <actor a="0.0" aid="7" c="false" group="4" id="39" name="Door 7" sx="1.0" sy="1.0" x="224" y="-1" z="1"/>
         <actor a="0.0" aid="8" c="false" group="3" id="37" name="Health Powerup 8" sx="1.0" sy="1.0" x="417" y="96" z="1"/>
         <actor a="0.0" aid="9" c="false" group="3" id="59" name="Golem 9" sx="1.0" sy="1.0" x="64" y="160" z="1"/>
         <actor a="0.0" aid="10" c="false" group="3" id="59" name="Golem 10" sx="1.0" sy="1.0" x="161" y="130" z="1"/>
         <actor a="0.0" aid="11" c="false" group="3" id="59" name="Golem 11" sx="1.0" sy="1.0" x="385" y="318" z="1"/>
         <actor a="0.0" aid="12" c="false" group="6" id="35" name="Slime 12" sx="1.0" sy="1.0" x="194" y="287" z="1"/>
+        <actor a="0.0" aid="13" c="false" group="4" id="66" name="door 1 13" sx="1.0" sy="1.0" x="203" y="0" z="1"/>
+        <actor a="0.0" aid="14" c="false" group="4" id="72" name="door 4 14" sx="1.0" sy="1.0" x="608" y="36" z="1"/>
     </actors>
     <snippets/>
     <terrain>
