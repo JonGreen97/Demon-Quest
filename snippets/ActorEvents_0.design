@@ -1270,9 +1270,24 @@
                 <ignore-screen-tolerance comment="false" x="21" y="39">
                     <ACTOR eid="this" id="0"/>
                 </ignore-screen-tolerance>
-                <set-game-val-3 comment="false" x="21" y="66">
-                    <int id="0" val="100"/>
-                </set-game-val-3>
+                <if comment="false" x="21" y="66">
+                    <group eventID="5" id="-1">
+                        <set-game-val-3 comment="false" x="32" y="96">
+                            <get-game-val-3 comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-3>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-15 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </eq>
+                </if>
+                <else comment="false" x="21" y="133">
+                    <group eventID="5" id="-1">
+                        <set-game-val-3 comment="false" x="32" y="153">
+                            <int id="0" val="100"/>
+                        </set-game-val-3>
+                    </group>
+                </else>
             </group>
         </init>
     </group>

@@ -94,6 +94,7 @@
         <number cid="-1" id="13" name="CurrentLevel" save="true" value="1.0"/>
         <number cid="-1" id="3" name="Player Health" save="true" value="0.0"/>
         <number cid="-1" id="1" name="Wizzy1Y" save="true" value="0.0"/>
+        <number cid="-1" id="14" name="GolemHealth" save="true" value="0.0"/>
         <number cid="-1" id="0" name="Wizzy1X" save="true" value="0.0"/>
         <number cid="-1" id="11" name="Level2" save="true" value="0.0"/>
         <number cid="-1" id="12" name="Level3" save="true" value="0.0"/>
@@ -101,6 +102,7 @@
         <number cid="-1" id="8" name="Fireballs" save="true" value="0.0"/>
         <number cid="-1" id="5" name="Boss Health" save="true" value="0.0"/>
         <number cid="-1" id="10" name="Level1" save="true" value="0.0"/>
+        <number cid="-1" id="15" name="HealthCarry" save="true" value="0.0"/>
     </attributes>
     <collisions>
         <poly id="0" name="Square" pts="0.0,0.0#0.0,1.0#1.0,1.0#1.0,0.0"/>

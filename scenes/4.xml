@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<scene depth="1" desc="" eventsnippetid="25" extheight="544" extwidth="704" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="480" id="4" name="scene 1 earth" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+<scene depth="1" desc="" eventsnippetid="25" extheight="544" extwidth="704" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="0.0" height="480" id="4" name="scene 1" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
     <layers>
         <color-bg blue="255" green="255" red="255"/>
         <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
@@ -8,15 +8,16 @@
     <regions/>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="1" c="false" group="4" id="68" name="door 2 1" sx="1.0" sy="1.0" x="-1" y="250" z="0"/>
         <actor a="0.0" aid="2" c="false" group="7" id="0" name="Wizzy 2" sx="1.0" sy="1.0" x="596" y="205" z="0"/>
         <actor a="0.0" aid="3" c="false" group="6" id="35" name="Slime 3" sx="1.0" sy="1.0" x="431" y="147" z="0"/>
         <actor a="0.0" aid="4" c="false" group="6" id="35" name="Slime 4" sx="1.0" sy="1.0" x="194" y="246" z="0"/>
         <actor a="0.0" aid="5" c="false" group="6" id="35" name="Slime 5" sx="1.0" sy="1.0" x="156" y="173" z="0"/>
         <actor a="0.0" aid="6" c="false" group="6" id="35" name="Slime 6" sx="1.0" sy="1.0" x="96" y="304" z="0"/>
         <actor a="0.0" aid="7" c="false" group="6" id="35" name="Slime 7" sx="1.0" sy="1.0" x="572" y="388" z="0"/>
-        <actor a="0.0" aid="8" c="false" group="6" id="35" name="Slime 8" sx="1.0" sy="1.0" x="533" y="170" z="0"/>
+        <actor a="0.0" aid="8" c="false" group="6" id="35" name="Slime 8" sx="1.0" sy="1.0" x="397" y="252" z="0"/>
         <actor a="0.0" aid="9" c="false" group="6" id="35" name="Slime 9" sx="1.0" sy="1.0" x="300" y="5" z="0"/>
+        <actor a="0.0" aid="10" c="false" group="4" id="66" name="door 1 10" sx="1.0" sy="1.0" x="0" y="232" z="0"/>
+        <actor a="0.0" aid="11" c="false" group="3" id="37" name="Health Powerup 11" sx="1.0" sy="1.0" x="425" y="31" z="0"/>
     </actors>
     <snippets/>
     <terrain>

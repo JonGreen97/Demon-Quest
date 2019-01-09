@@ -8,7 +8,6 @@
     <regions/>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="2" c="false" group="4" id="70" name="door 3 2" sx="1.0" sy="1.0" x="317" y="447" z="0"/>
         <actor a="0.0" aid="3" c="false" group="3" id="59" name="Golem 3" sx="1.0" sy="1.0" x="421" y="206" z="0"/>
         <actor a="0.0" aid="4" c="false" group="3" id="59" name="Golem 4" sx="1.0" sy="1.0" x="147" y="190" z="0"/>
         <actor a="0.0" aid="5" c="false" group="6" id="35" name="Slime 5" sx="1.0" sy="1.0" x="555" y="424" z="0"/>
@@ -27,7 +26,10 @@
         <actor a="0.0" aid="18" c="false" group="6" id="35" name="Slime 18" sx="1.0" sy="1.0" x="277" y="262" z="0"/>
         <actor a="0.0" aid="19" c="false" group="6" id="35" name="Slime 19" sx="1.0" sy="1.0" x="401" y="262" z="0"/>
         <actor a="0.0" aid="20" c="false" group="6" id="35" name="Slime 20" sx="1.0" sy="1.0" x="436" y="394" z="0"/>
-        <actor a="0.0" aid="21" c="false" group="4" id="72" name="door 4 21" sx="1.0" sy="1.0" x="608" y="172" z="0"/>
+        <actor a="0.0" aid="22" c="false" group="3" id="37" name="Health Powerup 22" sx="1.0" sy="1.0" x="160" y="74" z="0"/>
+        <actor a="0.0" aid="23" c="false" group="4" id="66" name="door 1 23" sx="1.0" sy="1.0" x="320" y="447" z="0"/>
+        <actor a="0.0" aid="24" c="false" group="4" id="66" name="door 1 24" sx="1.0" sy="1.0" x="608" y="207" z="0"/>
+        <actor a="0.0" aid="25" c="false" group="7" id="0" name="Wizzy 25" sx="1.0" sy="1.0" x="323" y="388" z="0"/>
     </actors>
     <snippets/>
     <terrain>

@@ -21,7 +21,8 @@
         <actor a="0.0" aid="13" c="false" group="6" id="35" name="Slime 13" sx="1.0" sy="1.0" x="581" y="391" z="0"/>
         <actor a="0.0" aid="14" c="false" group="6" id="35" name="Slime 14" sx="1.0" sy="1.0" x="296" y="51" z="0"/>
         <actor a="0.0" aid="15" c="false" group="3" id="37" name="Health Powerup 15" sx="1.0" sy="1.0" x="328" y="213" z="0"/>
-        <actor a="0.0" aid="16" c="false" group="4" id="72" name="door 4 16" sx="1.0" sy="1.0" x="608" y="249" z="0"/>
+        <actor a="0.0" aid="16" c="false" group="4" id="66" name="door 1 16" sx="1.0" sy="1.0" x="609" y="241" z="0"/>
+        <actor a="0.0" aid="17" c="false" group="7" id="0" name="Wizzy 17" sx="1.0" sy="1.0" x="564" y="240" z="0"/>
     </actors>
     <snippets/>
     <terrain>
