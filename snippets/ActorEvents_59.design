@@ -211,10 +211,49 @@
             </eq>
         </if>
     </group>
-    <group eventID="3" id="14">
+    <group eventID="3" id="2">
         <set-game-val-2 comment="false" x="1069" y="151">
             <get-val-24-2 comment="false" id="0" x="0" y="0"/>
         </set-game-val-2>
     </group>
     <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-dxy comment="false" x="26" y="47">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="0"/>
+                </set-dxy>
+                <set-dxy comment="false" x="26" y="74">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="1"/>
+                    <int id="2" val="0"/>
+                </set-dxy>
+                <die comment="false" x="26" y="101">
+                    <ACTOR eid="lastcollided" id="0"/>
+                </die>
+                <set-val-24-1 comment="false" x="26" y="128">
+                    <minus comment="false" id="0" x="0" y="0">
+                        <get-val-24-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="2"/>
+                    </minus>
+                </set-val-24-1>
+                <if comment="false" x="26" y="158">
+                    <group eventID="1" id="-1">
+                        <die comment="false" x="37" y="188">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-val-24-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="0"/>
+                    </eq>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="55" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="4" id="-1"/>
 </groups>

@@ -27,19 +27,6 @@
             <actortype eid="0" id="1"/>
         </event-collide-actortotype>
     </group>
-    <group eventID="4" id="1">
-        <if comment="false" x="812" y="118">
-            <group eventID="4" id="-1">
-                <die comment="false" x="823" y="148">
-                    <ACTOR eid="lastcollided" id="0"/>
-                </die>
-            </group>
-            <lesseq comment="false" id="0" x="0" y="0">
-                <get-game-val-3 comment="false" id="0" x="0" y="0"/>
-                <int id="1" val="0"/>
-            </lesseq>
-        </if>
-    </group>
     <group eventID="4" id="-1"/>
     <group eventID="5" id="0">
         <event-periodic comment="false" x="15" y="15">

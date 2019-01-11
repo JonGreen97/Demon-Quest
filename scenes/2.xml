@@ -11,11 +11,11 @@
     <terrainRegions/>
     <actors>
         <actor a="0.0" aid="2" c="false" group="3" id="41" name="Earth Boss 2" sx="1.0" sy="1.0" x="289" y="57" z="0"/>
-        <actor a="0.0" aid="3" c="false" group="7" id="0" name="Wizzy 3" sx="1.0" sy="1.0" x="292" y="405" z="0"/>
-        <actor a="0.0" aid="4" c="false" group="4" id="39" name="Door 4" sx="1.0" sy="1.0" x="287" y="445" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="7" id="0" name="Wizzy 3" sx="1.0" sy="1.0" x="311" y="407" z="0"/>
     </actors>
     <snippets/>
     <terrain>
+        <p pts="4,576.0,416.0,576.0,0.0,0.0,0.0,0.0,416.0" x="32.0" y="32.0"/>
         <p pts="4,640.0,480.0,0.0,480.0,0.0,0.0,640.0,0.0" x="0.0" y="0.0"/>
     </terrain>
     <atlases members="" retainAtlases="true"/>

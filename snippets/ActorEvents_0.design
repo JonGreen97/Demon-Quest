@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <groups>
+    <group eventID="16" id="0">
+        <event-type-create-kill comment="false" x="15" y="15">
+            <group eventID="16" id="-1"/>
+            <int id="0" val="1"/>
+            <actortype eid="0" id="1"/>
+        </event-type-create-kill>
+    </group>
+    <group eventID="16" id="-1"/>
     <group eventID="1" id="0">
         <event-key-press-release comment="false" x="15" y="15">
             <group eventID="1" id="-1">
@@ -1399,27 +1407,6 @@
                     <eq comment="false" id="0" x="0" y="0">
                         <scenename comment="false" id="0" x="0" y="0"/>
                         <int id="1" val="Level 1"/>
-                    </eq>
-                </if>
-                <if comment="false" x="26" y="169">
-                    <group eventID="13" id="-1">
-                        <if comment="false" x="37" y="199">
-                            <group eventID="13" id="-1">
-                                <set-game-val-3 comment="false" x="48" y="242">
-                                    <get-game-val-3 comment="false" id="0" x="0" y="0"/>
-                                </set-game-val-3>
-                            </group>
-                            <eq comment="false" id="0" x="0" y="0">
-                                <getanim comment="false" id="0" x="0" y="0">
-                                    <collide-actor-of-type comment="false" id="0" x="0" y="0"/>
-                                </getanim>
-                                <int id="1" val="Collected"/>
-                            </eq>
-                        </if>
-                    </group>
-                    <eq comment="false" id="0" x="0" y="0">
-                        <scenename comment="false" id="0" x="0" y="0"/>
-                        <int id="1" val="Testing Chamber"/>
                     </eq>
                 </if>
             </group>
