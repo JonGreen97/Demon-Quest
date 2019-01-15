@@ -9,7 +9,7 @@
                             <actortype eid="0" id="0"/>
                             <int id="1" val="588"/>
                             <int id="2" val="270"/>
-                            <int id="3" val="0"/>
+                            <int id="3" val="1"/>
                         </create-actor3-next>
                         <scene-change-through comment="false" x="37" y="104">
                             <scene eid="5" id="0"/>
@@ -28,9 +28,9 @@
                             <group eventID="1" id="-1">
                                 <create-actor3-next comment="false" x="48" y="211">
                                     <actortype eid="0" id="0"/>
-                                    <int id="1" val=""/>
-                                    <int id="2" val=""/>
-                                    <int id="3" val="0"/>
+                                    <int id="1" val="300"/>
+                                    <int id="2" val="420"/>
+                                    <int id="3" val="1"/>
                                 </create-actor3-next>
                                 <scene-change-through comment="false" x="48" y="238">
                                     <scene eid="6" id="0"/>
@@ -49,9 +49,9 @@
                             <group eventID="1" id="-1">
                                 <create-actor3-next comment="false" x="48" y="315">
                                     <actortype eid="0" id="0"/>
-                                    <int id="1" val=""/>
-                                    <int id="2" val=""/>
-                                    <int id="3" val="0"/>
+                                    <int id="1" val="50"/>
+                                    <int id="2" val="272"/>
+                                    <int id="3" val="1"/>
                                 </create-actor3-next>
                                 <scene-change-through comment="false" x="48" y="342">
                                     <scene eid="4" id="0"/>
@@ -78,9 +78,9 @@
                             <group eventID="1" id="-1">
                                 <create-actor3-next comment="false" x="48" y="461">
                                     <actortype eid="0" id="0"/>
-                                    <int id="1" val=""/>
-                                    <int id="2" val=""/>
-                                    <int id="3" val="0"/>
+                                    <int id="1" val="307"/>
+                                    <int id="2" val="46"/>
+                                    <int id="3" val="1"/>
                                 </create-actor3-next>
                                 <scene-change-through comment="false" x="48" y="488">
                                     <scene eid="5" id="0"/>
@@ -99,9 +99,9 @@
                             <group eventID="1" id="-1">
                                 <create-actor3-next comment="false" x="48" y="565">
                                     <actortype eid="0" id="0"/>
-                                    <int id="1" val=""/>
-                                    <int id="2" val=""/>
-                                    <int id="3" val="0"/>
+                                    <int id="1" val="50"/>
+                                    <int id="2" val="206"/>
+                                    <int id="3" val="1"/>
                                 </create-actor3-next>
                                 <scene-change-through comment="false" x="48" y="592">
                                     <scene eid="7" id="0"/>
@@ -128,9 +128,9 @@
                             <group eventID="1" id="-1">
                                 <create-actor3-next comment="false" x="48" y="711">
                                     <actortype eid="0" id="0"/>
-                                    <int id="1" val=""/>
-                                    <int id="2" val=""/>
-                                    <int id="3" val="0"/>
+                                    <int id="1" val="430"/>
+                                    <int id="2" val="322"/>
+                                    <int id="3" val="1"/>
                                 </create-actor3-next>
                                 <scene-change-through comment="false" x="48" y="738">
                                     <scene eid="2" id="0"/>
@@ -149,9 +149,9 @@
                             <group eventID="1" id="-1">
                                 <create-actor3-next comment="false" x="48" y="815">
                                     <actortype eid="0" id="0"/>
-                                    <int id="1" val=""/>
-                                    <int id="2" val=""/>
-                                    <int id="3" val="0"/>
+                                    <int id="1" val="580"/>
+                                    <int id="2" val="205"/>
+                                    <int id="3" val="1"/>
                                 </create-actor3-next>
                                 <scene-change-through comment="false" x="48" y="842">
                                     <scene eid="6" id="0"/>

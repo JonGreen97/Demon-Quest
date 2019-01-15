@@ -93,6 +93,7 @@
         <number cid="-1" id="7" name="Boss attack" save="true" value="0.0"/>
         <number cid="-1" id="9" name="FireHit" save="true" value="0.0"/>
         <number cid="-1" id="13" name="CurrentLevel" save="true" value="1.0"/>
+        <boolean cid="-1" id="16" name="StartGameWizzy" save="true" value="true"/>
         <number cid="-1" id="3" name="Player Health" save="true" value="0.0"/>
         <number cid="-1" id="1" name="Wizzy1Y" save="true" value="0.0"/>
         <number cid="-1" id="14" name="GolemHealth" save="true" value="0.0"/>

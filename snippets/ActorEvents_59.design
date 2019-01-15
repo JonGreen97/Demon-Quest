@@ -79,7 +79,7 @@
                 </set-val-24-2>
                 <push-shove comment="false" x="26" y="85">
                     <ACTOR eid="this" id="0"/>
-                    <int id="1" val="1"/>
+                    <int id="1" val="0"/>
                     <minus comment="false" id="2" x="0" y="0">
                         <get-game-val-0 comment="false" id="0" x="0" y="0"/>
                         <get-xy comment="false" id="1" x="0" y="0">
@@ -94,7 +94,7 @@
                             <int id="1" val="3"/>
                         </get-xy>
                     </minus>
-                    <int id="4" val=".75"/>
+                    <int id="4" val="35"/>
                 </push-shove>
                 <if comment="false" x="26" y="130">
                     <group eventID="3" id="-1">
