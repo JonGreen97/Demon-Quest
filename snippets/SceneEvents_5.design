@@ -12,4 +12,14 @@
         </draw>
     </group>
     <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-game-val-17 comment="false" x="26" y="40">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-game-val-17>
+            </group>
+        </init>
+    </group>
+    <group eventID="2" id="-1"/>
 </groups>
