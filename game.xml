@@ -82,7 +82,7 @@
         <key id="4" keyname="Z" name="action1" vk="90" vks="90"/>
         <key id="5" keyname="X" name="action2" vk="88" vks="88"/>
         <key id="6" keyname="ENTER" name="enter" vk="10" vks="10"/>
-        <key id="7" keyname="ESCAPE" name="Escape" vk="27" vks="27"/>
+        <key id="7" keyname="TAB" name="Pause" vk="9" vks="9"/>
     </input>
     <attcats>
         <cat id="-1" name="Default"/>
@@ -101,6 +101,7 @@
         <number cid="-1" id="14" name="GolemHealth" save="true" value="0.0"/>
         <number cid="-1" id="0" name="Wizzy1X" save="true" value="0.0"/>
         <number cid="-1" id="11" name="Level2" save="true" value="0.0"/>
+        <boolean cid="-1" id="18" name="StandoZaWarudo" save="true" value="false"/>
         <number cid="-1" id="12" name="Level3" save="true" value="0.0"/>
         <number cid="-1" id="6" name="PlayerX" save="true" value="0.0"/>
         <number cid="-1" id="8" name="Fireballs" save="true" value="0.0"/>
