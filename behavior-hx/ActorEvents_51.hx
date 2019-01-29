@@ -92,7 +92,7 @@ class ActorEvents_51 extends ActorScript
 					Engine.engine.setGameAttribute("CurrentLevel", 2);
 					recycleActor(actor);
 				}
-				else if((Engine.engine.getGameAttribute("CurrentLevel") == 2))
+				if((Engine.engine.getGameAttribute("CurrentLevel") == 2))
 				{
 					Engine.engine.setGameAttribute("CurrentLevel", 3);
 					recycleActor(actor);

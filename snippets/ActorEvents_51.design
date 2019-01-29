@@ -17,7 +17,7 @@
                         <int id="1" val="1"/>
                     </eq>
                 </if>
-                <else-if comment="false" x="26" y="136">
+                <if comment="false" x="26" y="136">
                     <group eventID="1" id="-1">
                         <set-game-val-13 comment="false" x="37" y="166">
                             <int id="0" val="3"/>
@@ -30,11 +30,27 @@
                         <get-game-val-13 comment="false" id="0" x="0" y="0"/>
                         <int id="1" val="2"/>
                     </eq>
-                </else-if>
+                </if>
             </group>
             <ACTOR eid="this" id="0"/>
             <actortype eid="0" id="1"/>
         </event-collide-actortotype>
+    </group>
+    <group eventID="1" id="1">
+        <if comment="false" x="896" y="285">
+            <group eventID="1" id="-1">
+                <set-game-val-13 comment="false" x="907" y="315">
+                    <int id="0" val="4"/>
+                </set-game-val-13>
+                <die comment="false" x="907" y="335">
+                    <ACTOR eid="this" id="0"/>
+                </die>
+            </group>
+            <eq comment="false" id="0" x="0" y="0">
+                <get-game-val-13 comment="false" id="0" x="0" y="0"/>
+                <int id="1" val="3"/>
+            </eq>
+        </if>
     </group>
     <group eventID="1" id="-1"/>
     <group eventID="2" id="0">
