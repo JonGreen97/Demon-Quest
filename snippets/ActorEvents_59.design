@@ -256,4 +256,10 @@
         </event-collide-actortotype>
     </group>
     <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="5" id="-1"/>
+        </draw>
+    </group>
+    <group eventID="5" id="-1"/>
 </groups>

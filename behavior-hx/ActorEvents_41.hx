@@ -126,9 +126,9 @@ class ActorEvents_41 extends ActorScript
 				{
 					createRecycledActor(getActorType(47), actor.getX(), actor.getY(), Script.FRONT);
 					getLastCreatedActor().applyImpulse((Engine.engine.getGameAttribute("Wizzy1X") - actor.getX()), (Engine.engine.getGameAttribute("Wizzy1Y") - actor.getY()), 30);
-					createRecycledActor(getActorType(47), (actor.getX() - 85), actor.getY(), Script.FRONT);
+					createRecycledActor(getActorType(47), (actor.getX() - 90), actor.getY(), Script.FRONT);
 					getLastCreatedActor().applyImpulse((Engine.engine.getGameAttribute("Wizzy1X") - actor.getX()), (Engine.engine.getGameAttribute("Wizzy1Y") - actor.getY()), 30);
-					createRecycledActor(getActorType(47), (actor.getX() + 85), actor.getY(), Script.FRONT);
+					createRecycledActor(getActorType(47), (actor.getX() + 90), actor.getY(), Script.FRONT);
 					getLastCreatedActor().applyImpulse((Engine.engine.getGameAttribute("Wizzy1X") - actor.getX()), (Engine.engine.getGameAttribute("Wizzy1Y") - actor.getY()), 30);
 				}
 			}

@@ -277,38 +277,41 @@
         </event-periodic>
     </group>
     <group eventID="1" id="-1">
-        <get-game-val-1 comment="false" x="528" y="918"/>
-        <get-game-val-1 comment="false" x="440" y="152"/>
-        <get-xy comment="false" x="647" y="410">
-            <ACTOR eid="this" id="0"/>
-            <int id="1" val="0"/>
-        </get-xy>
-        <get-game-val-0 comment="false" x="509" y="392"/>
-        <noteq comment="false" x="556" y="345">
-            <int id="0" val=""/>
-            <int id="1" val=""/>
-        </noteq>
         <lesseq comment="false" x="458" y="259">
             <int id="0" val=""/>
             <int id="1" val=""/>
         </lesseq>
+        <noteq comment="false" x="556" y="345">
+            <int id="0" val=""/>
+            <int id="1" val=""/>
+        </noteq>
+        <get-game-val-0 comment="false" x="509" y="392"/>
+        <get-xy comment="false" x="647" y="410">
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="0"/>
+        </get-xy>
+        <get-game-val-1 comment="false" x="440" y="152"/>
+        <get-game-val-1 comment="false" x="528" y="918"/>
     </group>
     <group eventID="2" id="0">
         <event-collide-actortotype comment="false" x="15" y="15">
             <group eventID="2" id="-1">
-                <set-val-34-3 comment="false" x="26" y="47">
+                <die comment="false" x="26" y="47">
+                    <ACTOR eid="lastcollided" id="0"/>
+                </die>
+                <set-val-34-3 comment="false" x="26" y="74">
                     <minus comment="false" id="0" x="0" y="0">
                         <get-val-34-3 comment="false" id="0" x="0" y="0"/>
                         <int id="1" val="1"/>
                     </minus>
                 </set-val-34-3>
-                <if comment="false" x="26" y="77">
+                <if comment="false" x="26" y="104">
                     <group eventID="2" id="-1">
-                        <setanim comment="false" x="37" y="107">
+                        <setanim comment="false" x="37" y="134">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="Explode"/>
                         </setanim>
-                        <die comment="false" x="37" y="134">
+                        <die comment="false" x="37" y="161">
                             <ACTOR eid="this" id="0"/>
                         </die>
                     </group>
@@ -326,19 +329,22 @@
     <group eventID="3" id="0">
         <event-collide-actortotype comment="false" x="15" y="15">
             <group eventID="2" id="-1">
-                <set-val-34-3 comment="false" x="26" y="47">
+                <die comment="false" x="26" y="47">
+                    <ACTOR eid="lastcollided" id="0"/>
+                </die>
+                <set-val-34-3 comment="false" x="26" y="74">
                     <minus comment="false" id="0" x="0" y="0">
                         <get-val-34-3 comment="false" id="0" x="0" y="0"/>
                         <int id="1" val="2"/>
                     </minus>
                 </set-val-34-3>
-                <if comment="false" x="26" y="77">
+                <if comment="false" x="26" y="104">
                     <group eventID="3" id="-1">
-                        <setanim comment="false" x="37" y="107">
+                        <setanim comment="false" x="37" y="134">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="Explode"/>
                         </setanim>
-                        <die comment="false" x="37" y="134">
+                        <die comment="false" x="37" y="161">
                             <ACTOR eid="this" id="0"/>
                         </die>
                     </group>
@@ -356,19 +362,22 @@
     <group eventID="4" id="0">
         <event-collide-actortotype comment="false" x="15" y="15">
             <group eventID="2" id="-1">
-                <set-val-34-3 comment="false" x="26" y="47">
+                <die comment="false" x="26" y="47">
+                    <ACTOR eid="lastcollided" id="0"/>
+                </die>
+                <set-val-34-3 comment="false" x="26" y="74">
                     <minus comment="false" id="0" x="0" y="0">
                         <get-val-34-3 comment="false" id="0" x="0" y="0"/>
                         <int id="1" val="3"/>
                     </minus>
                 </set-val-34-3>
-                <if comment="false" x="26" y="77">
+                <if comment="false" x="26" y="104">
                     <group eventID="4" id="-1">
-                        <setanim comment="false" x="37" y="107">
+                        <setanim comment="false" x="37" y="134">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="Explode"/>
                         </setanim>
-                        <die comment="false" x="37" y="134">
+                        <die comment="false" x="37" y="161">
                             <ACTOR eid="this" id="0"/>
                         </die>
                     </group>
