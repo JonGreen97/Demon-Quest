@@ -93,6 +93,7 @@
         <number cid="-1" id="4" name="Boss health" save="true" value="0.0"/>
         <number cid="-1" id="7" name="Boss attack" save="true" value="0.0"/>
         <number cid="-1" id="9" name="FireHit" save="true" value="0.0"/>
+        <number cid="-1" id="19" name="SkullCharge" save="true" value="0.0"/>
         <boolean cid="-1" id="17" name="Is Transitioning" save="true" value="false"/>
         <number cid="-1" id="13" name="CurrentLevel" save="true" value="1.0"/>
         <boolean cid="-1" id="16" name="StartGameWizzy" save="true" value="true"/>

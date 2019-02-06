@@ -5,294 +5,296 @@
             <group eventID="1" id="-1">
                 <if comment="false" x="26" y="42">
                     <group eventID="1" id="-1">
-                        <if comment="false" x="37" y="80">
-                            <group eventID="1" id="-1">
-                                <setanim comment="false" x="48" y="110">
-                                    <ACTOR eid="this" id="0"/>
-                                    <int id="1" val="Float Left"/>
-                                </setanim>
-                                <set-dxy comment="false" x="48" y="137">
-                                    <ACTOR eid="this" id="0"/>
-                                    <int id="1" val="0"/>
-                                    <int id="2" val="-5"/>
-                                </set-dxy>
-                                <dolater comment="false" x="48" y="164">
-                                    <group eventID="1" id="-1">
-                                        <set-dxy comment="false" x="59" y="191">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="0"/>
-                                            <int id="2" val="0"/>
-                                        </set-dxy>
-                                        <set-dxy comment="false" x="59" y="218">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="1"/>
-                                            <int id="2" val="0"/>
-                                        </set-dxy>
-                                    </group>
-                                    <int id="0" val=".5"/>
-                                    <ACTOR eid="this" id="2"/>
-                                </dolater>
-                                <if comment="false" x="48" y="257">
-                                    <group eventID="1" id="-1">
-                                        <setanim comment="false" x="59" y="295">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="Rush Left"/>
-                                        </setanim>
-                                        <push-shove2 comment="false" x="59" y="322">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="1"/>
-                                            <int id="2" val="270"/>
-                                            <int id="3" val="15"/>
-                                        </push-shove2>
-                                    </group>
-                                    <more comment="false" id="0" x="0" y="0">
-                                        <get-game-val-0 comment="false" id="0" x="0" y="0"/>
-                                        <get-xy comment="false" id="1" x="0" y="0">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="0"/>
-                                        </get-xy>
-                                    </more>
-                                </if>
-                            </group>
-                            <eq comment="false" id="0" x="0" y="0">
-                                <randint comment="false" id="0" x="0" y="0">
-                                    <int id="0" val="1"/>
-                                    <int id="1" val="4"/>
-                                </randint>
-                                <int id="1" val="1"/>
-                            </eq>
-                        </if>
-                        <else-if comment="false" x="37" y="373">
-                            <group eventID="1" id="-1">
-                                <setanim comment="false" x="48" y="403">
-                                    <ACTOR eid="this" id="0"/>
-                                    <int id="1" val="Float Right"/>
-                                </setanim>
-                                <set-dxy comment="false" x="48" y="430">
-                                    <ACTOR eid="this" id="0"/>
-                                    <int id="1" val="0"/>
-                                    <int id="2" val="5"/>
-                                </set-dxy>
-                                <dolater comment="false" x="48" y="457">
-                                    <group eventID="1" id="-1">
-                                        <set-dxy comment="false" x="59" y="484">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="0"/>
-                                            <int id="2" val="0"/>
-                                        </set-dxy>
-                                        <set-dxy comment="false" x="59" y="511">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="1"/>
-                                            <int id="2" val="0"/>
-                                        </set-dxy>
-                                    </group>
-                                    <int id="0" val=".5"/>
-                                    <ACTOR eid="this" id="2"/>
-                                </dolater>
-                                <if comment="false" x="48" y="550">
-                                    <group eventID="1" id="-1">
-                                        <setanim comment="false" x="59" y="588">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="Rush Right"/>
-                                        </setanim>
-                                        <push-shove2 comment="false" x="59" y="615">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="1"/>
-                                            <int id="2" val="90"/>
-                                            <int id="3" val="15"/>
-                                        </push-shove2>
-                                    </group>
-                                    <moreeq comment="false" id="0" x="0" y="0">
-                                        <get-game-val-0 comment="false" id="0" x="0" y="0"/>
-                                        <get-xy comment="false" id="1" x="0" y="0">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="0"/>
-                                        </get-xy>
-                                    </moreeq>
-                                </if>
-                            </group>
-                            <eq comment="false" id="0" x="0" y="0">
-                                <randint comment="false" id="0" x="0" y="0">
-                                    <int id="0" val="1"/>
-                                    <int id="1" val="4"/>
-                                </randint>
-                                <int id="1" val="2"/>
-                            </eq>
-                        </else-if>
-                        <else comment="false" x="37" y="666">
-                            <group eventID="1" id="-1">
-                                <set-dxy comment="false" x="48" y="686">
-                                    <ACTOR eid="this" id="0"/>
-                                    <int id="1" val="1"/>
-                                    <int id="2" val="0"/>
-                                </set-dxy>
-                            </group>
-                        </else>
+                        <set-game-val-19 comment="false" x="37" y="72">
+                            <int id="0" val="1"/>
+                        </set-game-val-19>
                     </group>
                     <eq comment="false" id="0" x="0" y="0">
-                        <get-dxy comment="false" id="0" x="0" y="0">
-                            <ACTOR eid="this" id="0"/>
-                            <int id="1" val="1"/>
-                        </get-dxy>
-                        <int id="1" val="0"/>
+                        <randint comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                            <int id="1" val="4"/>
+                        </randint>
+                        <int id="1" val="1"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="737">
+                <else-if comment="false" x="26" y="104">
                     <group eventID="1" id="-1">
-                        <if comment="false" x="37" y="775">
-                            <group eventID="1" id="-1">
-                                <setanim comment="false" x="48" y="805">
-                                    <ACTOR eid="this" id="0"/>
-                                    <int id="1" val="Float Up"/>
-                                </setanim>
-                                <set-dxy comment="false" x="48" y="832">
-                                    <ACTOR eid="this" id="0"/>
-                                    <int id="1" val="1"/>
-                                    <int id="2" val="-5"/>
-                                </set-dxy>
-                                <dolater comment="false" x="48" y="859">
-                                    <group eventID="1" id="-1">
-                                        <set-dxy comment="false" x="59" y="886">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="0"/>
-                                            <int id="2" val="0"/>
-                                        </set-dxy>
-                                        <set-dxy comment="false" x="59" y="913">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="1"/>
-                                            <int id="2" val="0"/>
-                                        </set-dxy>
-                                    </group>
-                                    <int id="0" val=".5"/>
-                                    <ACTOR eid="this" id="2"/>
-                                </dolater>
-                                <if comment="false" x="48" y="952">
-                                    <group eventID="1" id="-1">
-                                        <setanim comment="false" x="59" y="990">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="Rush Up"/>
-                                        </setanim>
-                                        <push-shove2 comment="false" x="59" y="1017">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="1"/>
-                                            <int id="2" val="0"/>
-                                            <int id="3" val="15"/>
-                                        </push-shove2>
-                                    </group>
-                                    <lesseq comment="false" id="0" x="0" y="0">
-                                        <get-game-val-0 comment="false" id="0" x="0" y="0"/>
-                                        <get-xy comment="false" id="1" x="0" y="0">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="0"/>
-                                        </get-xy>
-                                    </lesseq>
-                                </if>
-                            </group>
-                            <eq comment="false" id="0" x="0" y="0">
-                                <randint comment="false" id="0" x="0" y="0">
-                                    <int id="0" val="1"/>
-                                    <int id="1" val="4"/>
-                                </randint>
-                                <int id="1" val="3"/>
-                            </eq>
-                        </if>
-                        <else-if comment="false" x="37" y="1068">
-                            <group eventID="1" id="-1">
-                                <setanim comment="false" x="48" y="1098">
-                                    <ACTOR eid="this" id="0"/>
-                                    <int id="1" val="Float Down"/>
-                                </setanim>
-                                <set-dxy comment="false" x="48" y="1125">
-                                    <ACTOR eid="this" id="0"/>
-                                    <int id="1" val="1"/>
-                                    <int id="2" val="5"/>
-                                </set-dxy>
-                                <dolater comment="false" x="48" y="1152">
-                                    <group eventID="1" id="-1">
-                                        <set-dxy comment="false" x="59" y="1179">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="0"/>
-                                            <int id="2" val="0"/>
-                                        </set-dxy>
-                                        <set-dxy comment="false" x="59" y="1206">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="1"/>
-                                            <int id="2" val="0"/>
-                                        </set-dxy>
-                                    </group>
-                                    <int id="0" val=".5"/>
-                                    <ACTOR eid="this" id="2"/>
-                                </dolater>
-                                <if comment="false" x="48" y="1245">
-                                    <group eventID="1" id="-1">
-                                        <setanim comment="false" x="59" y="1283">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="Rush Down"/>
-                                        </setanim>
-                                        <push-shove2 comment="false" x="59" y="1310">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="1"/>
-                                            <int id="2" val="180"/>
-                                            <int id="3" val="15"/>
-                                        </push-shove2>
-                                    </group>
-                                    <moreeq comment="false" id="0" x="0" y="0">
-                                        <get-game-val-1 comment="false" id="0" x="0" y="0"/>
-                                        <get-xy comment="false" id="1" x="0" y="0">
-                                            <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="1"/>
-                                        </get-xy>
-                                    </moreeq>
-                                </if>
-                            </group>
-                            <eq comment="false" id="0" x="0" y="0">
-                                <randint comment="false" id="0" x="0" y="0">
-                                    <int id="0" val="1"/>
-                                    <int id="1" val="4"/>
-                                </randint>
-                                <int id="1" val="4"/>
-                            </eq>
-                        </else-if>
-                        <else comment="false" x="37" y="1361">
-                            <group eventID="1" id="-1">
-                                <set-dxy comment="false" x="48" y="1381">
-                                    <ACTOR eid="this" id="0"/>
-                                    <int id="1" val="1"/>
-                                    <int id="2" val="0"/>
-                                </set-dxy>
-                            </group>
-                        </else>
+                        <set-game-val-19 comment="false" x="37" y="134">
+                            <int id="0" val="2"/>
+                        </set-game-val-19>
                     </group>
                     <eq comment="false" id="0" x="0" y="0">
-                        <get-dxy comment="false" id="0" x="0" y="0">
+                        <randint comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                            <int id="1" val="4"/>
+                        </randint>
+                        <int id="1" val="2"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="166">
+                    <group eventID="1" id="-1">
+                        <set-game-val-19 comment="false" x="37" y="196">
+                            <int id="0" val="3"/>
+                        </set-game-val-19>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <randint comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                            <int id="1" val="4"/>
+                        </randint>
+                        <int id="1" val="3"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="228">
+                    <group eventID="1" id="-1">
+                        <set-game-val-19 comment="false" x="37" y="258">
+                            <int id="0" val="4"/>
+                        </set-game-val-19>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <randint comment="false" id="0" x="0" y="0">
+                            <int id="0" val="1"/>
+                            <int id="1" val="4"/>
+                        </randint>
+                        <int id="1" val="4"/>
+                    </eq>
+                </else-if>
+                <if comment="false" x="26" y="290">
+                    <group eventID="1" id="-1">
+                        <setanim comment="false" x="37" y="320">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="Float Left"/>
+                        </setanim>
+                        <set-dxy comment="false" x="37" y="347">
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="0"/>
-                        </get-dxy>
-                        <int id="1" val="0"/>
+                            <int id="2" val="-5"/>
+                        </set-dxy>
+                        <dolater comment="false" x="37" y="374">
+                            <group eventID="1" id="-1">
+                                <set-dxy comment="false" x="48" y="401">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="0"/>
+                                </set-dxy>
+                                <set-dxy comment="false" x="48" y="428">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="0"/>
+                                </set-dxy>
+                            </group>
+                            <int id="0" val=".5"/>
+                            <ACTOR eid="this" id="2"/>
+                        </dolater>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-19 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
                     </eq>
                 </if>
+                <else-if comment="false" x="26" y="479">
+                    <group eventID="1" id="-1">
+                        <setanim comment="false" x="37" y="509">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="Float Right"/>
+                        </setanim>
+                        <set-dxy comment="false" x="37" y="536">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                            <int id="2" val="5"/>
+                        </set-dxy>
+                        <dolater comment="false" x="37" y="563">
+                            <group eventID="1" id="-1">
+                                <set-dxy comment="false" x="48" y="590">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="0"/>
+                                </set-dxy>
+                                <set-dxy comment="false" x="48" y="617">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="0"/>
+                                </set-dxy>
+                            </group>
+                            <int id="0" val=".5"/>
+                            <ACTOR eid="this" id="2"/>
+                        </dolater>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-19 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="2"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="668">
+                    <group eventID="1" id="-1">
+                        <setanim comment="false" x="37" y="698">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="Float Up"/>
+                        </setanim>
+                        <set-dxy comment="false" x="37" y="725">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <int id="2" val="-5"/>
+                        </set-dxy>
+                        <dolater comment="false" x="37" y="752">
+                            <group eventID="1" id="-1">
+                                <set-dxy comment="false" x="48" y="779">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="0"/>
+                                </set-dxy>
+                                <set-dxy comment="false" x="48" y="806">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="0"/>
+                                </set-dxy>
+                            </group>
+                            <int id="0" val=".5"/>
+                            <ACTOR eid="this" id="2"/>
+                        </dolater>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-19 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="3"/>
+                    </eq>
+                </else-if>
+                <else-if comment="false" x="26" y="857">
+                    <group eventID="1" id="-1">
+                        <setanim comment="false" x="37" y="887">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="Float Down"/>
+                        </setanim>
+                        <set-dxy comment="false" x="37" y="914">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <int id="2" val="5"/>
+                        </set-dxy>
+                        <dolater comment="false" x="37" y="941">
+                            <group eventID="1" id="-1">
+                                <set-dxy comment="false" x="48" y="968">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="0"/>
+                                </set-dxy>
+                                <set-dxy comment="false" x="48" y="995">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="1"/>
+                                    <int id="2" val="0"/>
+                                </set-dxy>
+                            </group>
+                            <int id="0" val=".5"/>
+                            <ACTOR eid="this" id="2"/>
+                        </dolater>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <get-game-val-19 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="4"/>
+                    </eq>
+                </else-if>
+                <if comment="false" x="26" y="1046">
+                    <group eventID="1" id="-1">
+                        <setanim comment="false" x="37" y="1084">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="Rush Left"/>
+                        </setanim>
+                        <push-shove2 comment="false" x="37" y="1111">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <int id="2" val="270"/>
+                            <int id="3" val="15"/>
+                        </push-shove2>
+                    </group>
+                    <lesseq comment="false" id="0" x="0" y="0">
+                        <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                        <get-xy comment="false" id="1" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                        </get-xy>
+                    </lesseq>
+                </if>
+                <else-if comment="false" x="26" y="1150">
+                    <group eventID="1" id="-1">
+                        <setanim comment="false" x="37" y="1188">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="Rush Right"/>
+                        </setanim>
+                        <push-shove2 comment="false" x="37" y="1215">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <int id="2" val="90"/>
+                            <int id="3" val="15"/>
+                        </push-shove2>
+                    </group>
+                    <moreeq comment="false" id="0" x="0" y="0">
+                        <get-game-val-1 comment="false" id="0" x="0" y="0"/>
+                        <get-xy comment="false" id="1" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                        </get-xy>
+                    </moreeq>
+                </else-if>
+                <else-if comment="false" x="26" y="1254">
+                    <group eventID="1" id="-1">
+                        <setanim comment="false" x="37" y="1292">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="Rush Up"/>
+                        </setanim>
+                        <push-shove2 comment="false" x="37" y="1319">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <int id="2" val="0"/>
+                            <int id="3" val="15"/>
+                        </push-shove2>
+                    </group>
+                    <lesseq comment="false" id="0" x="0" y="0">
+                        <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                        <get-xy comment="false" id="1" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                        </get-xy>
+                    </lesseq>
+                </else-if>
+                <else-if comment="false" x="26" y="1358">
+                    <group eventID="1" id="-1">
+                        <setanim comment="false" x="37" y="1396">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="Rush Down"/>
+                        </setanim>
+                        <push-shove2 comment="false" x="37" y="1423">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="1"/>
+                            <int id="2" val="180"/>
+                            <int id="3" val="15"/>
+                        </push-shove2>
+                    </group>
+                    <moreeq comment="false" id="0" x="0" y="0">
+                        <get-game-val-0 comment="false" id="0" x="0" y="0"/>
+                        <get-xy comment="false" id="1" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                            <int id="1" val="0"/>
+                        </get-xy>
+                    </moreeq>
+                </else-if>
             </group>
             <int id="0" val="1"/>
             <ACTOR eid="this" id="2"/>
         </event-periodic>
     </group>
-    <group eventID="1" id="-1">
-        <get-game-val-1 comment="false" x="528" y="918"/>
-        <get-game-val-1 comment="false" x="440" y="152"/>
-        <get-xy comment="false" x="647" y="410">
-            <ACTOR eid="this" id="0"/>
-            <int id="1" val="0"/>
-        </get-xy>
-        <get-game-val-0 comment="false" x="509" y="392"/>
-        <noteq comment="false" x="556" y="345">
+    <group eventID="1" id="13">
+        <if comment="false" x="978" y="696">
+            <group eventID="1" id="-1"/>
             <int id="0" val=""/>
-            <int id="1" val=""/>
-        </noteq>
-        <lesseq comment="false" x="458" y="259">
+        </if>
+        <if comment="false" x="978" y="748">
+            <group eventID="1" id="-1"/>
             <int id="0" val=""/>
-            <int id="1" val=""/>
-        </lesseq>
+        </if>
+        <if comment="false" x="978" y="800">
+            <group eventID="1" id="-1"/>
+            <int id="0" val=""/>
+        </if>
     </group>
+    <group eventID="1" id="-1"/>
     <group eventID="2" id="0">
         <event-collide-actortotype comment="false" x="15" y="15">
             <group eventID="2" id="-1">
@@ -311,14 +313,20 @@
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="Explode"/>
                         </setanim>
-                        <die comment="false" x="37" y="161">
-                            <ACTOR eid="this" id="0"/>
-                        </die>
+                        <dolater comment="false" x="37" y="161">
+                            <group eventID="2" id="-1">
+                                <die comment="false" x="48" y="188">
+                                    <ACTOR eid="this" id="0"/>
+                                </die>
+                            </group>
+                            <int id="0" val=".5"/>
+                            <ACTOR eid="this" id="2"/>
+                        </dolater>
                     </group>
-                    <eq comment="false" id="0" x="0" y="0">
+                    <lesseq comment="false" id="0" x="0" y="0">
                         <get-val-34-3 comment="false" id="0" x="0" y="0"/>
                         <int id="1" val="0"/>
-                    </eq>
+                    </lesseq>
                 </if>
             </group>
             <ACTOR eid="this" id="0"/>
@@ -344,9 +352,15 @@
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="Explode"/>
                         </setanim>
-                        <die comment="false" x="37" y="161">
-                            <ACTOR eid="this" id="0"/>
-                        </die>
+                        <dolater comment="false" x="37" y="161">
+                            <group eventID="3" id="-1">
+                                <die comment="false" x="48" y="188">
+                                    <ACTOR eid="this" id="0"/>
+                                </die>
+                            </group>
+                            <int id="0" val=".5"/>
+                            <ACTOR eid="this" id="2"/>
+                        </dolater>
                     </group>
                     <lesseq comment="false" id="0" x="0" y="0">
                         <get-val-34-3 comment="false" id="0" x="0" y="0"/>
@@ -377,9 +391,15 @@
                             <ACTOR eid="this" id="0"/>
                             <int id="1" val="Explode"/>
                         </setanim>
-                        <die comment="false" x="37" y="161">
-                            <ACTOR eid="this" id="0"/>
-                        </die>
+                        <dolater comment="false" x="37" y="161">
+                            <group eventID="4" id="-1">
+                                <die comment="false" x="48" y="188">
+                                    <ACTOR eid="this" id="0"/>
+                                </die>
+                            </group>
+                            <int id="0" val=".5"/>
+                            <ACTOR eid="this" id="2"/>
+                        </dolater>
                     </group>
                     <lesseq comment="false" id="0" x="0" y="0">
                         <get-val-34-3 comment="false" id="0" x="0" y="0"/>
@@ -402,4 +422,33 @@
         </init>
     </group>
     <group eventID="6" id="-1"/>
+    <group eventID="7" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="7" id="-1">
+                <draw-text comment="false" x="26" y="40">
+                    <randint comment="false" id="0" x="0" y="0">
+                        <int id="0" val="1"/>
+                        <int id="1" val="4"/>
+                    </randint>
+                    <get-xy comment="false" id="1" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                    <get-xy comment="false" id="2" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="1"/>
+                    </get-xy>
+                </draw-text>
+            </group>
+        </draw>
+    </group>
+    <group eventID="7" id="-1"/>
+    <group eventID="8" id="0">
+        <event-periodic comment="false" x="15" y="15">
+            <group eventID="8" id="-1"/>
+            <int id="0" val="1"/>
+            <ACTOR eid="this" id="2"/>
+        </event-periodic>
+    </group>
+    <group eventID="8" id="-1"/>
 </groups>

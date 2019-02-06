@@ -262,10 +262,12 @@
         <blocks/>
         <events>
             <event displayName="Every N secs" enabled="true" id="1" name="event-periodic" order="2" repeats="true"/>
-            <event displayName="Fireball 1" enabled="true" id="2" name="event-collide-actortotype" order="4" repeats="true"/>
-            <event displayName="Fireball 2" enabled="true" id="3" name="event-collide-actortotype" order="5" repeats="true"/>
-            <event displayName="Fireball 3" enabled="true" id="4" name="event-collide-actortotype" order="6" repeats="true"/>
+            <event displayName="Fireball 1" enabled="true" id="2" name="event-collide-actortotype" order="6" repeats="true"/>
+            <event displayName="Fireball 2" enabled="true" id="3" name="event-collide-actortotype" order="7" repeats="true"/>
+            <event displayName="Fireball 3" enabled="true" id="4" name="event-collide-actortotype" order="8" repeats="true"/>
             <event displayName="Created" enabled="true" id="6" name="init" order="1" repeats="true"/>
+            <event displayName="Drawing" enabled="true" id="7" name="draw" order="4" repeats="true"/>
+            <event displayName="Every N secs" enabled="true" id="8" name="event-periodic" order="3" repeats="true"/>
         </events>
     </snippet>
     <snippet actorid="70" attachedevent="true" class="scripts.ActorEvents_70" classname="scripts.ActorEvents_70" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="35" name="ActorEvents_70" oid="-1" package="scripts." shared="false" type="actor">
