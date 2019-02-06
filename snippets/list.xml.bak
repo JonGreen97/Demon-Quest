@@ -209,9 +209,10 @@
         <blocks/>
         <events>
             <event displayName="Actor - Type" enabled="true" id="1" name="event-collide-actortotype" order="1" repeats="true"/>
-            <event displayName="Created" enabled="true" id="2" name="init" order="3" repeats="true"/>
-            <event displayName="Every N secs" enabled="true" id="3" name="event-periodic" order="4" repeats="true"/>
+            <event displayName="Created" enabled="true" id="2" name="init" order="4" repeats="true"/>
+            <event displayName="Every N secs" enabled="true" id="3" name="event-periodic" order="5" repeats="true"/>
             <event displayName="Actor - Type Copy" enabled="true" id="4" name="event-collide-actortotype" order="2" repeats="true"/>
+            <event displayName="Drawing" enabled="true" id="5" name="draw" order="3" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_4" classname="scripts.SceneEvents_4" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="25" name="SceneEvents_4" oid="-1" package="scripts." sceneid="4" shared="false" type="scene">
@@ -266,5 +267,9 @@
             <event displayName="Fireball 3" enabled="true" id="4" name="event-collide-actortotype" order="6" repeats="true"/>
             <event displayName="Created" enabled="true" id="6" name="init" order="1" repeats="true"/>
         </events>
+    </snippet>
+    <snippet actorid="70" attachedevent="true" class="scripts.ActorEvents_70" classname="scripts.ActorEvents_70" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="35" name="ActorEvents_70" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
     </snippet>
 </pack>

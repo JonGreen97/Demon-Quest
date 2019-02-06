@@ -85,6 +85,7 @@
     <tileset across="1" atlasID="0" desc="" down="1" id="9" name="FIRE FLOOR" oid="-1" shared="false" th="32" tw="32">
         <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
     </tileset>
+    <music atlasID="0" desc="" id="72" loop="true" name="Fireball" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="5" fixedrot="true" fric="0.2" gid="5" id="19" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Fireball 1" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="20" static="false">
         <snippets/>
     </actor>

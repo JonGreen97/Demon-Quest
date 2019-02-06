@@ -9,9 +9,13 @@
     <group eventID="1" id="0">
         <event-key-press-release comment="false" x="15" y="15">
             <group eventID="1" id="-1">
-                <if comment="false" x="26" y="42">
+                <play-sound4 comment="false" x="26" y="42">
+                    <int id="0" val="0"/>
+                    <sound eid="72" id="1"/>
+                </play-sound4>
+                <if comment="false" x="26" y="69">
                     <group eventID="1" id="-1">
-                        <create-actor3 comment="false" x="37" y="80">
+                        <create-actor3 comment="false" x="37" y="107">
                             <actortype eid="19" id="0"/>
                             <get-xy comment="false" id="1" x="0" y="0">
                                 <ACTOR eid="this" id="0"/>
@@ -23,7 +27,7 @@
                             </get-xy>
                             <int id="3" val="0"/>
                         </create-actor3>
-                        <set-dxy comment="false" x="37" y="120">
+                        <set-dxy comment="false" x="37" y="147">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="1"/>
                             <get-val-0-1 comment="false" id="2" x="0" y="0"/>
@@ -36,9 +40,9 @@
                         <int id="1" val="Walking Down 1"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="164">
+                <if comment="false" x="26" y="191">
                     <group eventID="1" id="-1">
-                        <create-actor3 comment="false" x="37" y="202">
+                        <create-actor3 comment="false" x="37" y="229">
                             <actortype eid="19" id="0"/>
                             <get-xy comment="false" id="1" x="0" y="0">
                                 <ACTOR eid="this" id="0"/>
@@ -50,7 +54,7 @@
                             </get-xy>
                             <int id="3" val="0"/>
                         </create-actor3>
-                        <set-dxy comment="false" x="37" y="242">
+                        <set-dxy comment="false" x="37" y="269">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="1"/>
                             <get-val-0-1 comment="false" id="2" x="0" y="0"/>
@@ -63,9 +67,9 @@
                         <int id="1" val="Idle Down 1"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="286">
+                <if comment="false" x="26" y="313">
                     <group eventID="1" id="-1">
-                        <create-actor3 comment="false" x="37" y="324">
+                        <create-actor3 comment="false" x="37" y="351">
                             <actortype eid="19" id="0"/>
                             <get-xy comment="false" id="1" x="0" y="0">
                                 <ACTOR eid="this" id="0"/>
@@ -77,7 +81,7 @@
                             </get-xy>
                             <int id="3" val="0"/>
                         </create-actor3>
-                        <set-dxy comment="false" x="37" y="364">
+                        <set-dxy comment="false" x="37" y="391">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="1"/>
                             <neg comment="false" id="2" x="0" y="0">
@@ -92,9 +96,9 @@
                         <int id="1" val="Walking Up 1"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="413">
+                <if comment="false" x="26" y="440">
                     <group eventID="1" id="-1">
-                        <create-actor3 comment="false" x="37" y="451">
+                        <create-actor3 comment="false" x="37" y="478">
                             <actortype eid="19" id="0"/>
                             <get-xy comment="false" id="1" x="0" y="0">
                                 <ACTOR eid="this" id="0"/>
@@ -106,7 +110,7 @@
                             </get-xy>
                             <int id="3" val="0"/>
                         </create-actor3>
-                        <set-dxy comment="false" x="37" y="491">
+                        <set-dxy comment="false" x="37" y="518">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="1"/>
                             <neg comment="false" id="2" x="0" y="0">
@@ -121,9 +125,9 @@
                         <int id="1" val="Idle Up 1"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="540">
+                <if comment="false" x="26" y="567">
                     <group eventID="1" id="-1">
-                        <create-actor3 comment="false" x="37" y="578">
+                        <create-actor3 comment="false" x="37" y="605">
                             <actortype eid="19" id="0"/>
                             <get-xy comment="false" id="1" x="0" y="0">
                                 <ACTOR eid="this" id="0"/>
@@ -135,7 +139,7 @@
                             </get-xy>
                             <int id="3" val="0"/>
                         </create-actor3>
-                        <set-dxy comment="false" x="37" y="618">
+                        <set-dxy comment="false" x="37" y="645">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="0"/>
                             <get-val-0-1 comment="false" id="2" x="0" y="0"/>
@@ -148,9 +152,9 @@
                         <int id="1" val="Walking Right 1"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="662">
+                <if comment="false" x="26" y="689">
                     <group eventID="1" id="-1">
-                        <create-actor3 comment="false" x="37" y="700">
+                        <create-actor3 comment="false" x="37" y="727">
                             <actortype eid="19" id="0"/>
                             <get-xy comment="false" id="1" x="0" y="0">
                                 <ACTOR eid="this" id="0"/>
@@ -162,7 +166,7 @@
                             </get-xy>
                             <int id="3" val="0"/>
                         </create-actor3>
-                        <set-dxy comment="false" x="37" y="740">
+                        <set-dxy comment="false" x="37" y="767">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="0"/>
                             <get-val-0-1 comment="false" id="2" x="0" y="0"/>
@@ -175,9 +179,9 @@
                         <int id="1" val="Idle Right 1"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="784">
+                <if comment="false" x="26" y="811">
                     <group eventID="1" id="-1">
-                        <create-actor3 comment="false" x="37" y="822">
+                        <create-actor3 comment="false" x="37" y="849">
                             <actortype eid="19" id="0"/>
                             <minus comment="false" id="1" x="0" y="0">
                                 <get-xy comment="false" id="0" x="0" y="0">
@@ -195,7 +199,7 @@
                             </get-xy>
                             <int id="3" val="2"/>
                         </create-actor3>
-                        <set-dxy comment="false" x="37" y="867">
+                        <set-dxy comment="false" x="37" y="894">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="0"/>
                             <neg comment="false" id="2" x="0" y="0">
@@ -210,9 +214,9 @@
                         <int id="1" val="Walking Left 1"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="916">
+                <if comment="false" x="26" y="943">
                     <group eventID="1" id="-1">
-                        <create-actor3 comment="false" x="37" y="954">
+                        <create-actor3 comment="false" x="37" y="981">
                             <actortype eid="19" id="0"/>
                             <minus comment="false" id="1" x="0" y="0">
                                 <get-xy comment="false" id="0" x="0" y="0">
@@ -230,7 +234,7 @@
                             </get-xy>
                             <int id="3" val="2"/>
                         </create-actor3>
-                        <set-dxy comment="false" x="37" y="999">
+                        <set-dxy comment="false" x="37" y="1026">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="0"/>
                             <neg comment="false" id="2" x="0" y="0">
@@ -245,9 +249,9 @@
                         <int id="1" val="Idle Left 1"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="1048">
+                <if comment="false" x="26" y="1075">
                     <group eventID="1" id="-1">
-                        <create-actor3 comment="false" x="37" y="1086">
+                        <create-actor3 comment="false" x="37" y="1113">
                             <actortype eid="55" id="0"/>
                             <get-xy comment="false" id="1" x="0" y="0">
                                 <ACTOR eid="this" id="0"/>
@@ -259,7 +263,7 @@
                             </get-xy>
                             <int id="3" val="0"/>
                         </create-actor3>
-                        <set-dxy comment="false" x="37" y="1126">
+                        <set-dxy comment="false" x="37" y="1153">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="1"/>
                             <get-val-0-1 comment="false" id="2" x="0" y="0"/>
@@ -272,9 +276,9 @@
                         <int id="1" val="Walking Down 2"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="1170">
+                <if comment="false" x="26" y="1197">
                     <group eventID="1" id="-1">
-                        <create-actor3 comment="false" x="37" y="1208">
+                        <create-actor3 comment="false" x="37" y="1235">
                             <actortype eid="55" id="0"/>
                             <get-xy comment="false" id="1" x="0" y="0">
                                 <ACTOR eid="this" id="0"/>
@@ -286,7 +290,7 @@
                             </get-xy>
                             <int id="3" val="0"/>
                         </create-actor3>
-                        <set-dxy comment="false" x="37" y="1248">
+                        <set-dxy comment="false" x="37" y="1275">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="1"/>
                             <get-val-0-1 comment="false" id="2" x="0" y="0"/>
@@ -299,9 +303,9 @@
                         <int id="1" val="Idle Down 2"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="1292">
+                <if comment="false" x="26" y="1319">
                     <group eventID="1" id="-1">
-                        <create-actor3 comment="false" x="37" y="1330">
+                        <create-actor3 comment="false" x="37" y="1357">
                             <actortype eid="55" id="0"/>
                             <get-xy comment="false" id="1" x="0" y="0">
                                 <ACTOR eid="this" id="0"/>
@@ -313,7 +317,7 @@
                             </get-xy>
                             <int id="3" val="0"/>
                         </create-actor3>
-                        <set-dxy comment="false" x="37" y="1370">
+                        <set-dxy comment="false" x="37" y="1397">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="1"/>
                             <neg comment="false" id="2" x="0" y="0">
@@ -328,9 +332,9 @@
                         <int id="1" val="Walking Up 2"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="1419">
+                <if comment="false" x="26" y="1446">
                     <group eventID="1" id="-1">
-                        <create-actor3 comment="false" x="37" y="1457">
+                        <create-actor3 comment="false" x="37" y="1484">
                             <actortype eid="55" id="0"/>
                             <get-xy comment="false" id="1" x="0" y="0">
                                 <ACTOR eid="this" id="0"/>
@@ -342,7 +346,7 @@
                             </get-xy>
                             <int id="3" val="0"/>
                         </create-actor3>
-                        <set-dxy comment="false" x="37" y="1497">
+                        <set-dxy comment="false" x="37" y="1524">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="1"/>
                             <neg comment="false" id="2" x="0" y="0">
@@ -357,9 +361,9 @@
                         <int id="1" val="Idle Up 2"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="1546">
+                <if comment="false" x="26" y="1573">
                     <group eventID="1" id="-1">
-                        <create-actor3 comment="false" x="37" y="1584">
+                        <create-actor3 comment="false" x="37" y="1611">
                             <actortype eid="55" id="0"/>
                             <get-xy comment="false" id="1" x="0" y="0">
                                 <ACTOR eid="this" id="0"/>
@@ -371,7 +375,7 @@
                             </get-xy>
                             <int id="3" val="0"/>
                         </create-actor3>
-                        <set-dxy comment="false" x="37" y="1624">
+                        <set-dxy comment="false" x="37" y="1651">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="0"/>
                             <get-val-0-1 comment="false" id="2" x="0" y="0"/>
@@ -384,9 +388,9 @@
                         <int id="1" val="Walking Right 2"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="1668">
+                <if comment="false" x="26" y="1695">
                     <group eventID="1" id="-1">
-                        <create-actor3 comment="false" x="37" y="1706">
+                        <create-actor3 comment="false" x="37" y="1733">
                             <actortype eid="55" id="0"/>
                             <get-xy comment="false" id="1" x="0" y="0">
                                 <ACTOR eid="this" id="0"/>
@@ -398,7 +402,7 @@
                             </get-xy>
                             <int id="3" val="0"/>
                         </create-actor3>
-                        <set-dxy comment="false" x="37" y="1746">
+                        <set-dxy comment="false" x="37" y="1773">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="0"/>
                             <get-val-0-1 comment="false" id="2" x="0" y="0"/>
@@ -411,9 +415,9 @@
                         <int id="1" val="Idle Right 2"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="1790">
+                <if comment="false" x="26" y="1817">
                     <group eventID="1" id="-1">
-                        <create-actor3 comment="false" x="37" y="1828">
+                        <create-actor3 comment="false" x="37" y="1855">
                             <actortype eid="55" id="0"/>
                             <minus comment="false" id="1" x="0" y="0">
                                 <get-xy comment="false" id="0" x="0" y="0">
@@ -431,7 +435,7 @@
                             </get-xy>
                             <int id="3" val="2"/>
                         </create-actor3>
-                        <set-dxy comment="false" x="37" y="1873">
+                        <set-dxy comment="false" x="37" y="1900">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="0"/>
                             <neg comment="false" id="2" x="0" y="0">
@@ -446,9 +450,9 @@
                         <int id="1" val="Walking Left 2"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="1922">
+                <if comment="false" x="26" y="1949">
                     <group eventID="1" id="-1">
-                        <create-actor3 comment="false" x="37" y="1960">
+                        <create-actor3 comment="false" x="37" y="1987">
                             <actortype eid="55" id="0"/>
                             <minus comment="false" id="1" x="0" y="0">
                                 <get-xy comment="false" id="0" x="0" y="0">
@@ -466,7 +470,7 @@
                             </get-xy>
                             <int id="3" val="2"/>
                         </create-actor3>
-                        <set-dxy comment="false" x="37" y="2005">
+                        <set-dxy comment="false" x="37" y="2032">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="0"/>
                             <neg comment="false" id="2" x="0" y="0">
@@ -481,9 +485,9 @@
                         <int id="1" val="Idle Left 2"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="2054">
+                <if comment="false" x="26" y="2081">
                     <group eventID="1" id="-1">
-                        <create-actor3 comment="false" x="37" y="2092">
+                        <create-actor3 comment="false" x="37" y="2119">
                             <actortype eid="57" id="0"/>
                             <get-xy comment="false" id="1" x="0" y="0">
                                 <ACTOR eid="this" id="0"/>
@@ -495,7 +499,7 @@
                             </get-xy>
                             <int id="3" val="0"/>
                         </create-actor3>
-                        <set-dxy comment="false" x="37" y="2132">
+                        <set-dxy comment="false" x="37" y="2159">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="1"/>
                             <get-val-0-1 comment="false" id="2" x="0" y="0"/>
@@ -508,9 +512,9 @@
                         <int id="1" val="Walking Down 3"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="2176">
+                <if comment="false" x="26" y="2203">
                     <group eventID="1" id="-1">
-                        <create-actor3 comment="false" x="37" y="2214">
+                        <create-actor3 comment="false" x="37" y="2241">
                             <actortype eid="57" id="0"/>
                             <get-xy comment="false" id="1" x="0" y="0">
                                 <ACTOR eid="this" id="0"/>
@@ -522,7 +526,7 @@
                             </get-xy>
                             <int id="3" val="0"/>
                         </create-actor3>
-                        <set-dxy comment="false" x="37" y="2254">
+                        <set-dxy comment="false" x="37" y="2281">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="1"/>
                             <get-val-0-1 comment="false" id="2" x="0" y="0"/>
@@ -535,9 +539,9 @@
                         <int id="1" val="Idle Down 3"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="2298">
+                <if comment="false" x="26" y="2325">
                     <group eventID="1" id="-1">
-                        <create-actor3 comment="false" x="37" y="2336">
+                        <create-actor3 comment="false" x="37" y="2363">
                             <actortype eid="57" id="0"/>
                             <get-xy comment="false" id="1" x="0" y="0">
                                 <ACTOR eid="this" id="0"/>
@@ -549,7 +553,7 @@
                             </get-xy>
                             <int id="3" val="0"/>
                         </create-actor3>
-                        <set-dxy comment="false" x="37" y="2376">
+                        <set-dxy comment="false" x="37" y="2403">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="1"/>
                             <neg comment="false" id="2" x="0" y="0">
@@ -564,9 +568,9 @@
                         <int id="1" val="Walking Up 3"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="2425">
+                <if comment="false" x="26" y="2452">
                     <group eventID="1" id="-1">
-                        <create-actor3 comment="false" x="37" y="2463">
+                        <create-actor3 comment="false" x="37" y="2490">
                             <actortype eid="57" id="0"/>
                             <get-xy comment="false" id="1" x="0" y="0">
                                 <ACTOR eid="this" id="0"/>
@@ -578,7 +582,7 @@
                             </get-xy>
                             <int id="3" val="0"/>
                         </create-actor3>
-                        <set-dxy comment="false" x="37" y="2503">
+                        <set-dxy comment="false" x="37" y="2530">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="1"/>
                             <neg comment="false" id="2" x="0" y="0">
@@ -593,9 +597,9 @@
                         <int id="1" val="Idle Up 3"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="2552">
+                <if comment="false" x="26" y="2579">
                     <group eventID="1" id="-1">
-                        <create-actor3 comment="false" x="37" y="2590">
+                        <create-actor3 comment="false" x="37" y="2617">
                             <actortype eid="57" id="0"/>
                             <get-xy comment="false" id="1" x="0" y="0">
                                 <ACTOR eid="this" id="0"/>
@@ -607,7 +611,7 @@
                             </get-xy>
                             <int id="3" val="0"/>
                         </create-actor3>
-                        <set-dxy comment="false" x="37" y="2630">
+                        <set-dxy comment="false" x="37" y="2657">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="0"/>
                             <get-val-0-1 comment="false" id="2" x="0" y="0"/>
@@ -620,9 +624,9 @@
                         <int id="1" val="Walking Right 3"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="2674">
+                <if comment="false" x="26" y="2701">
                     <group eventID="1" id="-1">
-                        <create-actor3 comment="false" x="37" y="2712">
+                        <create-actor3 comment="false" x="37" y="2739">
                             <actortype eid="57" id="0"/>
                             <get-xy comment="false" id="1" x="0" y="0">
                                 <ACTOR eid="this" id="0"/>
@@ -634,7 +638,7 @@
                             </get-xy>
                             <int id="3" val="0"/>
                         </create-actor3>
-                        <set-dxy comment="false" x="37" y="2752">
+                        <set-dxy comment="false" x="37" y="2779">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="0"/>
                             <get-val-0-1 comment="false" id="2" x="0" y="0"/>
@@ -647,9 +651,9 @@
                         <int id="1" val="Idle Right 3"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="2796">
+                <if comment="false" x="26" y="2823">
                     <group eventID="1" id="-1">
-                        <create-actor3 comment="false" x="37" y="2834">
+                        <create-actor3 comment="false" x="37" y="2861">
                             <actortype eid="57" id="0"/>
                             <minus comment="false" id="1" x="0" y="0">
                                 <get-xy comment="false" id="0" x="0" y="0">
@@ -667,7 +671,7 @@
                             </get-xy>
                             <int id="3" val="2"/>
                         </create-actor3>
-                        <set-dxy comment="false" x="37" y="2879">
+                        <set-dxy comment="false" x="37" y="2906">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="0"/>
                             <neg comment="false" id="2" x="0" y="0">
@@ -682,9 +686,9 @@
                         <int id="1" val="Walking Left 3"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="2928">
+                <if comment="false" x="26" y="2955">
                     <group eventID="1" id="-1">
-                        <create-actor3 comment="false" x="37" y="2966">
+                        <create-actor3 comment="false" x="37" y="2993">
                             <actortype eid="57" id="0"/>
                             <minus comment="false" id="1" x="0" y="0">
                                 <get-xy comment="false" id="0" x="0" y="0">
@@ -702,7 +706,7 @@
                             </get-xy>
                             <int id="3" val="2"/>
                         </create-actor3>
-                        <set-dxy comment="false" x="37" y="3011">
+                        <set-dxy comment="false" x="37" y="3038">
                             <ACTOR eid="lastcreated" id="0"/>
                             <int id="1" val="0"/>
                             <neg comment="false" id="2" x="0" y="0">
@@ -1463,13 +1467,13 @@
         </draw>
     </group>
     <group eventID="12" id="-1">
-        <get-xy comment="false" x="365" y="358">
-            <ACTOR eid="this" id="0"/>
-            <int id="1" val="3"/>
-        </get-xy>
         <get-xy comment="false" x="272" y="454">
             <ACTOR eid="this" id="0"/>
             <int id="1" val="2"/>
+        </get-xy>
+        <get-xy comment="false" x="365" y="358">
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="3"/>
         </get-xy>
     </group>
     <group eventID="14" id="0">
