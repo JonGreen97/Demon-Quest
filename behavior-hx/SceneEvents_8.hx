@@ -70,7 +70,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_2 extends SceneScript
+class SceneEvents_8 extends SceneScript
 {
 	
 	
@@ -82,9 +82,6 @@ class SceneEvents_2 extends SceneScript
 	
 	override public function init()
 	{
-		
-		/* ======================== When Creating ========================= */
-		Engine.engine.setGameAttribute("Is Transitioning", false);
 		
 	}
 	

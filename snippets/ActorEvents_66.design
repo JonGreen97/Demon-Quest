@@ -13,13 +13,36 @@
                         </set-game-val-17>
                         <if comment="false" x="37" y="134">
                             <group eventID="1" id="-1">
-                                <create-actor3-next comment="false" x="48" y="164">
+                                <create-actor3 comment="false" x="48" y="164">
+                                    <actortype eid="0" id="0"/>
+                                    <int id="1" val="580"/>
+                                    <int id="2" val="210"/>
+                                    <int id="3" val="1"/>
+                                </create-actor3>
+                                <scene-change-color comment="false" x="48" y="191">
+                                    <scene eid="4" id="0"/>
+                                    <int id="1" val="0"/>
+                                    <int id="2" val="1"/>
+                                    <color b="0" g="0" id="3" r="0"/>
+                                    <int id="4" val="4"/>
+                                    <int id="5" val="1.5"/>
+                                    <color b="0" g="0" id="6" r="0"/>
+                                </scene-change-color>
+                            </group>
+                            <eq comment="false" id="0" x="0" y="0">
+                                <scenename comment="false" id="0" x="0" y="0"/>
+                                <int id="1" val="enter earth"/>
+                            </eq>
+                        </if>
+                        <if comment="false" x="37" y="230">
+                            <group eventID="1" id="-1">
+                                <create-actor3-next comment="false" x="48" y="260">
                                     <actortype eid="0" id="0"/>
                                     <int id="1" val="580"/>
                                     <int id="2" val="270"/>
                                     <int id="3" val="1"/>
                                 </create-actor3-next>
-                                <scene-change-through comment="false" x="48" y="191">
+                                <scene-change-through comment="false" x="48" y="287">
                                     <scene eid="5" id="0"/>
                                     <int id="1" val="3"/>
                                     <int id="2" val="1.5"/>
@@ -30,17 +53,17 @@
                                 <int id="1" val="scene 1"/>
                             </eq>
                         </if>
-                        <if comment="false" x="37" y="230">
+                        <if comment="false" x="37" y="326">
                             <group eventID="1" id="-1">
-                                <if comment="false" x="48" y="260">
+                                <if comment="false" x="48" y="356">
                                     <group eventID="1" id="-1">
-                                        <create-actor3-next comment="false" x="59" y="298">
+                                        <create-actor3-next comment="false" x="59" y="394">
                                             <actortype eid="0" id="0"/>
                                             <int id="1" val="300"/>
                                             <int id="2" val="410"/>
                                             <int id="3" val="1"/>
                                         </create-actor3-next>
-                                        <scene-change-through comment="false" x="59" y="325">
+                                        <scene-change-through comment="false" x="59" y="421">
                                             <scene eid="6" id="0"/>
                                             <int id="1" val="1"/>
                                             <int id="2" val="1.5"/>
@@ -53,15 +76,15 @@
                                         <int id="1" val="enter up"/>
                                     </eq>
                                 </if>
-                                <else-if comment="false" x="48" y="364">
+                                <else-if comment="false" x="48" y="460">
                                     <group eventID="1" id="-1">
-                                        <create-actor3-next comment="false" x="59" y="402">
+                                        <create-actor3-next comment="false" x="59" y="498">
                                             <actortype eid="0" id="0"/>
                                             <int id="1" val="63"/>
                                             <int id="2" val="272"/>
                                             <int id="3" val="1"/>
                                         </create-actor3-next>
-                                        <scene-change-through comment="false" x="59" y="429">
+                                        <scene-change-through comment="false" x="59" y="525">
                                             <scene eid="4" id="0"/>
                                             <int id="1" val="4"/>
                                             <int id="2" val="1.5"/>
@@ -80,17 +103,17 @@
                                 <int id="1" val="scene 2"/>
                             </eq>
                         </if>
-                        <if comment="false" x="37" y="480">
+                        <if comment="false" x="37" y="576">
                             <group eventID="1" id="-1">
-                                <if comment="false" x="48" y="510">
+                                <if comment="false" x="48" y="606">
                                     <group eventID="1" id="-1">
-                                        <create-actor3-next comment="false" x="59" y="548">
+                                        <create-actor3-next comment="false" x="59" y="644">
                                             <actortype eid="0" id="0"/>
                                             <int id="1" val="304"/>
                                             <int id="2" val="63"/>
                                             <int id="3" val="1"/>
                                         </create-actor3-next>
-                                        <scene-change-through comment="false" x="59" y="575">
+                                        <scene-change-through comment="false" x="59" y="671">
                                             <scene eid="5" id="0"/>
                                             <int id="1" val="2"/>
                                             <int id="2" val="1.5"/>
@@ -103,15 +126,15 @@
                                         <int id="1" val="enter down"/>
                                     </eq>
                                 </if>
-                                <else-if comment="false" x="48" y="614">
+                                <else-if comment="false" x="48" y="710">
                                     <group eventID="1" id="-1">
-                                        <create-actor3-next comment="false" x="59" y="652">
+                                        <create-actor3-next comment="false" x="59" y="748">
                                             <actortype eid="0" id="0"/>
                                             <int id="1" val="74"/>
                                             <int id="2" val="206"/>
                                             <int id="3" val="1"/>
                                         </create-actor3-next>
-                                        <scene-change-through comment="false" x="59" y="679">
+                                        <scene-change-through comment="false" x="59" y="775">
                                             <scene eid="7" id="0"/>
                                             <int id="1" val="4"/>
                                             <int id="2" val="1.5"/>
@@ -130,17 +153,17 @@
                                 <int id="1" val="scene 3"/>
                             </eq>
                         </if>
-                        <if comment="false" x="37" y="730">
+                        <if comment="false" x="37" y="826">
                             <group eventID="1" id="-1">
-                                <if comment="false" x="48" y="760">
+                                <if comment="false" x="48" y="856">
                                     <group eventID="1" id="-1">
-                                        <create-actor3-next comment="false" x="59" y="798">
+                                        <create-actor3-next comment="false" x="59" y="894">
                                             <actortype eid="0" id="0"/>
                                             <int id="1" val="312"/>
                                             <int id="2" val="410"/>
                                             <int id="3" val="1"/>
                                         </create-actor3-next>
-                                        <scene-change-through comment="false" x="59" y="825">
+                                        <scene-change-through comment="false" x="59" y="921">
                                             <scene eid="2" id="0"/>
                                             <int id="1" val="1"/>
                                             <int id="2" val="1.5"/>
@@ -153,15 +176,15 @@
                                         <int id="1" val="enter up"/>
                                     </eq>
                                 </if>
-                                <else-if comment="false" x="48" y="864">
+                                <else-if comment="false" x="48" y="960">
                                     <group eventID="1" id="-1">
-                                        <create-actor3-next comment="false" x="59" y="902">
+                                        <create-actor3-next comment="false" x="59" y="998">
                                             <actortype eid="0" id="0"/>
                                             <int id="1" val="555"/>
                                             <int id="2" val="208"/>
                                             <int id="3" val="1"/>
                                         </create-actor3-next>
-                                        <scene-change-through comment="false" x="59" y="929">
+                                        <scene-change-through comment="false" x="59" y="1025">
                                             <scene eid="6" id="0"/>
                                             <int id="1" val="3"/>
                                             <int id="2" val="1.5"/>
@@ -191,23 +214,17 @@
             <actortype eid="0" id="1"/>
         </event-collide-actortotype>
     </group>
-    <group eventID="1" id="2">
-        <die comment="false" x="657" y="243">
+    <group eventID="1" id="1">
+        <die comment="false" x="681" y="477">
             <ACTOR eid="lastcollided" id="0"/>
         </die>
-    </group>
-    <group eventID="1" id="3">
-        <die comment="false" x="705" y="291">
+        <die comment="false" x="681" y="504">
             <ACTOR eid="lastcollided" id="0"/>
         </die>
-    </group>
-    <group eventID="1" id="4">
-        <die comment="false" x="753" y="339">
+        <die comment="false" x="681" y="531">
             <ACTOR eid="lastcollided" id="0"/>
         </die>
-    </group>
-    <group eventID="1" id="6">
-        <die comment="false" x="978" y="188">
+        <die comment="false" x="681" y="558">
             <ACTOR eid="lastcollided" id="0"/>
         </die>
     </group>
@@ -219,6 +236,18 @@
                     <group eventID="2" id="-1">
                         <setanim comment="false" x="37" y="70">
                             <ACTOR eid="this" id="0"/>
+                            <int id="1" val="enter earth"/>
+                        </setanim>
+                    </group>
+                    <eq comment="false" id="0" x="0" y="0">
+                        <scenename comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="Earth Entrance"/>
+                    </eq>
+                </if>
+                <if comment="false" x="26" y="109">
+                    <group eventID="2" id="-1">
+                        <setanim comment="false" x="37" y="139">
+                            <ACTOR eid="this" id="0"/>
                             <int id="1" val="enter left"/>
                         </setanim>
                     </group>
@@ -227,11 +256,11 @@
                         <int id="1" val="scene 1"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="109">
+                <if comment="false" x="26" y="178">
                     <group eventID="2" id="-1">
-                        <if comment="false" x="37" y="139">
+                        <if comment="false" x="37" y="208">
                             <group eventID="2" id="-1">
-                                <setanim comment="false" x="48" y="177">
+                                <setanim comment="false" x="48" y="246">
                                     <ACTOR eid="this" id="0"/>
                                     <int id="1" val="enter right"/>
                                 </setanim>
@@ -244,9 +273,9 @@
                                 <int id="1" val="600"/>
                             </moreeq>
                         </if>
-                        <if comment="false" x="37" y="216">
+                        <if comment="false" x="37" y="285">
                             <group eventID="2" id="-1">
-                                <setanim comment="false" x="48" y="254">
+                                <setanim comment="false" x="48" y="323">
                                     <ACTOR eid="this" id="0"/>
                                     <int id="1" val="enter up"/>
                                 </setanim>
@@ -265,11 +294,11 @@
                         <int id="1" val="scene 2"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="305">
+                <if comment="false" x="26" y="374">
                     <group eventID="2" id="-1">
-                        <if comment="false" x="37" y="335">
+                        <if comment="false" x="37" y="404">
                             <group eventID="2" id="-1">
-                                <setanim comment="false" x="48" y="373">
+                                <setanim comment="false" x="48" y="442">
                                     <ACTOR eid="this" id="0"/>
                                     <int id="1" val="enter down"/>
                                 </setanim>
@@ -282,9 +311,9 @@
                                 <int id="1" val="440"/>
                             </moreeq>
                         </if>
-                        <if comment="false" x="37" y="412">
+                        <if comment="false" x="37" y="481">
                             <group eventID="2" id="-1">
-                                <setanim comment="false" x="48" y="450">
+                                <setanim comment="false" x="48" y="519">
                                     <ACTOR eid="this" id="0"/>
                                     <int id="1" val="enter right"/>
                                 </setanim>
@@ -303,11 +332,11 @@
                         <int id="1" val="scene 3"/>
                     </eq>
                 </if>
-                <if comment="false" x="26" y="501">
+                <if comment="false" x="26" y="570">
                     <group eventID="2" id="-1">
-                        <if comment="false" x="37" y="531">
+                        <if comment="false" x="37" y="600">
                             <group eventID="2" id="-1">
-                                <setanim comment="false" x="48" y="569">
+                                <setanim comment="false" x="48" y="638">
                                     <ACTOR eid="this" id="0"/>
                                     <int id="1" val="enter up"/>
                                 </setanim>
@@ -320,9 +349,9 @@
                                 <int id="1" val="37"/>
                             </lesseq>
                         </if>
-                        <if comment="false" x="37" y="608">
+                        <if comment="false" x="37" y="677">
                             <group eventID="2" id="-1">
-                                <setanim comment="false" x="48" y="646">
+                                <setanim comment="false" x="48" y="715">
                                     <ACTOR eid="this" id="0"/>
                                     <int id="1" val="enter left"/>
                                 </setanim>

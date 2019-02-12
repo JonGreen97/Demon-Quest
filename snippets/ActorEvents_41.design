@@ -62,7 +62,11 @@
                 </if>
                 <if comment="false" x="26" y="131">
                     <group eventID="9" id="-1">
-                        <die comment="false" x="37" y="161">
+                        <control-sound-channel comment="false" x="37" y="161">
+                            <int id="0" val="2"/>
+                            <int id="1" val="1"/>
+                        </control-sound-channel>
+                        <die comment="false" x="37" y="188">
                             <ACTOR eid="this" id="0"/>
                         </die>
                     </group>

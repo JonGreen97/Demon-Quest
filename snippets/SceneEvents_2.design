@@ -10,4 +10,17 @@
         </init>
     </group>
     <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <event-type-screen comment="false" x="15" y="15">
+            <group eventID="2" id="-1">
+                <set-game-val-20 comment="false" x="26" y="47">
+                    <true comment="false" id="0" x="0" y="0"/>
+                </set-game-val-20>
+            </group>
+            <actortype eid="0" id="0"/>
+            <int id="1" val="0"/>
+            <int id="2" val="0"/>
+        </event-type-screen>
+    </group>
+    <group eventID="2" id="-1"/>
 </groups>

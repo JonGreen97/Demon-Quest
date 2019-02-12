@@ -83,16 +83,6 @@ class SceneEvents_4 extends SceneScript
 	override public function init()
 	{
 		
-		/* ======================== When Creating ========================= */
-		if((Engine.engine.getGameAttribute("StartGameWizzy") == true))
-		{
-			createRecycledActor(getActorType(0), 580, 210, Script.FRONT);
-		}
-		if((getCurrentSceneName() == "scene 2"))
-		{
-			Engine.engine.setGameAttribute("StartGameWizzy", false);
-		}
-		
 		/* ======================= After N seconds ======================== */
 		runLater(1000 * .5, function(timeTask:TimedTask):Void
 		{
