@@ -52,7 +52,7 @@
             <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
         </anim>
         <anim across="1" down="1" durations="100" height="32" id="4" loop="true" name="enter earth" numframes="1" originx="16" originy="16" sync="false" version="2" width="32">
-            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 4" rest="0.0" sensor="false"/>
+            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 4" rest="0.0" sensor="true"/>
         </anim>
     </sprite>
     <tileset across="3" atlasID="0" desc="" down="3" id="4" name="EARTH" oid="-1" shared="false" th="32" tw="32">
@@ -74,7 +74,7 @@
             <poly data="4,0,0,64,0,64,49,0,49" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <music atlasID="0" desc="" id="74" loop="true" name="Earth Boss Theme" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
+    <music atlasID="0" desc="" id="74" loop="true" name="Earth Boss Theme" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
     <tileset across="6" atlasID="0" desc="" down="18" id="75" name="Earth Entrance Tiles" oid="-1" shared="false" th="32" tw="32">
         <tile collision="7" data="" durations="100" frames="0" id="0" order="-1"/>
         <tile collision="8" data="" durations="100" frames="1" id="3" order="-1"/>

@@ -7,7 +7,6 @@
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="is moving" hidden="false" id="4" name="_ismoving" order="3"/>
         <blocks/>
         <events>
-            <event displayName="Updating" enabled="false" id="16" name="step" order="29" repeats="true"/>
             <event displayName="Shooting" enabled="true" id="1" name="event-key-press-release" order="25" repeats="true"/>
             <event displayName="Keyboard" enabled="true" id="17" name="event-key-press-release" order="7" repeats="true"/>
             <event displayName="Movement" enabled="true" id="4" name="step" order="28" repeats="true"/>
@@ -121,7 +120,6 @@
         <blocks/>
         <events>
             <event displayName="Created" enabled="true" id="1" name="init" order="1" repeats="true"/>
-            <event displayName="Enters Screen" enabled="true" id="2" name="event-type-screen" order="2" repeats="true"/>
         </events>
     </snippet>
     <snippet actorid="35" attachedevent="true" class="scripts.ActorEvents_35" classname="scripts.ActorEvents_35" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="12" name="ActorEvents_35" oid="-1" package="scripts." shared="false" type="actor">

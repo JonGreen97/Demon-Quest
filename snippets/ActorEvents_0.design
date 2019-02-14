@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <groups>
-    <group eventID="16" id="0">
-        <step comment="false" x="15" y="15">
-            <group eventID="16" id="-1"/>
-        </step>
-    </group>
-    <group eventID="16" id="-1"/>
     <group eventID="1" id="0">
         <event-key-press-release comment="false" x="15" y="15">
             <group eventID="1" id="-1">
@@ -1467,13 +1461,13 @@
         </draw>
     </group>
     <group eventID="12" id="-1">
-        <get-xy comment="false" x="272" y="454">
-            <ACTOR eid="this" id="0"/>
-            <int id="1" val="2"/>
-        </get-xy>
         <get-xy comment="false" x="365" y="358">
             <ACTOR eid="this" id="0"/>
             <int id="1" val="3"/>
+        </get-xy>
+        <get-xy comment="false" x="272" y="454">
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="2"/>
         </get-xy>
     </group>
     <group eventID="14" id="0">

@@ -62,13 +62,12 @@
                 </if>
                 <if comment="false" x="26" y="131">
                     <group eventID="9" id="-1">
-                        <control-sound-channel comment="false" x="37" y="161">
-                            <int id="0" val="2"/>
-                            <int id="1" val="1"/>
-                        </control-sound-channel>
-                        <die comment="false" x="37" y="188">
+                        <die comment="false" x="37" y="161">
                             <ACTOR eid="this" id="0"/>
                         </die>
+                        <set-game-val-20 comment="false" x="37" y="188">
+                            <false comment="false" id="0" x="0" y="0"/>
+                        </set-game-val-20>
                     </group>
                     <lesseq comment="false" id="0" x="0" y="0">
                         <get-game-val-4 comment="false" id="0" x="0" y="0"/>
