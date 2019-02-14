@@ -1434,13 +1434,13 @@
     </group>
     <group eventID="11" id="-1"/>
     <group eventID="12" id="0">
-        <draw comment="false" x="15" y="15">
+        <draw comment="false" x="19" y="10">
             <group eventID="12" id="-1">
-                <set-font-new comment="false" x="26" y="40">
+                <set-font-new comment="false" x="30" y="35">
                     <font eid="46" id="0"/>
                 </set-font-new>
-                <to-screen-space comment="false" x="26" y="67"/>
-                <draw-text comment="false" x="26" y="87">
+                <to-screen-space comment="false" x="30" y="62"/>
+                <draw-text comment="false" x="30" y="82">
                     <get-game-val-3 comment="false" id="0" x="0" y="0"/>
                     <get-xy comment="false" id="1" x="0" y="0">
                         <ACTOR eid="this" id="0"/>
@@ -1460,14 +1460,19 @@
             </group>
         </draw>
     </group>
+    <group eventID="12" id="4">
+        <set-font-new comment="false" x="66" y="302">
+            <font eid="46" id="0"/>
+        </set-font-new>
+    </group>
     <group eventID="12" id="-1">
-        <get-xy comment="false" x="365" y="358">
-            <ACTOR eid="this" id="0"/>
-            <int id="1" val="3"/>
-        </get-xy>
         <get-xy comment="false" x="272" y="454">
             <ACTOR eid="this" id="0"/>
             <int id="1" val="2"/>
+        </get-xy>
+        <get-xy comment="false" x="365" y="358">
+            <ACTOR eid="this" id="0"/>
+            <int id="1" val="3"/>
         </get-xy>
     </group>
     <group eventID="14" id="0">

@@ -217,7 +217,6 @@
     <snippet attachedevent="true" class="scripts.SceneEvents_4" classname="scripts.SceneEvents_4" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="25" name="SceneEvents_4" oid="-1" package="scripts." sceneid="4" shared="false" type="scene">
         <blocks/>
         <events>
-            <event displayName="Created" enabled="false" id="1" name="init" order="1" repeats="true"/>
             <event displayName="After N secs" enabled="true" id="2" name="event-delay" order="2" repeats="true"/>
         </events>
     </snippet>
@@ -233,7 +232,8 @@
         <blocks/>
         <events>
             <event displayName="Drawing" enabled="true" id="1" name="draw" order="1" repeats="true"/>
-            <event displayName="After N secs" enabled="true" id="4" name="event-delay" order="3" repeats="true"/>
+            <event displayName="After N secs" enabled="true" id="4" name="event-delay" order="4" repeats="true"/>
+            <event displayName="Created" enabled="true" id="5" name="init" order="2" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_6" classname="scripts.SceneEvents_6" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="31" name="SceneEvents_6" oid="-1" package="scripts." sceneid="6" shared="false" type="scene">
