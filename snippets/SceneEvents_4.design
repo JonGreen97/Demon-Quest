@@ -11,10 +11,10 @@
             <ACTOR eid="lastcreated" id="2"/>
         </event-delay>
     </group>
-    <group eventID="2" id="2">
+    <group eventID="2" id="1">
         <to-screen-space comment="false" x="25" y="128"/>
     </group>
-    <group eventID="2" id="3">
+    <group eventID="2" id="2">
         <draw-text comment="false" x="20" y="205">
             <get-game-val-3 comment="false" id="0" x="0" y="0"/>
             <get-xy comment="false" id="1" x="0" y="0">

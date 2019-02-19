@@ -70,7 +70,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_6 extends SceneScript
+class SceneEvents_9 extends SceneScript
 {
 	
 	
@@ -84,16 +84,7 @@ class SceneEvents_6 extends SceneScript
 	{
 		
 		/* ======================== When Creating ========================= */
-		Engine.engine.setGameAttribute("Is Transitioning", false);
-		
-		/* ======================= After N seconds ======================== */
-		runLater(1000 * .5, function(timeTask:TimedTask):Void
-		{
-			if(wrapper.enabled)
-			{
-				Engine.engine.setGameAttribute("Is Transitioning", false);
-			}
-		}, null);
+		loopSoundOnChannel(getSound(73), Std.int(1));
 		
 	}
 	
