@@ -12,7 +12,7 @@
             <int id="2" val="1"/>
         </event-type-screen>
     </group>
-    <group eventID="1" id="2">
+    <group eventID="1" id="1">
         <set-game-val-8 comment="false" x="277" y="134">
             <minus comment="false" id="0" x="0" y="0">
                 <get-game-val-8 comment="false" id="0" x="0" y="0"/>
@@ -35,7 +35,7 @@
             <actortype eid="35" id="1"/>
         </event-collide-actortotype>
     </group>
-    <group eventID="2" id="2">
+    <group eventID="2" id="1">
         <set-game-val-8 comment="false" x="626" y="151">
             <minus comment="false" id="0" x="0" y="0">
                 <get-game-val-8 comment="false" id="0" x="0" y="0"/>
@@ -51,11 +51,11 @@
                     <ACTOR eid="this" id="0"/>
                 </die>
             </group>
-            <int id="0" val="2"/>
+            <int id="0" val="1"/>
             <ACTOR eid="this" id="2"/>
         </event-delay>
     </group>
-    <group eventID="3" id="2">
+    <group eventID="3" id="1">
         <set-game-val-8 comment="false" x="310" y="59">
             <minus comment="false" id="0" x="0" y="0">
                 <get-game-val-8 comment="false" id="0" x="0" y="0"/>
@@ -81,7 +81,7 @@
             <actortype eid="41" id="1"/>
         </event-collide-actortotype>
     </group>
-    <group eventID="4" id="2">
+    <group eventID="4" id="1">
         <set-game-val-8 comment="false" x="539" y="109">
             <minus comment="false" id="0" x="0" y="0">
                 <get-game-val-8 comment="false" id="0" x="0" y="0"/>

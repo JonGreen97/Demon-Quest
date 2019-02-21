@@ -1460,21 +1460,7 @@
             </group>
         </draw>
     </group>
-    <group eventID="12" id="1">
-        <set-font-new comment="false" x="66" y="302">
-            <font eid="46" id="0"/>
-        </set-font-new>
-    </group>
-    <group eventID="12" id="-1">
-        <get-xy comment="false" x="365" y="358">
-            <ACTOR eid="this" id="0"/>
-            <int id="1" val="3"/>
-        </get-xy>
-        <get-xy comment="false" x="272" y="454">
-            <ACTOR eid="this" id="0"/>
-            <int id="1" val="2"/>
-        </get-xy>
-    </group>
+    <group eventID="12" id="-1"/>
     <group eventID="14" id="0">
         <event-collide-actortotype comment="false" x="15" y="15">
             <group eventID="9" id="-1">

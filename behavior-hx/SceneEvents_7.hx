@@ -40,6 +40,7 @@ import box2D.common.math.B2Vec2;
 import box2D.dynamics.B2Body;
 import box2D.dynamics.B2Fixture;
 import box2D.dynamics.joints.B2Joint;
+import box2D.collision.shapes.B2Shape;
 
 import motion.Actuate;
 import motion.easing.Back;
@@ -69,68 +70,30 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_19 extends ActorScript
+class SceneEvents_7 extends SceneScript
 {
-	public var _firespeed:Float;
 	
 	
-	public function new(dummy:Int, actor:Actor, dummy2:Engine)
+	public function new(dummy:Int, dummy2:Engine)
 	{
-		super(actor);
-		nameMap.set("fire speed", "_firespeed");
-		_firespeed = 40.0;
+		super();
 		
 	}
 	
 	override public function init()
 	{
 		
-		/* ======================== Actor of Type ========================= */
-		addActorTypeGroupPositionListener(getActorType(19).ID, function(a:Actor, enteredScreen:Bool, exitedScreen:Bool, enteredScene:Bool, exitedScene:Bool, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled && exitedScreen)
-			{
-				recycleActor(actor);
-			}
-		});
+		/* ======================== When Creating ========================= */
+		
 		
 		/* ======================= After N seconds ======================== */
-		runLater(1000 * 1, function(timeTask:TimedTask):Void
+		runLater(1000 * .5, function(timeTask:TimedTask):Void
 		{
 			if(wrapper.enabled)
 			{
-				recycleActor(actor);
+				Engine.engine.setGameAttribute("Is Transitioning", false);
 			}
-		}, actor);
-		
-		/* ======================== Actor of Type ========================= */
-		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled && sameAsAny(getActorType(35), event.otherActor.getType(),event.otherActor.getGroup()))
-			{
-				recycleActor(actor);
-				recycleActor(event.otherActor);
-			}
-		});
-		
-		/* ======================== Actor of Type ========================= */
-		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled && sameAsAny(getActorType(41), event.otherActor.getType(),event.otherActor.getGroup()))
-			{
-				Engine.engine.setGameAttribute("Boss health", (Engine.engine.getGameAttribute("Boss health") - 5));
-				recycleActor(actor);
-			}
-		});
-		
-		/* ======================== Actor of Type ========================= */
-		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled && sameAsAny(getActorType(47), event.otherActor.getType(),event.otherActor.getGroup()))
-			{
-				recycleActor(actor);
-			}
-		});
+		}, null);
 		
 	}
 	

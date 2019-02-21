@@ -354,7 +354,7 @@
     </actor>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="32" id="48" name="Poison Ball" shared="false" width="32">
         <anim across="3" down="3" durations="100,100,100,100,100,100,100,100" height="96" id="0" loop="true" name="Animation 0" numframes="8" originx="16" originy="16" sync="false" version="2" width="96">
-            <poly data="4,2,2,29,2,29,29,2,29" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
+            <poly data="4,5,4,28,4,28,27,5,27" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
         </anim>
     </sprite>
     <tileset across="4" atlasID="0" desc="" down="6" id="24" name="Shroom" oid="-1" shared="false" th="32" tw="32">

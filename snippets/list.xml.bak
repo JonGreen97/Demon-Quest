@@ -209,9 +209,10 @@
         <events>
             <event displayName="Actor - Type" enabled="true" id="1" name="event-collide-actortotype" order="1" repeats="true"/>
             <event displayName="Created" enabled="true" id="2" name="init" order="4" repeats="true"/>
-            <event displayName="Every N secs" enabled="true" id="3" name="event-periodic" order="5" repeats="true"/>
+            <event displayName="Every N secs" enabled="true" id="3" name="event-periodic" order="6" repeats="true"/>
             <event displayName="Actor - Type Copy" enabled="true" id="4" name="event-collide-actortotype" order="2" repeats="true"/>
             <event displayName="Drawing" enabled="true" id="5" name="draw" order="3" repeats="true"/>
+            <event displayName="Every N secs" enabled="false" id="6" name="event-periodic" order="5" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="true" class="scripts.SceneEvents_4" classname="scripts.SceneEvents_4" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="25" name="SceneEvents_4" oid="-1" package="scripts." sceneid="4" shared="false" type="scene">
@@ -231,7 +232,7 @@
     <snippet attachedevent="true" class="scripts.SceneEvents_5" classname="scripts.SceneEvents_5" desc="Scene Specific Events" description="Scene Specific Events" design="true" drawOrder="0" id="30" name="SceneEvents_5" oid="-1" package="scripts." sceneid="5" shared="false" type="scene">
         <blocks/>
         <events>
-            <event displayName="Drawing" enabled="true" id="1" name="draw" order="1" repeats="true"/>
+            <event displayName="Drawing" enabled="false" id="1" name="draw" order="1" repeats="true"/>
             <event displayName="After N secs" enabled="true" id="4" name="event-delay" order="4" repeats="true"/>
             <event displayName="Created" enabled="true" id="5" name="init" order="2" repeats="true"/>
         </events>

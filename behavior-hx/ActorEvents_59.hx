@@ -90,8 +90,7 @@ class ActorEvents_59 extends ActorScript
 		
 		/* ======================== When Creating ========================= */
 		actor.growTo(150/100, 150/100, .35, Linear.easeNone);
-		_GolemHealth = asNumber(5);
-		propertyChanged("_GolemHealth", _GolemHealth);
+		Engine.engine.setGameAttribute("GolemHealth", 5);
 		
 		/* ======================== Actor of Type ========================= */
 		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
@@ -101,9 +100,8 @@ class ActorEvents_59 extends ActorScript
 				actor.setXVelocity(0);
 				actor.setYVelocity(0);
 				recycleActor(actor.getLastCollidedActor());
-				_GolemHealth = asNumber((_GolemHealth - 1));
-				propertyChanged("_GolemHealth", _GolemHealth);
-				if((_GolemHealth == 0))
+				Engine.engine.setGameAttribute("GolemHealth", (Engine.engine.getGameAttribute("GolemHealth") - 1));
+				if((Engine.engine.getGameAttribute("GolemHealth") <= 0))
 				{
 					recycleActor(actor);
 				}
@@ -118,12 +116,22 @@ class ActorEvents_59 extends ActorScript
 				actor.setXVelocity(0);
 				actor.setYVelocity(0);
 				recycleActor(actor.getLastCollidedActor());
-				_GolemHealth = asNumber((_GolemHealth - 2));
-				propertyChanged("_GolemHealth", _GolemHealth);
-				if((_GolemHealth == 0))
+				Engine.engine.setGameAttribute("GolemHealth", (Engine.engine.getGameAttribute("GolemHealth") - 2));
+				if((Engine.engine.getGameAttribute("GolemHealth") <= 0))
 				{
 					recycleActor(actor);
 				}
+			}
+		});
+		
+		/* ========================= When Drawing ========================= */
+		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
+		{
+			if(wrapper.enabled)
+			{
+				g.setFont(getFont(46));
+				g.translateToScreen();
+				g.drawString("" + "5", actor.getX(), actor.getY());
 			}
 		});
 		

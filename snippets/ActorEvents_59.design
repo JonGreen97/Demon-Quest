@@ -16,22 +16,22 @@
                 <die comment="false" x="26" y="101">
                     <ACTOR eid="lastcollided" id="0"/>
                 </die>
-                <set-val-24-1 comment="false" x="26" y="128">
+                <set-game-val-14 comment="false" x="26" y="128">
                     <minus comment="false" id="0" x="0" y="0">
-                        <get-val-24-1 comment="false" id="0" x="0" y="0"/>
+                        <get-game-val-14 comment="false" id="0" x="0" y="0"/>
                         <int id="1" val="1"/>
                     </minus>
-                </set-val-24-1>
+                </set-game-val-14>
                 <if comment="false" x="26" y="158">
                     <group eventID="1" id="-1">
                         <die comment="false" x="37" y="188">
                             <ACTOR eid="this" id="0"/>
                         </die>
                     </group>
-                    <eq comment="false" id="0" x="0" y="0">
-                        <get-val-24-1 comment="false" id="0" x="0" y="0"/>
+                    <lesseq comment="false" id="0" x="0" y="0">
+                        <get-game-val-14 comment="false" id="0" x="0" y="0"/>
                         <int id="1" val="0"/>
-                    </eq>
+                    </lesseq>
                 </if>
             </group>
             <ACTOR eid="this" id="0"/>
@@ -49,9 +49,9 @@
                     <int id="3" val=".35"/>
                     <int id="4" val="0"/>
                 </scaleTo>
-                <set-val-24-1 comment="false" x="26" y="67">
+                <set-game-val-14 comment="false" x="26" y="67">
                     <int id="0" val="5"/>
-                </set-val-24-1>
+                </set-game-val-14>
             </group>
         </init>
     </group>
@@ -233,22 +233,22 @@
                 <die comment="false" x="26" y="101">
                     <ACTOR eid="lastcollided" id="0"/>
                 </die>
-                <set-val-24-1 comment="false" x="26" y="128">
+                <set-game-val-14 comment="false" x="26" y="128">
                     <minus comment="false" id="0" x="0" y="0">
-                        <get-val-24-1 comment="false" id="0" x="0" y="0"/>
+                        <get-game-val-14 comment="false" id="0" x="0" y="0"/>
                         <int id="1" val="2"/>
                     </minus>
-                </set-val-24-1>
+                </set-game-val-14>
                 <if comment="false" x="26" y="158">
-                    <group eventID="1" id="-1">
+                    <group eventID="4" id="-1">
                         <die comment="false" x="37" y="188">
                             <ACTOR eid="this" id="0"/>
                         </die>
                     </group>
-                    <eq comment="false" id="0" x="0" y="0">
-                        <get-val-24-1 comment="false" id="0" x="0" y="0"/>
+                    <lesseq comment="false" id="0" x="0" y="0">
+                        <get-game-val-14 comment="false" id="0" x="0" y="0"/>
                         <int id="1" val="0"/>
-                    </eq>
+                    </lesseq>
                 </if>
             </group>
             <ACTOR eid="this" id="0"/>
@@ -258,8 +258,44 @@
     <group eventID="4" id="-1"/>
     <group eventID="5" id="0">
         <draw comment="false" x="15" y="15">
-            <group eventID="5" id="-1"/>
+            <group eventID="5" id="-1">
+                <set-font-new comment="false" x="26" y="40">
+                    <font eid="46" id="0"/>
+                </set-font-new>
+                <to-screen-space comment="false" x="26" y="67"/>
+                <draw-text comment="false" x="26" y="87">
+                    <int id="0" val="5"/>
+                    <get-xy comment="false" id="1" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                    <get-xy comment="false" id="2" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="1"/>
+                    </get-xy>
+                </draw-text>
+            </group>
         </draw>
     </group>
     <group eventID="5" id="-1"/>
+    <group eventID="6" id="0">
+        <event-periodic comment="false" x="15" y="15">
+            <group eventID="6" id="-1">
+                <if comment="false" x="26" y="42">
+                    <group eventID="6" id="-1">
+                        <die comment="false" x="37" y="72">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <lesseq comment="false" id="0" x="0" y="0">
+                        <get-game-val-14 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="0"/>
+                    </lesseq>
+                </if>
+            </group>
+            <int id="0" val=".25"/>
+            <ACTOR eid="this" id="2"/>
+        </event-periodic>
+    </group>
+    <group eventID="6" id="-1"/>
 </groups>
