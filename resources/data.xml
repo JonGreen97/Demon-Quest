@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <pack>
+    <tileset across="1" atlasID="0" desc="" down="1" id="65" name="Boulder" oid="-1" shared="false" th="32" tw="32">
+        <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
+    </tileset>
     <tileset across="1" atlasID="0" desc="" down="1" id="21" name="bush" oid="-1" shared="false" th="32" tw="32">
         <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
     </tileset>
@@ -55,23 +58,12 @@
             <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 4" rest="0.0" sensor="true"/>
         </anim>
     </sprite>
-    <tileset across="3" atlasID="0" desc="" down="3" id="4" name="EARTH" oid="-1" shared="false" th="32" tw="32">
-        <tile collision="7" data="" durations="100" frames="0" id="0" order="-1"/>
-        <tile collision="1" data="" durations="100" frames="1" id="1" order="-1"/>
-        <tile collision="8" data="" durations="100" frames="2" id="2" order="-1"/>
-        <tile collision="3" data="" durations="100" frames="3" id="3" order="-1"/>
-        <tile collision="-1" data="" durations="100" frames="4" id="4" order="-1"/>
-        <tile collision="4" data="" durations="100" frames="5" id="5" order="-1"/>
-        <tile collision="5" data="" durations="100" frames="6" id="6" order="-1"/>
-        <tile collision="2" data="" durations="100" frames="7" id="7" order="-1"/>
-        <tile collision="6" data="" durations="100" frames="8" id="8" order="-1"/>
-    </tileset>
     <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="42" name="Earth Boss" shared="false" width="64">
         <anim across="2" down="2" durations="100,100,100,100" height="128" id="0" loop="true" name="Phase 1" numframes="4" originx="32" originy="32" sync="false" version="2" width="128">
             <poly data="4,0,0,64,0,64,49,0,49" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="1" durations="100,100" height="64" id="1" loop="true" name="Phase 2" numframes="2" originx="32" originy="32" sync="false" version="2" width="128">
-            <poly data="4,0,0,64,0,64,49,0,49" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
+        <anim across="2" down="2" durations="100,100,100,100" height="128" id="1" loop="true" name="Phase 2" numframes="4" originx="32" originy="32" sync="false" version="2" width="128">
+            <poly data="4,0,0,64,0,64,49,0,49" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
     <music atlasID="0" desc="" id="74" loop="true" name="Earth Boss Theme" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
@@ -236,19 +228,23 @@
         <tile collision="-1" data="" durations="100" frames="107" id="267" order="-1"/>
     </tileset>
     <music atlasID="0" desc="" id="73" loop="true" name="Earth Level Theme" oid="-1" pan="0" shared="false" stream="true" type="mp3" volume="1"/>
-    <tileset across="3" atlasID="0" desc="" down="3" id="33" name="Fire" oid="-1" shared="false" th="32" tw="32">
-        <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="1" id="1" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="2" id="2" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="3" id="3" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="4" id="4" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="5" id="5" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="6" id="6" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="7" id="7" order="-1"/>
-        <tile collision="0" data="" durations="100" frames="8" id="8" order="-1"/>
-    </tileset>
-    <tileset across="1" atlasID="0" desc="" down="1" id="9" name="FIRE FLOOR" oid="-1" shared="false" th="32" tw="32">
-        <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
+    <tileset across="4" atlasID="0" desc="" down="4" id="63" name="Earth Rivers" oid="-1" shared="false" th="32" tw="32">
+        <tile collision="0" data="" durations="100" frames="0" id="45" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="1" id="75" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="2" id="65" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="3" id="70" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="4" id="50" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="5" id="110" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="6" id="115" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="7" id="80" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="8" id="55" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="9" id="105" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="10" id="120" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="11" id="85" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="12" id="60" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="13" id="100" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="14" id="95" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="15" id="90" order="-1"/>
     </tileset>
     <music atlasID="0" desc="" id="72" loop="true" name="Fireball" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="5" fixedrot="true" fric="0.2" gid="5" id="19" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Fireball 1" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="20" static="false">
@@ -275,9 +271,6 @@
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="23" fixedrot="true" fric="0.2" gid="5" id="57" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Fireball 3" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="58" static="false">
         <snippets/>
     </actor>
-    <tileset across="1" atlasID="0" desc="" down="1" id="34" name="gh" oid="-1" shared="false" th="32" tw="32">
-        <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
-    </tileset>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="24" fixedrot="true" fric="0.2" gid="3" id="59" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Golem" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="60" static="false">
         <snippets/>
     </actor>
@@ -359,7 +352,7 @@
     </sprite>
     <tileset across="4" atlasID="0" desc="" down="6" id="24" name="Shroom" oid="-1" shared="false" th="32" tw="32">
         <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
-        <tile collision="25" data="" durations="100" frames="1" id="1" order="-1"/>
+        <tile collision="0" data="" durations="100" frames="1" id="1" order="-1"/>
         <tile collision="-1" data="" durations="100" frames="2" id="6" order="-1"/>
         <tile collision="-1" data="" durations="100" frames="3" id="18" order="-1"/>
         <tile collision="2" data="" durations="100" frames="4" id="2" order="-1"/>
@@ -394,9 +387,6 @@
             <poly data="4,1,17,29,17,29,32,1,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <tileset across="1" atlasID="0" desc="" down="1" id="65" name="something" oid="-1" shared="false" th="32" tw="32">
-        <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
-    </tileset>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="15" fixedrot="true" fric="0.2" gid="3" id="41" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Turnapia" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="42" static="true">
         <snippets/>
     </actor>
@@ -425,9 +415,6 @@
     <tileset across="1" atlasID="0" desc="" down="2" id="45" name="Vines" oid="-1" shared="false" th="32" tw="32">
         <tile collision="0" data="" durations="100,100" frames="0" id="5" order="-1"/>
         <tile collision="0" data="" durations="100,100" frames="1" id="6" order="-1"/>
-    </tileset>
-    <tileset across="1" atlasID="0" desc="" down="1" id="63" name="water" oid="-1" shared="false" th="32" tw="32">
-        <tile collision="0" data="" durations="100" frames="0" id="0" order="-1"/>
     </tileset>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="false" desc="" eventsnippetid="0" fixedrot="true" fric="0.2" gid="7" id="0" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Wizzy" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="1" static="false">
         <snippets>
