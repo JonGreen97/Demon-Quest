@@ -280,6 +280,23 @@
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="23" fixedrot="true" fric="0.2" gid="5" id="57" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Fireball 3" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="58" static="false">
         <snippets/>
     </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="37" fixedrot="false" fric="0.2" gid="3" id="77" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Gems" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="78" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="32" id="78" name="Gems" shared="false" width="32">
+        <anim across="1" down="1" durations="100" height="32" id="0" loop="true" name="Ruby" numframes="1" originx="16" originy="16" sync="false" version="2" width="32">
+            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="32" id="1" loop="true" name="Emerald" numframes="1" originx="16" originy="16" sync="false" version="2" width="32">
+            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="32" id="2" loop="true" name="Topaz" numframes="1" originx="16" originy="16" sync="false" version="2" width="32">
+            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="32" id="3" loop="true" name="Daimond" numframes="1" originx="16" originy="16" sync="false" version="2" width="32">
+            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="24" fixedrot="true" fric="0.2" gid="3" id="59" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Golem" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="60" static="false">
         <snippets/>
     </actor>
@@ -300,17 +317,14 @@
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="0" continuous="true" desc="" eventsnippetid="13" fixedrot="true" fric="0.2" gid="3" id="37" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Health Powerup" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="38" static="true">
         <snippets/>
     </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="32" id="38" name="Health Powerup" shared="false" width="32">
-        <anim across="2" down="1" durations="100,100" height="32" id="0" loop="true" name="Idle" numframes="2" originx="16" originy="16" sync="false" version="2" width="64">
-            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="1" down="1" durations="100" height="32" id="1" loop="true" name="Collected" numframes="1" originx="16" originy="16" sync="false" version="2" width="32">
+    <sprite atlasID="0" default="4" defaultAnimation="4" desc="" height="32" id="38" name="Health Powerup" shared="false" width="32">
+        <anim across="2" down="1" durations="100,100" height="32" id="4" loop="true" name="Idle" numframes="2" originx="16" originy="16" sync="false" version="2" width="64">
             <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="1" durations="100,100" height="32" id="2" loop="true" name="Boss Spawn" numframes="2" originx="16" originy="16" sync="false" version="2" width="64">
-            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 2" rest="0.0" sensor="false"/>
+        <anim across="2" down="1" durations="100,100" height="32" id="6" loop="true" name="Collect" numframes="2" originx="16" originy="16" sync="false" version="2" width="64">
+            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="1" durations="100,100" height="32" id="3" loop="true" name="Collect" numframes="2" originx="16" originy="16" sync="false" version="2" width="64">
+        <anim across="1" down="1" durations="100" height="32" id="7" loop="true" name="Collected" numframes="1" originx="16" originy="16" sync="false" version="2" width="32">
             <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 1" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
@@ -351,6 +365,9 @@
             <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="16" fixedrot="false" fric="0.2" gid="3" id="43" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Plant Enemy" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="44" static="false">
+        <snippets/>
+    </actor>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="17" fixedrot="true" fric="0.2" gid="3" id="47" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Poison Ball" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="48" static="false">
         <snippets/>
     </actor>
@@ -400,27 +417,19 @@
         <snippets/>
     </actor>
     <sprite atlasID="0" default="2" defaultAnimation="2" desc="" height="32" id="44" name="Vine" shared="false" width="32">
-        <anim across="2" down="2" durations="100,100,100,100" height="64" id="2" loop="true" name="Left" numframes="4" originx="16" originy="16" sync="false" version="2" width="64">
+        <anim across="1" down="1" durations="100" height="32" id="2" loop="true" name="Left Idle" numframes="1" originx="16" originy="16" sync="false" version="2" width="32">
             <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Left" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="2" durations="100,100,100,100" height="64" id="5" loop="true" name="X Grow" numframes="4" originx="16" originy="16" sync="false" version="2" width="64">
+        <anim across="1" down="1" durations="100" height="32" id="3" loop="true" name="Left Attack" numframes="1" originx="32" originy="0" sync="false" version="2" width="32">
+            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Left" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="32" id="4" loop="true" name="Right Idle" numframes="1" originx="16" originy="16" sync="false" version="2" width="32">
+            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Left" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="32" id="5" loop="true" name="Right Attack" numframes="1" originx="0" originy="0" sync="false" version="2" width="32">
             <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Left" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" height="32" id="50" name="Vine" shared="false" width="32">
-        <anim across="2" down="2" durations="100,100,100,100" height="64" id="1" loop="true" name="Right" numframes="4" originx="16" originy="16" sync="false" version="2" width="64">
-            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Right" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="2" down="2" durations="100,100,100,100" height="64" id="5" loop="true" name="X Grow" numframes="4" originx="16" originy="16" sync="false" version="2" width="64">
-            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Left" rest="0.0" sensor="false"/>
-        </anim>
-    </sprite>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="16" fixedrot="false" fric="0.2" gid="3" id="43" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Vine Left" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="44" static="false">
-        <snippets/>
-    </actor>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="18" fixedrot="false" fric="0.2" gid="3" id="49" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Vine Right" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="50" static="false">
-        <snippets/>
-    </actor>
     <tileset across="1" atlasID="0" desc="" down="2" id="45" name="Vines" oid="-1" shared="false" th="32" tw="32">
         <tile collision="0" data="" durations="100,100" frames="0" id="5" order="-1"/>
         <tile collision="0" data="" durations="100,100" frames="1" id="6" order="-1"/>
