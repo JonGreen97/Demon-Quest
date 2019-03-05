@@ -269,15 +269,7 @@
             <poly data="4,0,0,29,0,29,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="58" name="Fireball 1" readable="false" shared="false">
-        <anim across="2" down="1" durations="100,100" height="38" id="0" loop="true" name="Animation 0" numframes="2" originx="14" originy="19" sync="false" version="2" width="58">
-            <poly data="4,0,0,29,0,29,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
-        </anim>
-    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="22" fixedrot="true" fric="0.2" gid="5" id="55" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Fireball 2" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="56" static="false">
-        <snippets/>
-    </actor>
-    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="23" fixedrot="true" fric="0.2" gid="5" id="57" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Fireball 3" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="58" static="false">
         <snippets/>
     </actor>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="37" fixedrot="false" fric="0.2" gid="3" id="77" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Gems" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="78" static="false">
@@ -442,77 +434,77 @@
         </snippets>
     </actor>
     <sprite atlasID="0" default="4" defaultAnimation="4" desc="" id="1" name="Wizzy" readable="false" shared="false">
-        <anim across="2" down="2" durations="100,100,100,100" height="68" id="0" loop="true" name="Walking Down 1" numframes="4" originx="12" originy="17" sync="false" version="2" width="48">
+        <anim across="2" down="2" durations="100,100,100,100" height="68" id="0" loop="true" name="Walking Down Fire 1" numframes="4" originx="12" originy="17" sync="false" version="2" width="48">
             <poly data="4,0,0,24,0,24,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Walking Down" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="2" durations="100,100,100,100" height="68" id="1" loop="true" name="Walking Left 1" numframes="4" originx="12" originy="17" sync="false" version="2" width="48">
+        <anim across="2" down="2" durations="100,100,100,100" height="66" id="32" loop="true" name="Idle Left Start" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
+            <poly data="4,0,0,24,0,24,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 30" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="2" durations="100,100,100,100" height="68" id="1" loop="true" name="Walking Left Fire 1" numframes="4" originx="12" originy="17" sync="false" version="2" width="48">
             <poly data="4,0,0,24,0,24,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Walk Left" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="2" durations="100,100,100,100" height="68" id="2" loop="true" name="Walking Up 1" numframes="4" originx="12" originy="17" sync="false" version="2" width="48">
+        <anim across="2" down="2" durations="100,100,100,100" height="66" id="33" loop="true" name="Idle Right Start" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
+            <poly data="4,0,0,24,0,24,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 30" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="2" down="2" durations="100,100,100,100" height="68" id="2" loop="true" name="Walking Up Fire 1" numframes="4" originx="12" originy="17" sync="false" version="2" width="48">
             <poly data="4,0,0,24,0,24,32,0,32" density="0.1" fric="0.2" gid="0" id="0" name="Walking Up" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="2" durations="100,100,100,100" height="68" id="3" loop="true" name="Walking Right 1" numframes="4" originx="12" originy="17" sync="false" version="2" width="48">
+        <anim across="2" down="2" durations="100,100,100,100" height="68" id="3" loop="true" name="Walking Right Fire 1" numframes="4" originx="12" originy="17" sync="false" version="2" width="48">
             <poly data="4,0,0,24,0,24,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Walking Right" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="2" durations="100,100,100,100" height="66" id="4" loop="true" name="Idle Down 1" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
+        <anim across="2" down="2" durations="100,100,100,100" height="66" id="4" loop="true" name="Idle Down Fire 1" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
             <poly data="4,0,0,24,0,24,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 4" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="2" durations="100,100,100,100" height="66" id="5" loop="true" name="Idle Left 1" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
+        <anim across="2" down="2" durations="100,100,100,100" height="66" id="5" loop="true" name="Idle Left Fire 1" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
             <poly data="4,0,0,24,0,24,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 5" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="2" durations="100,100,100,100" height="66" id="6" loop="true" name="Idle Right 1" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
+        <anim across="2" down="2" durations="100,100,100,100" height="66" id="6" loop="true" name="Idle Right Fire 1" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
             <poly data="4,0,0,24,0,24,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 6" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="2" durations="100,100,100,100" height="66" id="7" loop="true" name="Idle Up 1" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
+        <anim across="2" down="2" durations="100,100,100,100" height="66" id="7" loop="true" name="Idle Up Fire 1" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
             <poly data="4,0,0,24,0,24,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Idle Up" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="2" durations="100,100,100,100" height="66" id="8" loop="true" name="Idle Down 2" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
+        <anim across="2" down="2" durations="100,100,100,100" height="66" id="8" loop="true" name="Idle Down Fire 2" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
             <poly data="4,0,0,24,0,24,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="Idle Down 2" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="2" durations="100,100,100,100" height="66" id="9" loop="true" name="Idle Left 2" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
+        <anim across="2" down="2" durations="100,100,100,100" height="66" id="9" loop="true" name="Idle Left Fire 2" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
             <poly data="4,0,0,24,0,24,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="Idle Down 2" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="2" durations="100,100,100,100" height="66" id="10" loop="true" name="Idle Right 2" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
+        <anim across="2" down="2" durations="100,100,100,100" height="66" id="10" loop="true" name="Idle Right Fire 2" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
             <poly data="4,0,0,24,0,24,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="Idle Down 2" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="2" durations="100,100,100,100" height="66" id="11" loop="true" name="Idle Up 2" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
+        <anim across="2" down="2" durations="100,100,100,100" height="66" id="11" loop="true" name="Idle Up Fire 2" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
             <poly data="4,0,0,24,0,24,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="Idle Down 2" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="2" durations="100,100,100,100" height="66" id="12" loop="true" name="Walking Up 2" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
+        <anim across="2" down="2" durations="100,100,100,100" height="66" id="12" loop="true" name="Walking Up Fire 2" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
             <poly data="4,0,0,24,0,24,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="Walking Down 2" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="2" durations="100,100,100,100" height="66" id="13" loop="true" name="Walking Left 2" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
+        <anim across="2" down="2" durations="100,100,100,100" height="66" id="13" loop="true" name="Walking Left Fire 2" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
             <poly data="4,0,0,24,0,24,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="Walking Down 2" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="2" durations="100,100,100,100" height="66" id="14" loop="true" name="Walking Right 2" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
+        <anim across="2" down="2" durations="100,100,100,100" height="66" id="14" loop="true" name="Walking Right Fire 2" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
             <poly data="4,0,0,24,0,24,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="Walking Down 2" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="2" durations="100,100,100,100" height="66" id="15" loop="true" name="Walking Down 2" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
+        <anim across="2" down="2" durations="100,100,100,100" height="66" id="15" loop="true" name="Walking Down Fire 2" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
             <poly data="4,0,0,24,0,24,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="Walking Down 2" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="2" durations="100,100,100,100" height="66" id="16" loop="true" name="Idle Down 3" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
-            <poly data="4,0,0,24,0,24,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="Idle Down 3" rest="0.0" sensor="false"/>
+        <anim across="2" down="2" durations="100,100,100,100" height="66" id="26" loop="true" name="Walking Right Start" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
+            <poly data="4,0,0,24,0,24,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 24" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="2" durations="100,100,100,100" height="66" id="17" loop="true" name="Idle Left 3" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
-            <poly data="4,0,0,24,0,24,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="Idle Down 3" rest="0.0" sensor="false"/>
+        <anim across="2" down="2" durations="100,100,100,100" height="66" id="27" loop="true" name="Walking Left Start" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
+            <poly data="4,0,0,24,0,24,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 24" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="2" durations="100,100,100,100" height="66" id="18" loop="true" name="Idle Right 3" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
-            <poly data="4,0,0,24,0,24,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="Idle Down 3" rest="0.0" sensor="false"/>
+        <anim across="2" down="2" durations="100,100,100,100" height="66" id="28" loop="true" name="Walking Up Start" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
+            <poly data="4,0,0,24,0,24,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 24" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="2" durations="100,100,100,100" height="66" id="19" loop="true" name="Idle Up 3" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
-            <poly data="4,0,0,24,0,24,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="Idle Down 3" rest="0.0" sensor="false"/>
+        <anim across="2" down="2" durations="100,100,100,100" height="66" id="29" loop="true" name="Walking Down Start" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
+            <poly data="4,0,0,24,0,24,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 24" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="2" durations="100,100,100,100" height="66" id="20" loop="true" name="Walking Down 3" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
-            <poly data="4,0,0,24,0,24,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="Walking Down 3" rest="0.0" sensor="false"/>
+        <anim across="2" down="2" durations="100,100,100,100" height="66" id="30" loop="true" name="Idle Up Start" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
+            <poly data="4,0,0,24,0,24,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 30" rest="0.0" sensor="false"/>
         </anim>
-        <anim across="2" down="2" durations="100,100,100,100" height="66" id="21" loop="true" name="Walking Up 3" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
-            <poly data="4,0,0,24,0,24,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="Walking Down 3" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="2" down="2" durations="100,100,100,100" height="66" id="22" loop="true" name="Walking Left 3" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
-            <poly data="4,0,0,24,0,24,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="Walking Down 3" rest="0.0" sensor="false"/>
-        </anim>
-        <anim across="2" down="2" durations="100,100,100,100" height="66" id="23" loop="true" name="Walking Right 3" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
-            <poly data="4,0,0,24,0,24,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="Walking Down 3" rest="0.0" sensor="false"/>
+        <anim across="2" down="2" durations="100,100,100,100" height="66" id="31" loop="true" name="Idle Down Start" numframes="4" originx="12" originy="16" sync="false" version="2" width="48">
+            <poly data="4,0,0,24,0,24,33,0,33" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 30" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
 </pack>
