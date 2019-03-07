@@ -340,6 +340,23 @@
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="21" fixedrot="false" fric="0.2" gid="8" id="53" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="LevelCoin2" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="54" static="false">
         <snippets/>
     </actor>
+    <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="38" fixedrot="false" fric="0.2" gid="5" id="79" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Mana Ball" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="80" static="false">
+        <snippets/>
+    </actor>
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" id="80" name="Mana Ball" readable="false" shared="false">
+        <anim across="1" down="1" durations="100" height="0" id="0" loop="true" name="Up" numframes="1" originx="16" originy="16" sync="false" version="2" width="0">
+            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="0" id="1" loop="true" name="Down" numframes="1" originx="16" originy="16" sync="false" version="2" width="0">
+            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="0" id="2" loop="true" name="Left" numframes="1" originx="16" originy="16" sync="false" version="2" width="0">
+            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+        <anim across="1" down="1" durations="100" height="0" id="3" loop="true" name="Right" numframes="1" originx="16" originy="16" sync="false" version="2" width="0">
+            <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
+        </anim>
+    </sprite>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="35" fixedrot="false" fric="0.2" gid="3" id="70" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Mr Boney Pants Guy" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="71" static="false">
         <snippets/>
     </actor>
