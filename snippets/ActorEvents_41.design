@@ -81,10 +81,22 @@
     </group>
     <group eventID="9" id="-1"/>
     <group eventID="11" id="0">
-        <event-actor-create-kill comment="false" x="15" y="15">
+        <event-actor-create-kill comment="false" x="2" y="17">
             <group eventID="11" id="-1">
-                <create-actor3 comment="false" x="26" y="42">
+                <create-actor3 comment="false" x="13" y="44">
                     <actortype eid="51" id="0"/>
+                    <get-xy comment="false" id="1" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="0"/>
+                    </get-xy>
+                    <get-xy comment="false" id="2" x="0" y="0">
+                        <ACTOR eid="this" id="0"/>
+                        <int id="1" val="1"/>
+                    </get-xy>
+                    <int id="3" val="0"/>
+                </create-actor3>
+                <create-actor3 comment="false" x="13" y="84">
+                    <actortype eid="77" id="0"/>
                     <get-xy comment="false" id="1" x="0" y="0">
                         <ACTOR eid="this" id="0"/>
                         <int id="1" val="0"/>

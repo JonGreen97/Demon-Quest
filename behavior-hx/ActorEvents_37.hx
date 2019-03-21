@@ -69,19 +69,13 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class ActorEvents_59 extends ActorScript
+class ActorEvents_37 extends ActorScript
 {
-	public var _GolemHealth:Float;
-	public var _m:Float;
 	
 	
 	public function new(dummy:Int, actor:Actor, dummy2:Engine)
 	{
 		super(actor);
-		nameMap.set("GolemHealth", "_GolemHealth");
-		_GolemHealth = 0.0;
-		nameMap.set("m", "_m");
-		_m = 0.0;
 		
 	}
 	
@@ -89,84 +83,83 @@ class ActorEvents_59 extends ActorScript
 	{
 		
 		/* ======================== When Creating ========================= */
-		actor.growTo(150/100, 150/100, .35, Linear.easeNone);
-		Engine.engine.setGameAttribute("GolemHealth", 5);
+		actor.makeAlwaysSimulate();
 		
 		/* ======================== Actor of Type ========================= */
 		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
 		{
-			if(wrapper.enabled && sameAsAny(getActorType(19), event.otherActor.getType(),event.otherActor.getGroup()))
+			if(wrapper.enabled && sameAsAny(getActorType(0), event.otherActor.getType(),event.otherActor.getGroup()))
 			{
-				actor.setXVelocity(0);
-				actor.setYVelocity(0);
-				recycleActor(actor.getLastCollidedActor());
-				Engine.engine.setGameAttribute("GolemHealth", (Engine.engine.getGameAttribute("GolemHealth") - 1));
-				if((Engine.engine.getGameAttribute("GolemHealth") <= 0))
+				if((getCurrentSceneName() == "scene 1"))
 				{
-					recycleActor(actor);
+					if((actor.getAnimation() == "Idle"))
+					{
+						Engine.engine.setGameAttribute("Player Health", (Engine.engine.getGameAttribute("Player Health") + 50));
+						Engine.engine.setGameAttribute("HealthCarry", 1);
+						actor.setAnimation("" + "Collect");
+						runLater(1000 * .4, function(timeTask:TimedTask):Void
+						{
+							actor.setAnimation("" + "Collected");
+						}, actor);
+					}
+					else if((actor.getAnimation() == "Collected"))
+					{
+						Engine.engine.setGameAttribute("Player Health", Engine.engine.getGameAttribute("Player Health"));
+					}
+				}
+				if((getCurrentSceneName() == "scene 2"))
+				{
+					if((actor.getAnimation() == "Idle"))
+					{
+						Engine.engine.setGameAttribute("Player Health", (Engine.engine.getGameAttribute("Player Health") + 50));
+						Engine.engine.setGameAttribute("HealthCarry", 1);
+						actor.setAnimation("" + "Collect");
+						runLater(1000 * .4, function(timeTask:TimedTask):Void
+						{
+							actor.setAnimation("" + "Collected");
+						}, actor);
+					}
+					else if((actor.getAnimation() == "Collected"))
+					{
+						Engine.engine.setGameAttribute("Player Health", Engine.engine.getGameAttribute("Player Health"));
+					}
+				}
+				if((getCurrentSceneName() == "scene 3"))
+				{
+					if((actor.getAnimation() == "Idle"))
+					{
+						Engine.engine.setGameAttribute("Player Health", (Engine.engine.getGameAttribute("Player Health") + 50));
+						Engine.engine.setGameAttribute("HealthCarry", 1);
+						actor.setAnimation("" + "Collect");
+						runLater(1000 * .4, function(timeTask:TimedTask):Void
+						{
+							actor.setAnimation("" + "Collected");
+						}, actor);
+					}
+					else if((actor.getAnimation() == "Collected"))
+					{
+						Engine.engine.setGameAttribute("Player Health", Engine.engine.getGameAttribute("Player Health"));
+					}
+				}
+				if((getCurrentSceneName() == "scene 4"))
+				{
+					if((actor.getAnimation() == "Idle"))
+					{
+						Engine.engine.setGameAttribute("Player Health", (Engine.engine.getGameAttribute("Player Health") + 50));
+						Engine.engine.setGameAttribute("HealthCarry", 1);
+						actor.setAnimation("" + "Collect");
+						runLater(1000 * .4, function(timeTask:TimedTask):Void
+						{
+							actor.setAnimation("" + "Collected");
+						}, actor);
+					}
+				}
+				else if((actor.getAnimation() == "Collected"))
+				{
+					Engine.engine.setGameAttribute("Player Health", Engine.engine.getGameAttribute("Player Health"));
 				}
 			}
 		});
-		
-		/* ======================== Actor of Type ========================= */
-		addCollisionListener(actor, function(event:Collision, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled && sameAsAny(getActorType(55), event.otherActor.getType(),event.otherActor.getGroup()))
-			{
-				actor.setXVelocity(0);
-				actor.setYVelocity(0);
-				recycleActor(actor.getLastCollidedActor());
-				Engine.engine.setGameAttribute("GolemHealth", (Engine.engine.getGameAttribute("GolemHealth") - 2));
-				if((Engine.engine.getGameAttribute("GolemHealth") <= 0))
-				{
-					recycleActor(actor);
-				}
-			}
-		});
-		
-		/* ========================= When Drawing ========================= */
-		addWhenDrawingListener(null, function(g:G, x:Float, y:Float, list:Array<Dynamic>):Void
-		{
-			if(wrapper.enabled)
-			{
-				g.setFont(getFont(46));
-				g.translateToScreen();
-				g.drawString("" + "5", actor.getX(), actor.getY());
-			}
-		});
-		
-		/* ======================= Every N seconds ======================== */
-		runPeriodically(1000 * .4, function(timeTask:TimedTask):Void
-		{
-			if(wrapper.enabled)
-			{
-				_m = asNumber(((Engine.engine.getGameAttribute("Wizzy1Y") - actor.getYCenter()) / (Engine.engine.getGameAttribute("Wizzy1X") - actor.getXCenter())));
-				propertyChanged("_m", _m);
-				actor.push((Engine.engine.getGameAttribute("Wizzy1X") - actor.getXCenter()), (Engine.engine.getGameAttribute("Wizzy1Y") - actor.getYCenter()), 35);
-				if(((_m <= 1) && (_m >= -1)))
-				{
-					if((Engine.engine.getGameAttribute("Wizzy1X") < actor.getYCenter()))
-					{
-						actor.setAnimation("" + "Walk Left");
-					}
-					else if((Engine.engine.getGameAttribute("Wizzy1X") > actor.getYCenter()))
-					{
-						actor.setAnimation("" + "Walk Right");
-					}
-				}
-				else
-				{
-					if((Engine.engine.getGameAttribute("Wizzy1Y") < actor.getXCenter()))
-					{
-						actor.setAnimation("" + "Walk Down");
-					}
-					else if((Engine.engine.getGameAttribute("Wizzy1Y") > actor.getXCenter()))
-					{
-						actor.setAnimation("" + "Walk Up");
-					}
-				}
-			}
-		}, actor);
 		
 	}
 	
