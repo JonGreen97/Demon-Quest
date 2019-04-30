@@ -298,4 +298,43 @@
         </event-periodic>
     </group>
     <group eventID="6" id="-1"/>
+    <group eventID="7" id="0">
+        <event-collide-actortotype comment="false" x="15" y="15">
+            <group eventID="1" id="-1">
+                <set-dxy comment="false" x="26" y="47">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="0"/>
+                    <int id="2" val="0"/>
+                </set-dxy>
+                <set-dxy comment="false" x="26" y="74">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="1"/>
+                    <int id="2" val="0"/>
+                </set-dxy>
+                <die comment="false" x="26" y="101">
+                    <ACTOR eid="lastcollided" id="0"/>
+                </die>
+                <set-game-val-14 comment="false" x="26" y="128">
+                    <minus comment="false" id="0" x="0" y="0">
+                        <get-game-val-14 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="1"/>
+                    </minus>
+                </set-game-val-14>
+                <if comment="false" x="26" y="158">
+                    <group eventID="4" id="-1">
+                        <die comment="false" x="37" y="188">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <lesseq comment="false" id="0" x="0" y="0">
+                        <get-game-val-14 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="0"/>
+                    </lesseq>
+                </if>
+            </group>
+            <ACTOR eid="this" id="0"/>
+            <actortype eid="79" id="1"/>
+        </event-collide-actortotype>
+    </group>
+    <group eventID="7" id="-1"/>
 </groups>
