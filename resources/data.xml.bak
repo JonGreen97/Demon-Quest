@@ -255,7 +255,6 @@
         <tile collision="0" data="" durations="100" frames="14" id="95" order="-1"/>
         <tile collision="0" data="" durations="100" frames="15" id="90" order="-1"/>
     </tileset>
-    <music atlasID="0" desc="" id="72" loop="true" name="Fireball" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="5" fixedrot="true" fric="0.2" gid="5" id="19" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Fireball 1" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="20" static="false">
         <snippets/>
     </actor>
@@ -348,6 +347,7 @@
             <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
     </sprite>
+    <music atlasID="0" desc="" id="81" loop="true" name="Mana Ball Sound" oid="-1" pan="0" shared="false" stream="false" type="mp3" volume="1"/>
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="35" fixedrot="false" fric="0.2" gid="3" id="70" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Mr Boney Pants Guy" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="71" static="false">
         <snippets/>
     </actor>

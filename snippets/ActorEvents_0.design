@@ -5,7 +5,7 @@
             <group eventID="1" id="-1">
                 <play-sound4 comment="false" x="26" y="42">
                     <int id="0" val="0"/>
-                    <sound eid="72" id="1"/>
+                    <sound eid="81" id="1"/>
                 </play-sound4>
                 <if comment="false" x="26" y="69">
                     <group eventID="1" id="-1">
@@ -31,7 +31,7 @@
                         <getanim comment="false" id="0" x="0" y="0">
                             <ACTOR eid="this" id="0"/>
                         </getanim>
-                        <int id="1" val="Walking Down Fire 1"/>
+                        <int id="1" val="Walking Down Start"/>
                     </eq>
                 </if>
                 <if comment="false" x="26" y="191">
@@ -58,7 +58,7 @@
                         <getanim comment="false" id="0" x="0" y="0">
                             <ACTOR eid="this" id="0"/>
                         </getanim>
-                        <int id="1" val="Idle Down Fire 1"/>
+                        <int id="1" val="Idle Down Start"/>
                     </eq>
                 </if>
                 <if comment="false" x="26" y="313">
@@ -87,7 +87,7 @@
                         <getanim comment="false" id="0" x="0" y="0">
                             <ACTOR eid="this" id="0"/>
                         </getanim>
-                        <int id="1" val="Walking Up Fire 1"/>
+                        <int id="1" val="Walking Up Start"/>
                     </eq>
                 </if>
                 <if comment="false" x="26" y="440">
@@ -116,7 +116,7 @@
                         <getanim comment="false" id="0" x="0" y="0">
                             <ACTOR eid="this" id="0"/>
                         </getanim>
-                        <int id="1" val="Idle Up Fire 1"/>
+                        <int id="1" val="Idle Up Start"/>
                     </eq>
                 </if>
                 <if comment="false" x="26" y="567">
@@ -143,7 +143,7 @@
                         <getanim comment="false" id="0" x="0" y="0">
                             <ACTOR eid="this" id="0"/>
                         </getanim>
-                        <int id="1" val="Walking Right Fire 1"/>
+                        <int id="1" val="Walking Right Start"/>
                     </eq>
                 </if>
                 <if comment="false" x="26" y="689">
@@ -170,7 +170,7 @@
                         <getanim comment="false" id="0" x="0" y="0">
                             <ACTOR eid="this" id="0"/>
                         </getanim>
-                        <int id="1" val="Idle Right Fire 1"/>
+                        <int id="1" val="Idle Right Start"/>
                     </eq>
                 </if>
                 <if comment="false" x="26" y="811">
@@ -205,7 +205,7 @@
                         <getanim comment="false" id="0" x="0" y="0">
                             <ACTOR eid="this" id="0"/>
                         </getanim>
-                        <int id="1" val="Walking Left Fire 1"/>
+                        <int id="1" val="Walking Left Start"/>
                     </eq>
                 </if>
                 <if comment="false" x="26" y="943">
@@ -240,7 +240,7 @@
                         <getanim comment="false" id="0" x="0" y="0">
                             <ACTOR eid="this" id="0"/>
                         </getanim>
-                        <int id="1" val="Idle Left Fire 1"/>
+                        <int id="1" val="Idle Left Start"/>
                     </eq>
                 </if>
             </group>

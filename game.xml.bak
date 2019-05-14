@@ -8,9 +8,9 @@
         <e enabled="false" id="test-flash"/>
     </exts>
     <bundles>
-        <bundle id="com.yourname.gamename" internalVersion="1" name="My Game" store="Google Play" version="1.0"/>
         <bundle id="" internalVersion="1" name="My Game" store="Mac App Store" version="1.0"/>
         <bundle author="" id="" internalVersion="1" metroColor="-12566464" name="" store="Windows Store" version="1.0"/>
+        <bundle id="com.yourname.gamename" internalVersion="1" name="My Game" store="Google Play" version="1.0"/>
         <bundle id="com.yourname.gamename" internalVersion="1" name="My Game" store="App Store" version="1.0"/>
     </bundles>
     <scales>
@@ -147,7 +147,7 @@
     </collisions>
     <autotileFormats/>
     <atlases>
-        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,65,66,68,70,72,73,74,75,76,77,79,19,21,24,35,37,41,43,45,46,47,51,53,55,59,63," name="Main Atlas" pvr="false" resize="0" target="0"/>
+        <atlas allScenes="true" desc="" dirty="true" id="0" members="0,65,66,68,70,73,74,75,76,77,79,81,19,21,24,35,37,41,43,45,46,47,51,53,55,59,63," name="Main Atlas" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="1" members="" name="Atlas 2" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="2" members="" name="Atlas 3" pvr="false" resize="0" target="0"/>
         <atlas allScenes="true" desc="" dirty="true" id="3" members="" name="Atlas 4" pvr="false" resize="0" target="0"/>
