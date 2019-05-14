@@ -27,6 +27,7 @@
             <event displayName="After N secs" enabled="true" id="3" name="event-delay" order="2" repeats="true"/>
             <event displayName="Actor - Type" enabled="true" id="4" name="event-collide-actortotype" order="6" repeats="true"/>
             <event displayName="Actor - Type" enabled="true" id="5" name="event-collide-actortotype" order="7" repeats="true"/>
+            <event displayName="Actor - Type Copy" enabled="true" id="6" name="event-collide-actortotype" order="8" repeats="true"/>
         </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_6_6_4WayMovement" classname="scripts.Design_6_6_4WayMovement" desc="Allows the actor to move up, down, left and right." description="Allows the actor to move up, down, left and right." design="true" drawOrder="0" id="6" name="4 Way Movement" oid="-1" package="scripts" shared="false" type="actor">
@@ -126,11 +127,11 @@
         <blocks/>
         <events>
             <event displayName="Actor - Type" enabled="true" id="2" name="event-collide-actortotype" order="2" repeats="true"/>
-            <event displayName="Every N secs" enabled="true" id="3" name="event-periodic" order="7" repeats="true"/>
-            <event displayName="Created" enabled="true" id="4" name="init" order="6" repeats="true"/>
-            <event displayName="Updating" enabled="true" id="5" name="step" order="5" repeats="true"/>
+            <event displayName="Every N secs" enabled="true" id="3" name="event-periodic" order="10" repeats="true"/>
+            <event displayName="Created" enabled="true" id="4" name="init" order="8" repeats="true"/>
+            <event displayName="Updating" enabled="true" id="5" name="step" order="6" repeats="true"/>
             <event displayName="Actor - Type" enabled="true" id="6" name="event-collide-actortotype" order="4" repeats="true"/>
-            <event displayName="Actor - Type Copy" enabled="true" id="7" name="event-collide-actortotype" order="3" repeats="true"/>
+            <event displayName="Actor - Type" enabled="true" id="7" name="event-collide-actortotype" order="11" repeats="true"/>
         </events>
     </snippet>
     <snippet actorid="37" attachedevent="true" class="scripts.ActorEvents_37" classname="scripts.ActorEvents_37" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="13" name="ActorEvents_37" oid="-1" package="scripts." shared="false" type="actor">
@@ -275,6 +276,8 @@
     </snippet>
     <snippet actorid="79" attachedevent="true" class="scripts.ActorEvents_79" classname="scripts.ActorEvents_79" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="38" name="ActorEvents_79" oid="-1" package="scripts." shared="false" type="actor">
         <blocks/>
-        <events/>
+        <events>
+            <event displayName="After N secs" enabled="true" id="1" name="event-delay" order="1" repeats="true"/>
+        </events>
     </snippet>
 </pack>
