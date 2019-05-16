@@ -8,7 +8,7 @@
         <blocks/>
         <events>
             <event displayName="Shooting" enabled="true" id="1" name="event-key-press-release" order="25" repeats="true"/>
-            <event displayName="Keyboard" enabled="false" id="17" name="event-key-press-release" order="7" repeats="true"/>
+            <event displayName="Keyboard" enabled="true" id="17" name="event-key-press-release" order="7" repeats="true"/>
             <event displayName="Movement" enabled="true" id="4" name="step" order="28" repeats="true"/>
             <event displayName="Created" enabled="true" id="5" name="init" order="2" repeats="true"/>
             <event displayName="Slime Damage" enabled="true" id="9" name="event-collide-actortotype" order="16" repeats="true"/>
