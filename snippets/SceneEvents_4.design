@@ -12,4 +12,10 @@
         </event-delay>
     </group>
     <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="3" id="-1"/>
+        </init>
+    </group>
+    <group eventID="3" id="-1"/>
 </groups>

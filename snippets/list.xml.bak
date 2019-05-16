@@ -206,6 +206,7 @@
         <blocks/>
         <events>
             <event displayName="After N secs" enabled="true" id="2" name="event-delay" order="2" repeats="true"/>
+            <event displayName="Created" enabled="true" id="3" name="init" order="3" repeats="true"/>
         </events>
     </snippet>
     <snippet actorid="66" attachedevent="true" class="scripts.ActorEvents_66" classname="scripts.ActorEvents_66" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="26" name="ActorEvents_66" oid="-1" package="scripts." shared="false" type="actor">
