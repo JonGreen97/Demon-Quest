@@ -62,7 +62,7 @@ import com.stencyl.graphics.shaders.BloomShader;
 
 
 
-class SceneEvents_7 extends SceneScript
+class SceneEvents_2 extends SceneScript
 {
 	
 	
@@ -76,16 +76,18 @@ class SceneEvents_7 extends SceneScript
 	{
 		
 		/* ======================== When Creating ========================= */
-		
-		
-		/* ======================= After N seconds ======================== */
-		runLater(1000 * .5, function(timeTask:TimedTask):Void
+		Engine.engine.setGameAttribute("Is Transitioning", false);
+		Engine.engine.setGameAttribute("BossFight", true);
+		if(((Engine.engine.getGameAttribute("BossFight") : Bool) == true))
 		{
-			if(wrapper.enabled)
-			{
-				Engine.engine.setGameAttribute("Is Transitioning", false);
-			}
-		}, null);
+			pauseSoundOnChannel(1);
+			loopSoundOnChannel(getSound(74), 2);
+		}
+		else if(((Engine.engine.getGameAttribute("BossFight") : Bool) == false))
+		{
+			stopSoundOnChannel(2);
+			resumeSoundOnChannel(1);
+		}
 		
 	}
 	
