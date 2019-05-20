@@ -210,20 +210,6 @@
             <actortype eid="0" id="1"/>
         </event-collide-actortotype>
     </group>
-    <group eventID="1" id="1">
-        <die comment="false" x="914" y="140">
-            <ACTOR eid="lastcollided" id="0"/>
-        </die>
-        <die comment="false" x="914" y="167">
-            <ACTOR eid="lastcollided" id="0"/>
-        </die>
-        <die comment="false" x="914" y="194">
-            <ACTOR eid="lastcollided" id="0"/>
-        </die>
-        <die comment="false" x="914" y="221">
-            <ACTOR eid="lastcollided" id="0"/>
-        </die>
-    </group>
     <group eventID="1" id="-1"/>
     <group eventID="2" id="0">
         <init comment="false" x="15" y="15">

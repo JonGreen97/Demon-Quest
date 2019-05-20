@@ -35,7 +35,7 @@
                 </if>
             </group>
             <ACTOR eid="this" id="0"/>
-            <actortype eid="19" id="1"/>
+            <actortype eid="79" id="1"/>
         </event-collide-actortotype>
     </group>
     <group eventID="1" id="-1"/>
@@ -333,7 +333,7 @@
                 </if>
             </group>
             <ACTOR eid="this" id="0"/>
-            <actortype eid="79" id="1"/>
+            <actortype eid="19" id="1"/>
         </event-collide-actortotype>
     </group>
     <group eventID="7" id="-1"/>
