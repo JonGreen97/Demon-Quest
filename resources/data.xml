@@ -41,7 +41,7 @@
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="26" fixedrot="true" fric="0.2" gid="4" id="66" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="door" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="67" static="false">
         <snippets/>
     </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="-1" id="67" name="door 1" shared="false" width="-1">
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="32" id="67" name="door 1" shared="false" width="32">
         <anim across="1" down="1" durations="100" height="32" id="0" loop="true" name="enter up" numframes="1" originx="16" originy="16" sync="false" version="2" width="32">
             <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
         </anim>
@@ -67,7 +67,7 @@
             <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="true"/>
         </anim>
     </sprite>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="-1" id="42" name="Earth Boss" shared="false" width="-1">
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="64" id="42" name="Earth Boss" shared="false" width="64">
         <anim across="2" down="2" durations="100,100,100,100" height="128" id="0" loop="true" name="Phase 1" numframes="4" originx="32" originy="32" sync="false" version="2" width="128">
             <poly data="4,0,0,64,0,64,49,0,49" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
@@ -258,7 +258,7 @@
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="5" fixedrot="true" fric="0.2" gid="5" id="19" ignoreg="true" inertia="1.0" ldamp="0.0" mass="1.0" name="Fireball 1" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="20" static="false">
         <snippets/>
     </actor>
-    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="-1" id="20" name="Fireball 1" shared="false" width="-1">
+    <sprite atlasID="0" default="0" defaultAnimation="0" desc="" height="38" id="20" name="Fireball 1" shared="false" width="29">
         <anim across="2" down="1" durations="100,100" height="38" id="0" loop="true" name="Animation 0" numframes="2" originx="14" originy="19" sync="false" version="2" width="58">
             <poly data="4,0,0,29,0,29,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
@@ -342,7 +342,7 @@
     <actor adamp="0.0" ascale="true" atlasID="0" bodytype="2" continuous="true" desc="" eventsnippetid="38" fixedrot="false" fric="0.2" gid="5" id="79" ignoreg="false" inertia="1.0" ldamp="0.0" mass="1.0" name="Mana Ball" oid="-1" pausable="true" physicsMode="0" rest="0.0" shared="false" sprite="80" static="false">
         <snippets/>
     </actor>
-    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" height="-1" id="80" name="Mana Ball" shared="false" width="-1">
+    <sprite atlasID="0" default="1" defaultAnimation="1" desc="" height="32" id="80" name="Mana Ball" shared="false" width="32">
         <anim across="2" down="2" durations="100,100,100,100" height="64" id="1" loop="true" name="ManaBall" numframes="4" originx="16" originy="16" sync="false" version="2" width="64">
             <poly data="4,0,0,32,0,32,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Animation 0" rest="0.0" sensor="false"/>
         </anim>
@@ -441,7 +441,7 @@
             </s>
         </snippets>
     </actor>
-    <sprite atlasID="0" default="31" defaultAnimation="31" desc="" height="-1" id="1" name="Wizzy" shared="false" width="-1">
+    <sprite atlasID="0" default="31" defaultAnimation="31" desc="" height="33" id="1" name="Wizzy" shared="false" width="24">
         <anim across="2" down="2" durations="100,100,100,100" height="68" id="0" loop="true" name="Walking Down Fire 1" numframes="4" originx="12" originy="17" sync="false" version="2" width="48">
             <poly data="4,0,0,24,0,24,32,0,32" density="0.1" fric="0.2" gid="-1000" id="0" name="Walking Down" rest="0.0" sensor="false"/>
         </anim>
