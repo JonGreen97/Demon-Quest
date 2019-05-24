@@ -27,14 +27,6 @@
             <actortype eid="35" id="1"/>
         </event-collide-actortotype>
     </group>
-    <group eventID="2" id="1">
-        <set-game-val-8 comment="false" x="626" y="151">
-            <minus comment="false" id="0" x="0" y="0">
-                <get-game-val-8 comment="false" id="0" x="0" y="0"/>
-                <int id="1" val="1"/>
-            </minus>
-        </set-game-val-8>
-    </group>
     <group eventID="2" id="-1"/>
     <group eventID="3" id="0">
         <event-delay comment="false" x="15" y="15">

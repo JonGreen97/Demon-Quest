@@ -8,14 +8,14 @@
     <regions/>
     <terrainRegions/>
     <actors>
-        <actor a="0.0" aid="3" c="false" group="8" id="51" name="LevelCoin1 3" order="0" sx="1.0" sy="1.0" x="1278" y="279" z="0"/>
-        <actor a="0.0" aid="4" c="false" group="7" id="0" name="Wizzy 4" order="1" sx="1.0" sy="1.0" x="296" y="379" z="0"/>
-        <actor a="0.0" aid="5" c="false" group="3" id="68" name="Demon Skull 5" order="2" sx="1.0" sy="1.0" x="83" y="108" z="0"/>
+        <actor a="0.0" aid="3" c="false" group="8" id="51" name="LevelCoin1 3" sx="1.0" sy="1.0" x="1278" y="279" z="0"/>
+        <actor a="0.0" aid="4" c="false" group="7" id="0" name="Wizzy 4" sx="1.0" sy="1.0" x="296" y="379" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="3" id="68" name="Demon Skull 5" sx="1.0" sy="1.0" x="83" y="108" z="0"/>
     </actors>
     <snippets/>
     <terrain>
         <p pts="4,576.0,416.0,576.0,0.0,0.0,0.0,0.0,416.0" x="32.0" y="32.0"/>
-        <p pts="4,0.0,0.0,640.0,0.0,640.0,480.0,0.0,480.0" x="0.0" y="0.0"/>
+        <p pts="4,640.0,480.0,0.0,480.0,0.0,0.0,640.0,0.0" x="0.0" y="0.0"/>
     </terrain>
     <atlases members="" retainAtlases="true"/>
 </scene>

@@ -7,15 +7,16 @@
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="is moving" hidden="false" id="4" name="_ismoving" order="3"/>
         <blocks/>
         <events>
-            <event displayName="Shooting" enabled="true" id="1" name="event-key-press-release" order="25" repeats="true"/>
-            <event displayName="Keyboard" enabled="false" id="17" name="event-key-press-release" order="7" repeats="false"/>
-            <event displayName="Movement" enabled="true" id="4" name="step" order="28" repeats="true"/>
+            <event displayName="Shooting" enabled="true" id="1" name="event-key-press-release" order="26" repeats="true"/>
+            <event displayName="Keyboard" enabled="false" id="17" name="event-key-press-release" order="8" repeats="true"/>
+            <event displayName="Actor - Type" enabled="true" id="18" name="event-collide-actortotype" order="3" repeats="true"/>
+            <event displayName="Movement" enabled="true" id="4" name="step" order="29" repeats="true"/>
             <event displayName="Created" enabled="true" id="5" name="init" order="2" repeats="true"/>
-            <event displayName="Slime Damage" enabled="true" id="9" name="event-collide-actortotype" order="16" repeats="true"/>
-            <event displayName="Every N secs" enabled="true" id="11" name="event-periodic" order="6" repeats="true"/>
-            <event displayName="Drawing" enabled="true" id="12" name="draw" order="5" repeats="true"/>
-            <event displayName="Poison Ball Damage" enabled="true" id="14" name="event-collide-actortotype" order="17" repeats="true"/>
-            <event displayName="Coin Collect" enabled="true" id="15" name="event-collide-actortogroup" order="19" repeats="true"/>
+            <event displayName="Slime Damage" enabled="true" id="9" name="event-collide-actortotype" order="17" repeats="true"/>
+            <event displayName="Every N secs" enabled="true" id="11" name="event-periodic" order="7" repeats="true"/>
+            <event displayName="Drawing" enabled="true" id="12" name="draw" order="6" repeats="true"/>
+            <event displayName="Poison Ball Damage" enabled="true" id="14" name="event-collide-actortotype" order="18" repeats="true"/>
+            <event displayName="Coin Collect" enabled="true" id="15" name="event-collide-actortogroup" order="20" repeats="true"/>
         </events>
     </snippet>
     <snippet actorid="19" attachedevent="true" class="scripts.ActorEvents_19" classname="scripts.ActorEvents_19" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="5" name="ActorEvents_19" oid="-1" package="scripts." shared="false" type="actor">
@@ -25,7 +26,7 @@
             <event displayName="Enters Screen" enabled="true" id="1" name="event-type-screen" order="1" repeats="true"/>
             <event displayName="Actor - Type" enabled="true" id="2" name="event-collide-actortotype" order="5" repeats="true"/>
             <event displayName="After N secs" enabled="true" id="3" name="event-delay" order="2" repeats="true"/>
-            <event displayName="Actor - Type" enabled="true" id="4" name="event-collide-actortotype" order="6" repeats="true"/>
+            <event displayName="Actor - Type" enabled="true" id="4" name="event-collide-actortotype" order="6" repeats="false"/>
             <event displayName="Actor - Type" enabled="true" id="5" name="event-collide-actortotype" order="7" repeats="true"/>
             <event displayName="Actor - Type Copy" enabled="true" id="6" name="event-collide-actortotype" order="8" repeats="true"/>
         </events>
@@ -206,14 +207,15 @@
         <blocks/>
         <events>
             <event displayName="After N secs" enabled="true" id="2" name="event-delay" order="2" repeats="true"/>
-            <event displayName="Created" enabled="true" id="3" name="init" order="3" repeats="true"/>
+            <event displayName="Created" enabled="true" id="3" name="init" order="4" repeats="true"/>
+            <event displayName="Drawing" enabled="true" id="4" name="draw" order="5" repeats="true"/>
         </events>
     </snippet>
     <snippet actorid="66" attachedevent="true" class="scripts.ActorEvents_66" classname="scripts.ActorEvents_66" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="26" name="ActorEvents_66" oid="-1" package="scripts." shared="false" type="actor">
         <boolean default="false" defaultValue="false" desc="" dropdown="" fullname="Is Transitioning" hidden="false" id="1" name="_IsTransitioning" order="0"/>
         <blocks/>
         <events>
-            <event displayName="Actor - Type" enabled="true" id="1" name="event-collide-actortotype" order="2" repeats="true"/>
+            <event displayName="Actor - Type" enabled="false" id="1" name="event-collide-actortotype" order="2" repeats="false"/>
             <event displayName="Created" enabled="true" id="2" name="init" order="1" repeats="true"/>
         </events>
     </snippet>
@@ -279,6 +281,8 @@
         <blocks/>
         <events>
             <event displayName="After N secs" enabled="true" id="1" name="event-delay" order="1" repeats="true"/>
+            <event displayName="Actor - Type" enabled="true" id="2" name="event-collide-actortotype" order="2" repeats="true"/>
+            <event displayName="Actor - Type" enabled="true" id="3" name="event-collide-actortotype" order="3" repeats="true"/>
         </events>
     </snippet>
 </pack>
